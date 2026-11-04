@@ -22,7 +22,9 @@
   "full_feeds": [
     { "name": "한국대학신문", "url": "https://news.unn.net/rss/allArticle.xml" },
     { "name": "교수신문", "url": "https://www.kyosu.net/rss/allArticle.xml" },
-    { "name": "대학저널", "url": "https://www.dhnews.co.kr/news/rss.php" }
+    { "name": "대학저널", "url": "https://www.dhnews.co.kr/news/rss.php" },
+    { "name": "베리타스알파", "url": "https://www.veritas-a.com/rss/allArticle.xml" },
+    { "name": "에듀진", "url": "https://www.edujin.co.kr/rss/allArticle.xml" }
   ],
 
   "filter_keywords": [
