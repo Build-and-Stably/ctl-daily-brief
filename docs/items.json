@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:10+09:00",
+ "updated": "2026-11-04T16:12+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -18,6 +18,18 @@
    "ok": true,
    "count": 3,
    "total": 40
+  },
+  {
+   "name": "베리타스알파 RSS",
+   "ok": true,
+   "count": 10,
+   "total": 50
+  },
+  {
+   "name": "에듀진 RSS",
+   "ok": true,
+   "count": 0,
+   "total": 50
   },
   {
    "name": "구글 뉴스: \"교수학습센터\"",
@@ -52,7 +64,7 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 15
+   "count": 13
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
@@ -67,12 +79,12 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 24
+   "count": 25
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 53
+   "count": 52
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -82,7 +94,7 @@
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
    "ok": true,
-   "count": 99
+   "count": 100
   }
  ],
  "items": [
@@ -185,6 +197,46 @@
    "group": "7a0e8dd47ea1"
   },
   {
+   "id": "e0d37c57193b",
+   "title": "강동대 앵커(RISE)사업단 3개 대학 연합 창업캠프 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635258",
+   "source": "베리타스알파",
+   "published": "2026-11-04T15:21+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 강동대(총장 서석해) 앵커(RISE)사업단(단장 김재진)은 지난 11월 3일부터 4일까지 1박 2일간 충북 증평군 벨포레리조트에서 '2026년 RISE 연합 창업캠프(창업 아이디어 발굴 및 해커톤 경진대회)'를 개최했다고 밝혔다.이번 캠프는 지역성장 인재양성…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "강동대"
+   ],
+   "group": "e0d37c57193b"
+  },
+  {
+   "id": "5785fc212edd",
+   "title": "세종사이버대 사회복지학부 'AI 활용 유튜브 쇼츠 공모전' 온라인 시상식 성료",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635256",
+   "source": "베리타스알파",
+   "published": "2026-11-04T15:17+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 세종사이버대(총장 신구) 사회복지학부가 지난 11월 3일 화상회의 플랫폼 줌(Zoom)을 통해 '2026 우리 동네 복지기관을 소개합니다: AI를 활용한 유튜브 쇼츠 공모전' 온라인 시상식을 성황리에 개최했다고 밝혔다. 이번 공모전은 지역사회 복지서비스에 대…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "세종사이버대"
+   ],
+   "group": "5785fc212edd"
+  },
+  {
    "id": "d0a323357fab",
    "title": "극동대 항공운항서비스학과, 태국 타이항공 훈련센터서 비상대응 실습",
    "link": "http://www.dhnews.co.kr/news/view/1065590350292650",
@@ -268,6 +320,27 @@
    "group": "80bd66a4a4fa"
   },
   {
+   "id": "86df045483a2",
+   "title": "경북대 전국 중등 예비교원 대상 'AI 융합교육 해커톤 대회' 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635239",
+   "source": "베리타스알파",
+   "published": "2026-11-04T14:35+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 경북대 사범대학(학장 김영하)이 전국 중등 예비교원을 대상으로 '2026 전국 예비교원 AI 융합교육 해커톤 대회'를 열고 오는 11월 10일까지 예선 참가팀을 모집한다.교육부와 한국과학창의재단이 추진하는 '2026년 교원양성기관 교육과정 개발 지원사업'의…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크",
+    "정부·기관"
+   ],
+   "univs": [
+    "경북대"
+   ],
+   "group": "86df045483a2"
+  },
+  {
    "id": "54e15e47f2fc",
    "title": "[대학가소식]영진전문대, 포항흥해공고와 협약형 특성화고 업무협약 등",
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCcWRNdjQ2RUtPTHpvUWJqRVJZWGUwMjRTU0RiRXdlcGo3SmRiQk54NWVJUm1LMl9VTE1OZGxhazRleVVGQkpFb2t2NVNjVksxY1JrOTNR?oc=5",
@@ -288,17 +361,59 @@
    "group": "7a0e8dd47ea1"
   },
   {
+   "id": "5a3750860079",
+   "title": "경상국립대 해양과학대학 지역민과 글로컬대학 연합축제 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635238",
+   "source": "베리타스알파",
+   "published": "2026-11-04T14:31+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 경상국립대(총장 권진회)가 지난 10월 30일(금) 교육시설과 실습선을 지역민에게 개방하는 ‘글로컬대학 연합축제(BLUE OPEN FESTIVAL)’를 개최했다.경상국립대 해양과학대학(학장 문성주) 해양수산미래교육원(원장 안영수)이 해양과학대학 캠퍼스 일원에…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "경상국립대",
+    "해양과학대"
+   ],
+   "group": "5a3750860079"
+  },
+  {
+   "id": "974e3abfb816",
+   "title": "대구한의대 경산동의한방촌 영남대병원 프리셉터 힐링 워크숍 지원",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635234",
+   "source": "베리타스알파",
+   "published": "2026-11-04T14:25+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 글로컬대학 대구한의대(총장 변창훈)와 경산시(시장 조현일)의 관/학 협력으로 운영되는 경산동의한방촌은 최근 영남대병원 신규간호사 교육팀이 주관한 프리셉터 힐링 워크숍을 지원하고 한방웰니스 체험 프로그램을 제공했다.이번 워크숍은 신규간호사의 현장 적응과 교육을…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "대구한의대"
+   ],
+   "group": "974e3abfb816"
+  },
+  {
    "id": "7a0e8dd47ea1",
    "title": "영진전문대 포항흥해공고와 협약형 특성화고 육성 맞손",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vVmMwTkV2Wm9wcXo2ZGNfOE1SQnRvMlhCTVNrVjNNQ1VUM1k4cVhTQlRxd3JTMllsZUNSVGNCbGYtMmg5aGQwbGttSFNoOFgySEhDNzVTTGdoTVdOYUNtQmRrdVZyZjVUX1lCcg?oc=5",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635231",
    "source": "베리타스알파",
    "published": "2026-11-04T14:23+09:00",
    "first_seen": "2026-11-04T16:00+09:00",
-   "summary": "",
+   "summary": "[베리타스알파=김하연 기자] 대구 영진전문대(총장 최재영)가 포항흥해공업고등학교(교장 김우태)와 협력해 지역 산업 수요에 부응하는 전문 기술인재 양성에 나선다.영진전문대는 4일 오전 대학 본관 1층 회의실에서 포항흥해공업고등학교와 '협약형 특성화고등학교 육성을 위한 업무협약'을 체결했다…",
    "via": [
-    "구글 뉴스 · 전문대 AI 교육"
+    "구글 뉴스 · 전문대 AI 교육",
+    "베리타스알파 RSS"
    ],
-   "direct": false,
+   "direct": true,
    "tags": [
     "전문대학"
    ],
@@ -306,6 +421,46 @@
     "영진전문대"
    ],
    "group": "7a0e8dd47ea1"
+  },
+  {
+   "id": "a4f4698fe8a6",
+   "title": "광주대 경영학과 현직 CEO 초청 '기업의 AI 활용 전략' 특강",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635230",
+   "source": "베리타스알파",
+   "published": "2026-11-04T14:22+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 광주대 경영학과와 경영컨설팅서비스센터(센터장 박경종)는 지난 3일 교내 호심관에서 에스와이컴퍼니 설영은 대표를 초청해 '대표님, AI를 어디에 쓰세요?'를 주제로 실무역량 강화 특강을 진행했다.경영학과 재학생 30여 명이 참여한 이번 특강은 생성형 인공지능(…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "광주대"
+   ],
+   "group": "a4f4698fe8a6"
+  },
+  {
+   "id": "57b7d3031b18",
+   "title": "동의대 고용부/구글코리아와 함께 '제미나이 아카데미' 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635229",
+   "source": "베리타스알파",
+   "published": "2026-11-04T14:21+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 동의대(총장 전경란)는 고용노동부와 구글코리아가 협력해 대학일자리플러스센터를 통해 지원하는 청년 AI 교육 과정인 '제미나이 아카데미(Gemini Academy)'를 11월 2일과 3일 양일간 산학협력관 1층 프라임컨벤션다목적홀에서 개최했다.'제미나이 아카데…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "동의대"
+   ],
+   "group": "57b7d3031b18"
   },
   {
    "id": "3041c4ee4731",
@@ -316,7 +471,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -361,6 +517,44 @@
     "원광디지털대"
    ],
    "group": "50139076a2b3"
+  },
+  {
+   "id": "0fc307a8a7a7",
+   "title": "한국교원대 세계적 명문 킹스칼리지 런던과 연수 첫 추진… 글로벌 교원양성의 새 지평",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635215",
+   "source": "베리타스알파",
+   "published": "2026-11-04T13:40+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 한국교원대(총장 차우규)는 국내 교원양성대학 최초로 영국 킹스칼리지 런던(King's College London) 해외교육연수 프로그램을 추진하고, 이번 겨울 학부생 12명을 모집한다고 밝혔다.※ 킹스칼리지 런던은 QS 세계대학순위 2027 세계 37위, T…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [
+    "한국교원대"
+   ],
+   "group": "0fc307a8a7a7"
+  },
+  {
+   "id": "c6633ded4197",
+   "title": "대구보건대 미국서 물리치료 교육 분야 역량강화 프로그램 성료",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635209",
+   "source": "베리타스알파",
+   "published": "2026-11-04T13:35+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "[베리타스알파=김하연 기자] 글로컬대학 대구보건대(총장 남성희)는 10월 25일부터 11월 2일까지 미국 뉴욕주립대(SUNY) 업스테이트 메디컬대와 현지 물리치료기관에서 '미국 물리치료 교육 분야 역량강화 프로그램'을 운영했다.이번 연수는 글로컬대학30 프로젝트의 일환으로, 지난해에 이…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "대구보건대"
+   ],
+   "group": "c6633ded4197"
   },
   {
    "id": "175a3e0c48ae",
@@ -508,7 +702,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대 AI 교육"
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": false,
    "tags": [],
@@ -1869,7 +2064,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -2187,7 +2383,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -2798,6 +2995,22 @@
     "충남도립대"
    ],
    "group": "2b300377c0c3"
+  },
+  {
+   "id": "ad9bbfa7b595",
+   "title": "대학 강의는 활짝 열렸는데, 기숙사 문은 좁아졌다…2026 대학정보공시의 엇갈린 성적표",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE83TFV2UFVDTWlhcU5iY044WEZKVTh0SERMeGRiV0taTHdMdlFhQ2luYXE4Z1ZSWmJ1TE5ma0lZZmJGaTRHRnMyYXBn?oc=5",
+   "source": "뉴스N연합",
+   "published": "2026-10-31T16:00+09:00",
+   "first_seen": "2026-11-04T16:12+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "ad9bbfa7b595"
   },
   {
    "id": "2b300377c0c3",
@@ -3769,7 +3982,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -3807,7 +4021,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -3863,7 +4078,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -3919,7 +4135,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -4029,7 +4246,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -4163,7 +4381,8 @@
    "first_seen": "2026-11-04T16:10+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
