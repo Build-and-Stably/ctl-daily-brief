@@ -1,0 +1,31 @@
+name: 매일 소식 수집
+
+on:
+  schedule:
+    - cron: "30 21 * * *"  # 매일 06:30 (KST)
+    - cron: "30 3 * * *"   # 매일 12:30 (KST)
+  workflow_dispatch:       # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python collect.py
+      - name: 결과 저장
+        run: |
+          git config user.name "ctl-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/items.json
+          git diff --cached --quiet || git commit -m "소식 갱신 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+          git push
