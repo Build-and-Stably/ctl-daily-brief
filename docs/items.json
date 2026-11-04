@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:00+09:00",
+ "updated": "2026-11-04T16:10+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -52,17 +52,17 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 53
+   "count": 31
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
    "ok": true,
-   "count": 51
+   "count": 52
   },
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
@@ -72,7 +72,7 @@
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 19
+   "count": 53
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -86,6 +86,44 @@
   }
  ],
  "items": [
+  {
+   "id": "bce28ffc3974",
+   "title": "국민대 성곡도서관 김승철 팀장 '2026년 이병목 참사서상' 수상",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wc1NUVU5URktldkZFUmxNcm1MQnBzZ3N0OG1ocV9DSzM5V1otY0RxZ3pIYjJWNG9uOVM5WlEzME85NzU2QVBLYWNqdGJUb2E2eUwxcE5USGgzVnVRanRLTjBnZmFLWHZBRmhkMw?oc=5",
+   "source": "베리타스알파",
+   "published": "2026-11-04T16:01+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "국민대"
+   ],
+   "group": "d6897c442e12"
+  },
+  {
+   "id": "d6897c442e12",
+   "title": "“대학도서관 디지털 혁신 이끈 참사서의 모범”…김승철 국민대 성곡도서관 팀장, ‘2026년 이병목 참사서상’ 영예의 수상",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jVzJ3Ry1YbGZPMFdzaXdaU3UyaElQSlYxVmQ1bE5YZDFERzg1dHhyWkRsTnFyUGZLM2wyUEo2aFRMMmUza0xPXzJ2WVVNeXF4M1FrNzlBT3l5RnMwbnRPVlE2TFk3cW1hUG9sdDhESWI?oc=5",
+   "source": "스마트경제",
+   "published": "2026-11-04T15:55+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "국민대"
+   ],
+   "group": "d6897c442e12"
+  },
   {
    "id": "60aca9e821cb",
    "title": "윤옥현 김천대 총장, 대구·경북 대학교육협의회장 선출",
@@ -207,6 +245,27 @@
     "영진전문대"
    ],
    "group": "7a0e8dd47ea1"
+  },
+  {
+   "id": "80bd66a4a4fa",
+   "title": "동신대, AI 수업 우수사례 공유...교수법 혁신 가속도",
+   "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBmUEswbk42aGFYUzJrRGNqbUtLOTZnSnZfaFNxYU5KMXdWLXNNOTdOTzF4dFh0a3pRWklLalljWFEzX0U?oc=5",
+   "source": "한국공공정책신문",
+   "published": "2026-11-04T14:37+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습센터\""
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "동신대"
+   ],
+   "group": "80bd66a4a4fa"
   },
   {
    "id": "54e15e47f2fc",
@@ -843,6 +902,22 @@
    "group": "3f30780ab3d3"
   },
   {
+   "id": "1ba2517f760e",
+   "title": "[2028 대입] 농어촌 전형, 합격 뒤 이사해도 될까…고교 졸업일까지 확인할 조건",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mSFFvc3NLWDhHejlOcUU0V1ZWOFBPNmRqNlZ5MVZFdEZTbzZTRU5ucTBDOE9sbHJlaUhtRnlPUWJLRzNuRmwzampkeFhsV2NUcjJJM25TTGFvc21rMGhIV3RYYVAwUQ?oc=5",
+   "source": "교육을 비추다",
+   "published": "2026-11-04T00:27+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "1ba2517f760e"
+  },
+  {
    "id": "8eb583bf8749",
    "title": "부천대학교, AI 직업교육 혁신 … 글로벌 인재 양성·지역 정주 지원",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUbFhWUm8tMmJpNUVMazcwN2Vhd1ZlVERhampLb1QxcjBLS0RzNmZ1ZGhDNTdvSkxEUl9IVENQcDJkS3p5TmttbFdkSkNmSm1NZW16OFp4SlU3V0phNDZN?oc=5",
@@ -1382,7 +1457,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -1511,7 +1587,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": false,
    "tags": [],
@@ -1541,6 +1618,26 @@
    "group": "d3e2a0879279"
   },
   {
+   "id": "61941f76e3c0",
+   "title": "강원대학교, ‘2026 교양교육 혁신포럼’ 개최…AI 시대 대학 교양교육의 미래 모색",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kNXlDZEp1Qkdqb2FYZTZuSjRMR1JwNkRwTGl5bldfMTFTVjBqNHVwcnU2M0h2MWhDS1EwNVV2R2laWjlqVTAzTjRLbHA4MjB5VTB5R2VDSlIwMEdCSnBPajVES0RPM1BZX1JDaEozMUw?oc=5",
+   "source": "한국강사신문",
+   "published": "2026-11-03T12:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "강원대"
+   ],
+   "group": "61941f76e3c0"
+  },
+  {
    "id": "420e8a09f32a",
    "title": "수원여대 유아교육과, 교육부 전공심화과정 진단 '최우수' - 머니투데이",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SVWhsRmRJRFR3MVNFLWZIZGc1cTF0dHJ5ZklBRmkwUUlncndUczlPQzUtVVJaek9mZEk1N21YVHd4VWJHRjk3REhHbjRzQVRMQnZiS1czMjN0N2drY3RTcHhRVnExWWdpbi1CQjdINNIBb0FVX3lxTE1SVWhsRmRJRFR3MVNFLWZIZGc1cTF0dHJ5ZklBRmkwUUlncndUczlPQzUtVVJaek9mZEk1N21YVHd4VWJHRjk3REhHbjRzQVRMQnZiS1czMjN0N2drY3RTcHhRVnExWWdpbi1CQjdINA?oc=5",
@@ -1550,7 +1647,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [
@@ -1586,7 +1684,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -1674,6 +1773,38 @@
    "group": "92e3217d9a9b"
   },
   {
+   "id": "71812756c9fd",
+   "title": "\"중학교 졸업 인정하면서 의대 지원은 안 된다니\"…호남삼육중 출신 7명 행정소송",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93N3JULV9wUTkwY05hNnFFSm1sOTUzc3ZDLUpzX2ltZ0M3RnZSVmlFS1BNZTNrNW5TWlVnWUlXSkdNZmd1UTVvZnV3QzFLdFhYbGNqbVpzSmRVVGvSAVZBVV95cUxPbjRJcC1NQnZSNWhkejNRVXM2WjBFS2ZMX0VjM3YtVjRXTnhCWmhkRHlOR3dnM3RGTUI5eGJMWDEzV1lPTE5PeE1oYjE0TTMtOS0tZ1g3dw?oc=5",
+   "source": "더팩트",
+   "published": "2026-11-03T10:06+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "71812756c9fd"
+  },
+  {
+   "id": "fa4d8c854a33",
+   "title": "인하공전, '꿈틀축제'서 진로·취업지원 사업 홍보",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wX3NPMUpRV0tYUy1EQ2c1MmUzRlVDSWFaeWdKNS1TM3pscVJUcWZ1a1NLZVlfYnhmUGx1aGVhcUlqSFl1N3JYakdGTzNXZEdUVWZIeENvMUpGQ0MxTlUzUnlGai1MbTl2VExuaWlR?oc=5",
+   "source": "국제뉴스",
+   "published": "2026-11-03T09:51+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "fa4d8c854a33"
+  },
+  {
    "id": "eeefcd1e563b",
    "title": "프리윌린 AI 코스웨어 ‘스쿨플랫’, 전북·서울 에듀테크 소프트랩 동시 선정",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xWFNOcENWelBvbElJUjJack9SNWFUdVVqb1l3clpBTE92dXJwNzNNMk9vUXVqTHR2QXhRbmlCLTQ0LUNIdGdrNjE4Q1d1TUlQdUlXOUh6aXVuVGJaMFBzOUVLdUVqR2lQ?oc=5",
@@ -1730,6 +1861,38 @@
    "group": "9b9c0fd19fbf"
   },
   {
+   "id": "11b56f3f9441",
+   "title": "[2027 대입] 의대 6명 뽑는데 2,498명 지원…대입은 2월 26일 밤 10시에 끝난다",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xeUk4aG1ZdUVseF8xVzBhaGZwSzRSZlVWYlR0Z3VTc002TDdoZFAyZHFZWUVQU2JrNi1DSGhLaVdJT1RXNEZzT1J1bEdUZEhhcXJfbUxhNXVNY0ZrLUpFbjktQ2hoUQ?oc=5",
+   "source": "교육을 비추다",
+   "published": "2026-11-02T20:58+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "11b56f3f9441"
+  },
+  {
+   "id": "473025703f86",
+   "title": "“중학교 학력 인정되는데 의대 지원 불가”…호남삼육중 졸업생 소송",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xc0V4OEZYYkdEUlZGaXpRdWcyMnVFNFV5REpJZGNIaUEyMmpkVEhoeUVTQ0NqVnd4OXE5bFJkT0VwYzRsR1lVSGJIdG9VcjcyQXg4?oc=5",
+   "source": "데일리안",
+   "published": "2026-11-02T19:20+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "473025703f86"
+  },
+  {
    "id": "887290236154",
    "title": "강동대학교 앵커사업단, 자동차 PPF 창업 특강",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FcW00eDF2cG5LOHNiaWtDVHNwdlNYVTBpVkFyTDg2eHNqY1JJVWVqQW9LOTZwMG9feWtDTUZxeG53X2xmT2dTWXd2Y0NnaldTYzZjNTRSOVRhamUxdGRMOFZjTFV0eTJ0NG8zRHZSUGdpd9IBckFVX3lxTE1FcW00eDF2cG5LOHNiaWtDVHNwdlNYVTBpVkFyTDg2eHNqY1JJVWVqQW9LOTZwMG9feWtDTUZxeG53X2xmT2dTWXd2Y0NnaldTYzZjNTRSOVRhamUxdGRMOFZjTFV0eTJ0NG8zRHZSUGdpdw?oc=5",
@@ -1768,6 +1931,24 @@
     "김천대"
    ],
    "group": "adfed4d2caa6"
+  },
+  {
+   "id": "7e8cf7fa4482",
+   "title": "전북대 윤명숙 교수팀, 대학 구성원 맞춤형 정신건강 지원방안 제시",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OVmJQZjJYWkh4RkwtN3otV1N1ZWU4VFBPei1ueGdpanRtRDY1STNibXd2ay03VVE0YjBteUlhaGYyS1AxSGlHLTdLbFRXN2s1czJtSmtqaFNodXM1b1FLNnpvQWhYOXNrVkE?oc=5",
+   "source": "전북도민일보",
+   "published": "2026-11-02T18:17+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "전북대"
+   ],
+   "group": "c963ceba1b0d"
   },
   {
    "id": "cd00234190d5",
@@ -1945,6 +2126,24 @@
    "group": "0829dc3a5d55"
   },
   {
+   "id": "c963ceba1b0d",
+   "title": "윤명숙 전북대 교수팀 \"대학 정신건강 지원, 학생 외 교수·직원까지 확대해야\"",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCWEdLR2NvU3E4QnRYa2dtTF9rWEdoMnFER0M3SDJnRDJOeVNyVDBlMlV1UjBMeXZNNC1US2ZUVTY3R3BtckVZQy1sNmJKN0NNczRmaTQ4dlB6TlHSAVZBVV95cUxPSnBKWmJqNEV0aDlRZWtIbkQ4WVJrN29LMHR3N3VDTVlKMWliSkVZVDdGRWNveXB5cHZkYlNmX1VzYkY2djQzRzNPVFJpQjNyY095WUVxUQ?oc=5",
+   "source": "더팩트",
+   "published": "2026-11-02T16:41+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "전북대"
+   ],
+   "group": "c963ceba1b0d"
+  },
+  {
    "id": "144f56093c3a",
    "title": "예방의학과 \"지역의사제 수련기간 전부 인정해야\" 혁신지원 사업 포함 촉구",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DbUlyMWk1anJjWEhfNDFfOEc0OWs1akRLVnd3S01YalM5bDhFLURBUEMzSDZ5SlJkRkxJSHUtRFlDYjhuaEpzeHRCMkw4ZmY5UThxa0x6S3dKQmluNm81SF9STTBjTGp0NFVpUGxUQ1A1Zw?oc=5",
@@ -1987,7 +2186,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -2013,6 +2213,41 @@
     "동명대"
    ],
    "group": "0f959b317f72"
+  },
+  {
+   "id": "937c0bf655ba",
+   "title": "“지역의사제에 예방의학과 포함해야”",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NMmtSWDl3bFRkZUhJelhYN2NiWER0VDk0TVU0azlqWGg3V1pQaUxHZHRkQ2VPQnE1WmlVM1hNZ3hrUXRpN0k2anl0NExMUWY3cHhEcDF1ZW11S1ZDYW9PZUVaQjd6am1manc?oc=5",
+   "source": "의학신문",
+   "published": "2026-11-02T15:51+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "937c0bf655ba"
+  },
+  {
+   "id": "d2d64fbb925c",
+   "title": "수능 ‘AI 안경’ 판별, 연수는 시도별…교육부 “역량 충분”",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11MmlSZVBOR0VMM20zU19IOEVFWFFyaTNDMzBtaVJTS1dyUTRTbFVFdFRTT19KZXdyRVk1VnJTdUQ1UW1xVnM4VmQ3OWhjbFVobl85RQ?oc=5",
+   "source": "이투데이",
+   "published": "2026-11-02T15:37+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "d2d64fbb925c"
   },
   {
    "id": "f0263843d1a8",
@@ -2143,6 +2378,22 @@
     "진주보건대"
    ],
    "group": "e47c32ad1014"
+  },
+  {
+   "id": "2bb4b91b628c",
+   "title": "경북도 계약학과 충원율 전국 평균 상회...지역 정주형 인재 양성 새 모델 만든다",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VRzZ1dmw3dzBNY3NKMzBXeVNuS2pvc0lPZ054Rkpta1JDbDgxc1VGa0c2cGh2M0g1azBIRE1FOXNHd1U4ZE95WjdITVg3Z180NDVTaDNKaEZrQQ?oc=5",
+   "source": "경북매일",
+   "published": "2026-11-02T13:12+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "2bb4b91b628c"
   },
   {
    "id": "03a6a00466a7",
@@ -2336,7 +2587,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대 AI 교육",
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [
@@ -2887,6 +3139,26 @@
    "group": "89a4b241732a"
   },
   {
+   "id": "e19723eb471e",
+   "title": "중원대, RISE 자체평가 결과 교원 창업·매출 목표 초과 달성",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LZVdjY2NXNG9sM2VJM1IzekR0Q0VIN19QeTUyMHpOUjVYcENuTWlxcTUtVkpjeWxmMWFwS25JLVk5T2FnSkh2dTUxZ21IM0dMU3U2SkV2d0xFRlRROTdHR3ZpZ0VsWjQ?oc=5",
+   "source": "충북뉴스",
+   "published": "2026-10-30T13:34+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · RISE 전문대학"
+   ],
+   "direct": false,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "중원대"
+   ],
+   "group": "58ab9190b7f2"
+  },
+  {
    "id": "0a0f872fb5d7",
    "title": "인천대학교, 지역기업 19곳과 AI 전환·기술협력 논의",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kXy1YVXdlLURrUm53NkNjN05iX0hnQU1UVEJuajI2TEhfTE9MSl9ERlVzSDFSdVByVmtZdUpycFJ5cUtZQ0Jvd0xPbXZEUUY0c3N3V1BjeVJOel92RXBLUmdOcC0?oc=5",
@@ -3169,6 +3441,24 @@
    "group": "81940ac03ec1"
   },
   {
+   "id": "69668f8baa51",
+   "title": "교육부 산하 3개 기관 통합 반발 확산…고전번역원 237명 철회 촉구",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uY184dkU0THFWVE9kREJvNVIxc0ZuTUtrbVp1Sk1kZ25sZm1fMFREOW9SYlNtMmFSZ0I5QnppU2g5RHltWmdlaC1SYmpkdU05NFV5YlJub1NFUQ?oc=5",
+   "source": "뉴스1",
+   "published": "2026-10-30T06:07+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "69668f8baa51"
+  },
+  {
    "id": "da99786ea1db",
    "title": "AI 초안, 내 경험으로 다듬는다…대구보건대 자기소개서 특강",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQTUyR2FBOUlfYWxIVHpoVDVGbklYT21mamVoNkduczdHdk1nWGlwNkFzOGtOSm15dFVpZjJMSXFIQUstVHVMdW9vQ2tOWnFMeF9KUkgyUmZKaXg0YTBERHFQUlNpQVpEWE5tUldWRUtXSUcwZklNV2VndzRFb1FBbg?oc=5",
@@ -3324,14 +3614,31 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [
     "전문대학"
    ],
    "univs": [],
-   "group": "05bcca966c37"
+   "group": "bb4bb39f20ba"
+  },
+  {
+   "id": "379aeb06d9d7",
+   "title": "첫 국제 심포지엄 열고 장애학생 ‘학교 이후의 삶’ 논의",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90UEFUTmVyVThtY2ZiV3FZNmtTSGVpZjZySjNRSUY1TjZXRkxVTXI1ZWxDZGFrSEVNNVNZUEhSTE9YdkowMkZoRFlRdWlBNFlvZ0t5VWdETWhSZ0hOQkxjZ2VJMWg3SW10TFNTMXRSRzFNQdIBdkFVX3lxTE50R3dxNExkaVZGTnZyOUhnZGxpSXJrcHg4VE1fczhFNTdHWUNsWkwybU5mTHFtNWdTbVRUSTNFUV9Qcjl2Zm01NmpXdTJ4VkZiLWx1OTViekZEUGdfbVMtU2dvX2ZmTmpzRllIVlZ6aEYwX25Ncmc?oc=5",
+   "source": "채널PNU",
+   "published": "2026-10-29T18:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "379aeb06d9d7"
   },
   {
    "id": "e405bd5a1104",
@@ -3454,6 +3761,60 @@
    "group": "d48747a7c5e0"
   },
   {
+   "id": "b45c37404789",
+   "title": "대학 기숙사 4곳 중 3곳은 카드 안 받는다",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WN2xsdWY0QzVLNkNxdkROcFRYeDQtNE5rb0NuSzFjXzlsTW1Hc0EwcW1xeTdwSFNzVTlYamxqbGFsZzhUOWFCUUtweVViS3JtVTBZRGpKTzhsVldEdVp3SkZlNWdreUJrYmc?oc=5",
+   "source": "금강일보",
+   "published": "2026-10-29T16:29+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "b45c37404789"
+  },
+  {
+   "id": "3a98b6b768e1",
+   "title": "부산외대, 동신대·송원대와 ‘대학 AI 기본교육과정’ 업무협약(MOU) 체결",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLU41RUdubjNNVFpvYm1XNGI0b2tHWER1Rm8zcEc3WUxoak56M3E0bTBlQjlCX1phblc4RXduVV96VTY2MEpPT3VDNWlBc2VVSWhtdDJONzByV3YxaExuRjRNVmJhQTRUeUlkZlpRb05PMU9tX1k1R3ZiQnllb0xOLTdsTTlXZG9mbEU3SHN3?oc=5",
+   "source": "국제신문",
+   "published": "2026-10-29T16:08+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "부산외대",
+    "동신대",
+    "송원대"
+   ],
+   "group": "3a98b6b768e1"
+  },
+  {
+   "id": "ed1f7c9243f6",
+   "title": "4년제大 공개강좌 증가율·도서관 자료 구입비 지역 간 차이 … 사립대 수익용 기본재산 확보율 100% 아래로",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yWElscWtHbC1iVnlqM05OWmxyLV94UnQ1TzJqZVh0X3gydEpRMklTdHNLSEpQeXRNQ1h4MG90Q2hZUms4ejJBTmdsY0hxcEY3QlJPRmNtV3hsWG1EU3RuRGk2SzF2VG1ydEtTbQ?oc=5",
+   "source": "대학지성 In&Out",
+   "published": "2026-10-29T16:05+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "bb4bb39f20ba"
+  },
+  {
    "id": "0cd6cce52b60",
    "title": "동명대 교수들, AI로 전공 맞춤형 웹 서비스 직접 제작",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTZUNFVicjg5Tm1wTzZuQ1AxckxKdlhOOXhzdHFJY3VOM0pXSFVuSWtZakd5bVRvZnlPU20xSVNIZkd1bC1ab2VoY0txUE9TVHVaU2ludDVzdnFIbFJWazhaZzJQNTdnRTRwV1NqbFhHSjMzMUt5bjdERzAxNFVwaEptZk92VEpLN3M2N2Vn?oc=5",
@@ -3462,7 +3823,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · \"교수학습지원센터\""
+    "구글 뉴스 · \"교수학습지원센터\"",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [
@@ -3482,7 +3844,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -3490,6 +3853,22 @@
     "삼육보건대"
    ],
    "group": "d35447d0e0c3"
+  },
+  {
+   "id": "ca707bcf175e",
+   "title": "전월세난에 기숙사도 부족…수도권 대학생 주거비 부담 ‘이중고’",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oakZUTEtYX3NyZDAtOGt1dFNsUWQta1VKSE5maWV4czhDLVdibW5VVjE3YkJSUjk5X21xUnpMMVFGenlnbG5SY1RwcHdLRC1udVHSAVNBVV95cUxQclhEbkhUQzVOX25SUXhmaGNHVnJKaTI4aFNXcnA2bXU3d0lnQlI4MUdoOEItRTBmUGhrc3lrWWJ2ekViaXE1aTd6OXVDdTlHSzRsMA?oc=5",
+   "source": "서울경제",
+   "published": "2026-10-29T15:37+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "ca707bcf175e"
   },
   {
    "id": "aed7e7021c61",
@@ -3510,6 +3889,42 @@
     "동의과학대"
    ],
    "group": "1b2010dba028"
+  },
+  {
+   "id": "91c3756d33af",
+   "title": "송기신 백석대 총장 \"AI 시대일수록 사람다운 사람 길러야…미래 100년 준비\"",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KNnhjWklISTVxLWhXSjVsYUhEd0tCNlpJZXktMXdiS2l4dlpxTnpJelFZOHlFeVJIVl9rNmEwSXFwdG81c2g3M3paWEEtM3YtRWNKVmZkemVVUlp3UjJLaXYyYlFQTF9LVWRJMjk4cnNmZw?oc=5",
+   "source": "굿모닝충청",
+   "published": "2026-10-29T15:15+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "백석대"
+   ],
+   "group": "91c3756d33af"
+  },
+  {
+   "id": "557dd8c98dbc",
+   "title": "\"방 따로 쓸래요\" 다인실 줄고 1인실 늘고…대학 기숙사 수용률 ↓",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Sb3pYOGpKNkM0WGJjeFd1cXF2RmJZNllsU3I5OWhqd0N0aWpuX1pKRXJjMzJwYmhtdl84ZjVabm5Ra2JOVm5EYkZFTmVld3h1WkZhREgzcUpWRXdkOG9Waw?oc=5",
+   "source": "아시아경제",
+   "published": "2026-10-29T15:09+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "13b3647eae75"
   },
   {
    "id": "e461c85b0269",
@@ -3606,6 +4021,22 @@
    "group": "be54125cae14"
   },
   {
+   "id": "2398fc3cc5bf",
+   "title": "‘로또 만큼 어렵다’ 대학 기숙사 수용률 또 하락…절반은 ‘현금만 받습니다’[세상&]",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tLTBvM2NrdzF6MHVxNFR0eFlLN18wUi1uOXhRZVllcE1RYWZIODdqX1FrQnA5bXM4ZjgydjJVaVBtRnE0a0l0QlM2T194Rk8wQTVRdmhR?oc=5",
+   "source": "헤럴드경제",
+   "published": "2026-10-29T12:45+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "2398fc3cc5bf"
+  },
+  {
    "id": "05bcca966c37",
    "title": "대학 도서관 투자 격차…4년제 늘고 전문대는 줄었다",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jQWx2bE9RSC1SbVZYdzhIRjVUQ2RXdmVfRy1NUm5uLXBnWU9ONzN0Rm5Mb1R2SFpmY19EaEh6VzZzSkFhNWZKVWdQbDdFM3hEdW5hQnlMLVE4NmJxMnRTWFg4VFdkQVNZQXZuRmdR0gFyQVVfeXFMUEZ1S3NYanktdzVXX1IyaXFWSGxoVnAtUWNEamdZV1F1bWNmbWJUSmowZFptemUzMEstc1dUa1BCN0RwQ1N5cmV5T2JnUzUzbUxrRWx0QmhTa2lqQ2NVVVdIcWpxQ2lTTnp6MFlTbUoxcTRB?oc=5",
@@ -3621,7 +4052,7 @@
     "전문대학"
    ],
    "univs": [],
-   "group": "05bcca966c37"
+   "group": "bb4bb39f20ba"
   },
   {
    "id": "874c9098fc23",
@@ -3690,6 +4121,54 @@
    "tags": [],
    "univs": [],
    "group": "0ae7abe1e6a9"
+  },
+  {
+   "id": "6f5efd10deb1",
+   "title": "수도권 대학 온라인 공개강의 18.4% 늘 때 비수도권은 7.2%…도서자료 구입비도 격차",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvTVNOakxEdjFSeDU0RUU5Vk50TFE0eVllVjFLaGdDNUVJalI1ek9SZDZVUjdZUk5JUEczNTMwRTlKX2hQOFpQdHc2bUwxTVJWWTduVE5YelJfYW5BNnRWMWFsanI5OFE?oc=5",
+   "source": "교수신문",
+   "published": "2026-10-29T12:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "6f5efd10deb1"
+  },
+  {
+   "id": "13b3647eae75",
+   "title": "“다인실보단 1인실”…기숙사 확충에도 수용률 0.5%p 하락",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa19OMVc4dGx3bVdtcWNZR0ZpeVNiM0piZEJ3YTQ2bWRtME1WU2wtbHlKbThISXZUQjV5MHR6ZG1GRGNEZVVYTjdtcWptak1OZ0ROSzhCV2hnSXQtMTBvNTVTREhSU2pOM3BKQ094VmZNQS1CWXl5dzl3Z2VPLUhJQQ?oc=5",
+   "source": "이데일리",
+   "published": "2026-10-29T12:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "13b3647eae75"
+  },
+  {
+   "id": "c7e83425a903",
+   "title": "사립대 수익용 기본재산 확보율 96.2%…1년 만에 100% 아래로",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vQWJBVFhuUHlLbzV0NTJNQTRmeUdaSG16OHVlWm9zUV9jUmhwdXJrN3FpNV9JZGwtQWM2NkV6S3ZuV2hPTlhOaVkyWlBXYkRYRDlGTDdsYnU1SjZpc3pBZmZ3a0lqcGxscHJyZkplaDhnQmhD?oc=5",
+   "source": "이투데이",
+   "published": "2026-10-29T12:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "bb4bb39f20ba"
   },
   {
    "id": "b65b36202916",
@@ -3811,6 +4290,60 @@
     "동의과학대"
    ],
    "group": "1b2010dba028"
+  },
+  {
+   "id": "2238926a548f",
+   "title": "숭실대, AI 윤리 가이드라인 시행…수업별 활용 기준 세분화",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WZHBlbHFRczBVS3haaGU0ZllHNk5TWUNGRVdpRDNycmRBcmVuNHV3T3RvSzJ6QURjbXIxZjl3Y21oaTNOVEVFYjlSMHNLRGtCcXkwdlRDTlRFTE0?oc=5",
+   "source": "에너지경제신문",
+   "published": "2026-10-29T08:56+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "숭실대"
+   ],
+   "group": "2238926a548f"
+  },
+  {
+   "id": "5a2192d7a6ff",
+   "title": "입시 파고든 'AI 안경'…시험 앞둔 대학들 단속·지침 마련 분주",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdU1jX0dONFlaQzdOVE51ZXdVQUFTYVE0QzlnOXQ3dzNSZW5wbzhqRk9yMlBHYnNna3I0bkJRWEloaW9CUTNKeFEwOHRTdUtfMHUyY21lc0pwanFuQ1ZORtIBeEFVX3lxTFBpSUhBNm0xZmlNWUl4ZEQ2ZjlMbTRmV0p5VFZMd3k5UVc3MlhXcTR3V0twLWlFX3hkYUVPUHNlTDJyLU9JYjYxRXRqLWtMeWlGcDZVdnhOZnJFQnRsdXpKZzdPa0E0ODd0MHpaMzEyTFYtX3dGczcyRQ?oc=5",
+   "source": "뉴시스",
+   "published": "2026-10-29T06:00+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "5a2192d7a6ff"
+  },
+  {
+   "id": "0b0d5c34cb83",
+   "title": "[교육이 미래다] 개교 120주년 … 학사·공간 혁신으로 미래캠퍼스 연다",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVzFvTGRNckwwYWFoS29IcExzQmIyeXNlTTU4cGVia2QxTWpnLVRmX1FCSzUtOUtCd2lPQS1XUjFpMksxMER0MHQ0clBCUEUyVGJnRkF3?oc=5",
+   "source": "중앙일보",
+   "published": "2026-10-29T05:30+09:00",
+   "first_seen": "2026-11-04T16:10+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "0b0d5c34cb83"
   },
   {
    "id": "6b75e9364785",
