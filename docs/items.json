@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:21+09:00",
+ "updated": "2026-11-06T10:43+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -10,19 +10,19 @@
   {
    "name": "교수신문 RSS",
    "ok": true,
-   "count": 5,
+   "count": 7,
    "total": 50
   },
   {
    "name": "대학저널 RSS",
    "ok": true,
-   "count": 3,
+   "count": 4,
    "total": 40
   },
   {
    "name": "베리타스알파 RSS",
    "ok": true,
-   "count": 8,
+   "count": 5,
    "total": 50
   },
   {
@@ -39,7 +39,7 @@
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "name": "구글 뉴스: \"교수학습혁신센터\"",
@@ -49,7 +49,7 @@
   {
    "name": "구글 뉴스: \"교수학습개발센터\"",
    "ok": true,
-   "count": 6
+   "count": 9
   },
   {
    "name": "구글 뉴스: 전문대학 교수법",
@@ -59,27 +59,27 @@
   {
    "name": "구글 뉴스: 대학 교수법 워크숍",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 27
+   "count": 29
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
    "ok": true,
-   "count": 25
+   "count": 30
   },
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 22
+   "count": 27
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
@@ -89,7 +89,7 @@
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
    "ok": true,
-   "count": 12
+   "count": 11
   },
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
@@ -98,6 +98,356 @@
   }
  ],
  "items": [
+  {
+   "id": "9034e3309a99",
+   "title": "수원여대 WE-Connect 나눔이음 릴레이 6번째 주자, 어르신 미용 봉사...\"지역사회와 나눔 실천\"",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxaVZuV2U1X1dLN3p1dTZqSG1yNTNHTEFSa2dpckZOSlZVamszdUhzTWNubGFRTzVGNnlTSm1UdjA4X1ZVSExzRlJrdWRzRktOMjVldlhVZ2ZyZDVuMVk4VVY4YnNOVTQ?oc=5",
+   "source": "교수신문",
+   "published": "2026-11-06T10:26+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "수원여대"
+   ],
+   "group": "2095cadad83a"
+  },
+  {
+   "id": "f3cc05733bbc",
+   "title": "서울예대, 지역사회와 책 무료 나눔",
+   "link": "http://www.dhnews.co.kr/news/view/1065575635652547",
+   "source": "대학저널",
+   "published": "2026-11-06T10:14+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[대학저널 온종림 기자] 서울예술대학교가 지난 3일과 4일 안산캠퍼스 중앙광장과 중앙계단에서 ‘지역주민과 함께하는 제적 도서 나눔 행사’를 열었다. 이틀 동안 대학 구성원과 지역주민 등 총 771명이 참여했다.서울예대 예술정보센터와 예술사회적책무센터가 공동으로 마련한 이번 행사는 202…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [
+    "서울예대"
+   ],
+   "group": "12a219f0eeac"
+  },
+  {
+   "id": "e582cd1f92ad",
+   "title": "서일대, KS-SQI 8년 연속 전문대학(서울) 부문 1위 수상",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RV2VHYWZqV0ZFUDRUdXpnN0tyUnBRY2VhdDRaQUUtQXNxbVJOejFmU2Q5eTh2VDhYUjJzRmRLcGl6ZUx4bi1yWmkzUWszV010MW5leWhrU3U1aXFWMDEyQUJDMjNRUQ?oc=5",
+   "source": "한국대학신문",
+   "published": "2026-11-06T10:10+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "서일대"
+   ],
+   "group": "16f21bf3ca55"
+  },
+  {
+   "id": "c62f1cff5650",
+   "title": "경동대, AI시대 ‘2026 교양 페스타’ 진행",
+   "link": "http://www.dhnews.co.kr/news/view/1065575308491268",
+   "source": "대학저널",
+   "published": "2026-11-06T10:09+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[대학저널 온종림 기자] 경동대학교가 지난 10월 26일부터 11월 3일까지, 인공지능(AI)시대 학생들의 인문학 소양과 전인적 역량의 함양을 위해 ‘2026 교양 페스타’를 개최했다.양주 메트로폴캠퍼스와 원주 메디컬캠퍼스에서 펼친 이 ‘교양 페스타’는 대학혁신지원사업의 일환으로, “A…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경동대"
+   ],
+   "group": "c62f1cff5650"
+  },
+  {
+   "id": "c8e00699cb1d",
+   "title": "건국대 글로컬캠퍼스 대학일자리플러스사업단 2026 충주시 일자리 박람회 공동 주관.. '지역 기업과 청년 채용 연결'",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635649",
+   "source": "베리타스알파",
+   "published": "2026-11-06T10:09+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[베리타스알파=김하연 기자] 건국대 글로컬캠퍼스 대학일자리플러스사업단(단장 이용우)이 11월5일 오후 2시부터 5시까지 충주 아쿠아리움 옆 유네스코 국제무예센터에서 ‘2026 충주시 일자리 박람회'를 공동 주관했다. 박람회는 충주시가 주최하고 건국대 글로컬캠퍼스와 국립한국교통대가 공동…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "건국대"
+   ],
+   "group": "c8e00699cb1d"
+  },
+  {
+   "id": "b74a8f78a8db",
+   "title": "'영남이공대, 이차전지 교육부터 현장 체험/취업까지 잇는다'",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635639",
+   "source": "베리타스알파",
+   "published": "2026-11-06T09:56+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[베리타스알파=김하연 기자] 영남이공대(총장 이재용)는 5일 오전 11시 30분, 충북 충주시 앰코베이뉴에너지에서 고교생들의 이차전지 산업에 대한 이해도를 높이고 진로 및 취업 탐색을 지원하기 위한 '2026학년도 앰코베이뉴에너지 산업체 탐방'을 실시했다.이번 앰코베이뉴에너지 산업체 탐…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [
+    "영남이공대"
+   ],
+   "group": "b74a8f78a8db"
+  },
+  {
+   "id": "c271484afc2f",
+   "title": "국립목포대, 초광역 성장엔진 인재육성사업 출범...전남광주 7개 대학 협력 본격화",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635636",
+   "source": "베리타스알파",
+   "published": "2026-11-06T09:54+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[베리타스알파=김하연 기자] 국립목포대(총장 직무대리 박시형)는 지난 11월 4일 한국연구재단 대전청사에서 열린 교육부 '초광역 성장엔진 인재육성사업 출범식'에 참석해 전남광주권 7개 대학이 공동으로 추진하는 재생에너지 전문인재 양성계획을 발표했다.이번 출범식은 전국 6개 권역의 사업…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [
+    "국립목포대"
+   ],
+   "group": "c271484afc2f"
+  },
+  {
+   "id": "c1c786e4ea3f",
+   "title": "인하대 정석학술정보관, 12일 지역 주민과 도서 나눔·음악회 개최",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vbWJBWmduYkE1emhpd0NwQVNja1NMaU1ud1B1cmp3UTJRY2lHeFBUeGk1UGJPQ1Axa1czVl9rWUl5UmUxZ3FadTBsZGJhSEszTmRVbw?oc=5",
+   "source": "뉴스1",
+   "published": "2026-11-06T09:47+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "인하대"
+   ],
+   "group": "cc37d9e2be58"
+  },
+  {
+   "id": "917e3bebdcac",
+   "title": "전남대 치의학전문대학원 '2026 용봉치인의날' 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635610",
+   "source": "베리타스알파",
+   "published": "2026-11-06T09:34+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[베리타스알파=김하연 기자] 전남대(총장 이근배) 치의학전문대학원과 치과대학/치의학전문대학원 총동창회가 지난 10월 31일부터 11월 1일까지 ‘2026 용봉치인의날’을 개최하고 학술 교류와 동문 간 화합을 다지는 뜻깊은 시간을 가졌다.첫째 날에는 전남대 치의학전문대학원 주최 학술대회와…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "전남대"
+   ],
+   "group": "917e3bebdcac"
+  },
+  {
+   "id": "f0c6833a7d09",
+   "title": "전남대 창업중심대학사업단 'CNU 지역사회혁신포럼' 성료",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635609",
+   "source": "베리타스알파",
+   "published": "2026-11-06T09:33+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[베리타스알파=김하연 기자] 전남대(총장 이근배) 창업중심대학사업단이 주최/주관한 ‘CNU 지역사회혁신포럼’이 지난 4일 전남대 용지관 3층 광주은행홀에서 지역민과 창업가들의 열떤 참여 속에 성황리에 개최됐다.이번 포럼은 전남대 창업중심대학사업단을 포함해 전남대 앵커사업단, 조선대 앵커…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "전남대"
+   ],
+   "group": "f0c6833a7d09"
+  },
+  {
+   "id": "2c48e31bdc5b",
+   "title": "인하대 정석학술정보관, 12일 지역사회와 함께하는 나눔 행사 개최",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sQ3FGaWpMTmMyWnRuMUp4WGt6TG9rYWprYms4NG9KMmVyWmZvTDlNXzB2RzNDREI1TnBFcktySjlJdk1KVldzTGNueEJaWG1falZHN0M4NkRoVERqSGljMUVnNDZTc2RnbHc?oc=5",
+   "source": "뉴스티앤티",
+   "published": "2026-11-06T09:33+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "인하대"
+   ],
+   "group": "cc37d9e2be58"
+  },
+  {
+   "id": "333bb70892d3",
+   "title": "인하대 도서관, 지역주민과 '도서 나눔·음악회' 연다",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zUHZFTFBpbkRLM0JwUVRrV1IzMDZKQVU5MXU3V2w4MlQ5RlFNOElnOVI4UGNnOHU4NjlfXzg5eGVxX2k0a09Cc1pJTzhlY0xUTDFDaUZDUEw4NUUxX0E2V0E1LUhJU1BxY0hnUjh3?oc=5",
+   "source": "국제뉴스",
+   "published": "2026-11-06T09:29+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "인하대"
+   ],
+   "group": "cc37d9e2be58"
+  },
+  {
+   "id": "e2029e5b461e",
+   "title": "덕성여대, 서울여대·성신여대·네이버와 AI 인재 양성 협약",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212123",
+   "source": "교수신문",
+   "published": "2026-11-06T09:18+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "덕성여대는 11월 5일 오전 11시 교내 행정동 3층 대회의실에서 서울여대, 성신여대, 네이버 커넥트재단과 AI 인재 양성·AI 교육 확산을 위한 업무협약을 체결했다고 밝혔다. 덕성여대에 따르면 이번 협약은 서울 소재 3개 여자대학의 교육·연구 역량과 네이버 커넥트재단의 AI 교육 전문…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "덕성여대",
+    "서울여대",
+    "성신여대"
+   ],
+   "group": "e2c099a414ae"
+  },
+  {
+   "id": "16f21bf3ca55",
+   "title": "서일대 KS-SQI 전문대학(서울) 부문 8년 연속 1위.. '학생 중심 교육혁신 성과 인정'",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQVVEzYnF3a3VpRjFUbHJRWUdaTm5WYVFfNzhGNXhiUVVXckZuLXR5YkN4aXFZMm1CdVBfaExqeGUyRW9XSG9fYURTR0xqOFRXRmR6ME0ybEZhZ2pkcVNVLWNmeENpRFZIclVIeg?oc=5",
+   "source": "베리타스알파",
+   "published": "2026-11-06T09:08+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "서일대"
+   ],
+   "group": "16f21bf3ca55"
+  },
+  {
+   "id": "12a219f0eeac",
+   "title": "서울예대, 지역사회와 책 나눔…이틀간 771명 참여",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPZ0ZjRzhWM2ZfNVhCcFBVbnVPNTdhQUw3aUFDeGVBVzRzSHJqYW52WlNEOWVWUWh2UGJpX2RkWUJoYUZvSkN0dlZjX0hHVVF5Q0M5aC1IWThtWHRuekFpM0tsQmp0dw?oc=5",
+   "source": "한국대학신문",
+   "published": "2026-11-06T09:07+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "서울예대"
+   ],
+   "group": "12a219f0eeac"
+  },
+  {
+   "id": "cc37d9e2be58",
+   "title": "인하대 정석학술정보관 지역 주민과 도서 나눔/음악회 연다.. '청소년 AI 창작 지원사업 성과도 공유'",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpNXhESmY3V3gyUVpnOWkzZnNWa1p0cXlRa3V6eFBrVTBxM1QyVmtWSUhpODFBS0ZpSzBWaUdwLXd0dDVLREI3X3dUcWtManJ2T3Z6N1lZdjMzMkVVdjFNMFkwNmk1UUszcThrUA?oc=5",
+   "source": "베리타스알파",
+   "published": "2026-11-06T08:48+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국교육학술정보원 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "인하대"
+   ],
+   "group": "cc37d9e2be58"
+  },
+  {
+   "id": "573a244b0763",
+   "title": "“미국 퍼듀대 클린룸에서 웨이퍼 만졌다”… 반도체·AI 인재들, 강의실 밖으로",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212117",
+   "source": "교수신문",
+   "published": "2026-11-06T06:00+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "[교육부·한국산업기술진흥원, 6일 용산서 성과공류회 개최] 미국 퍼듀대의 반도체 클린룸에서 웨이퍼를 직접 다루고, 캐나다 토론토대 연구실에서 인공지능(AI)과 바이오의 접점을 찾았다. 국내 대학 강의실에서 배운 이론이 해외 대학의 실험실과 산업 현장으로 이어지면서 학생들의 진로에도 변화…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크",
+    "정부·기관"
+   ],
+   "univs": [
+    "퍼듀대"
+   ],
+   "group": "573a244b0763"
+  },
+  {
+   "id": "efbe21a57649",
+   "title": "조선대, ‘2026 CSU 취업진로페스타’ 개최… 2,000여 명 참여·상담 4,000여 건",
+   "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQUUliR1VLaXlrNjJMRHJKeUp6eGRFYnQ3SjIycFQtOFFobkN6NFFNMF9MZld4QnZRQVRuWXFsLVNzNkZ6X1pmb0pLcDNCRGVoclB5T1Z5ZEc3dy1teVJkRE9veGJPbzZvQjluRGJYNzBmaW01MnhHVUM1bDlob2dLY3hXbEk1OHZoQmhjdzdxUXoxNUtpUEF3NWRFMEdxcEhNWjZDQ25Ld0MyZkFhVmdCZWdIOG5xOUNJbnotNDdqaU9BdFh0cWEwWldDSWtvZUR1WFpLUzIxdkpXOEJ4ZEtUN1dZNnY2cS11LW1fQUd1OUJGV1F4Nlhtb3NfZnNGQXVNN1VLMWZqak51cVRPNzY3ZlhHMnpOcHdUN1dnZVBlVnF6MkFxU1REd3Q2NjU2SEtYYlE?oc=5",
+   "source": "스포트라이트유",
+   "published": "2026-11-06T01:23+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "조선대"
+   ],
+   "group": "efbe21a57649"
+  },
   {
    "id": "9e60d47178da",
    "title": "연주자 넘어 가르치는 사람으로… 정화예술대학교 보컬교수법, JU보컬 레슨 현장과 잇는다",
@@ -625,6 +975,24 @@
    "group": "6f7d8425b3b8"
   },
   {
+   "id": "9ac0d3a6bb9c",
+   "title": "호서대·한국출판문화산업진흥원, 출판 인재 양성·독서 활성화 맞손",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wOUNXbDY3NTAzYmY2TmVCTzhSd2ZIUVcyc1htSXZJdEZReU5Ea1lQNm5fNUVYMGZuTmI5RFFIWmdRSHQwYXgxeFlGUHF2TDVmc2Y5X1dTNXI1UGx3dV9nZGd6OW5IanVILW93?oc=5",
+   "source": "동양일보",
+   "published": "2026-11-05T15:26+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "호서대"
+   ],
+   "group": "264838f65a02"
+  },
+  {
    "id": "5336727552ee",
    "title": "원광디지털대, 현장 전문가 참여 뷰티 실기교육 콘텐츠 3개 공개",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZTTVEU0lwb09BTlRQSENubGtjM1hKWEdudVhtcklsenctN3hDWWVOQy04N0swNkNDWi1KMVVONUJwVEhic1hscXNPVU0wa0RscE5DNW9rS2xfREVZbldnTFhTYXN1MmxtWjlSSGlsb0E3VS1q0gF0QVVfeXFMTVlNNURTSXBvT0FOVFBIQ25sa2MzWEpYR251WG1ySWx6dy03eENZZU5DLTg3SzA2Q0NaLUoxVU41QnBUSGJzWGxxc09VTTBrRGxwTkM1b2tLbF9ERVluV2dMWFNhc3UybG1aOVJIaWxvQTdVLWo?oc=5",
@@ -834,6 +1202,26 @@
     "원광디지털대"
    ],
    "group": "0ce228cb523f"
+  },
+  {
+   "id": "8ea74f98326c",
+   "title": "수업설계·취업서류에 AI 활용…대구보건대, 검증·수정까지 실습",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hb19vMTRyZm00NWlTaVBoMkFTRWlwWXpySEQ3ek5LaUs4RE1tZTVtcURyRjdXcHNFYVJUbEhkX1NYQTNOOWRDUWxMSjZGMDJ6Ymhjcl90NzJhdU9mWm9pNDRkc0hGTDFtUjFwRi1Sai1oMVk?oc=5",
+   "source": "오늘경제",
+   "published": "2026-11-05T10:35+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습지원센터\""
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "대구보건대"
+   ],
+   "group": "8ea74f98326c"
   },
   {
    "id": "000aa5ccb7e6",
@@ -1418,6 +1806,24 @@
     "남서울대"
    ],
    "group": "4a5668a2aa54"
+  },
+  {
+   "id": "9690ebaa012e",
+   "title": "대구과학대, 우즈베크서 ‘1+2’ 공동교육…첫 기수 108명",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZGNLRUQ3NW9sVlNfSFdBR1lyNEM5eElIeFMwb0pIek5aSVlvRWZwa0huVUFNalpfZGpCN082VUtMWFptanVsc1lHS3BxWEdaX2hDY3VTbXUxdjA5aTNpdS1jWDZoVWNTUTh4aXJ6MzAwZkdwS1g3S2lFTWw0NElfNA?oc=5",
+   "source": "이데일리",
+   "published": "2026-11-04T16:36+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구과학대"
+   ],
+   "group": "f4d504acde60"
   },
   {
    "id": "4c39e88f92f0",
@@ -2603,7 +3009,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "[한국대학신문 김소현 기자] 24년 연속 신입생 충원율 100%, 외국인 유학생 수 전국 전문대학 1위. 학령인구 감소로 대학들이 학생 모집에 어려움을 겪는 상황에서도 서정대가 거둔 성과다. 성장세를 바탕으로 서정대는 인공지능(AI) 교육혁신과 평생직업교육 체계를 강화하고, 양주테크노밸…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": true,
    "tags": [
@@ -2927,6 +3334,24 @@
    "group": "d254410a183f"
   },
   {
+   "id": "741706db793b",
+   "title": "[인사] 덕성여자대학교 외",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10dy1nQzZNOTFRQlF6c29rdkN4cWhvU0pMMndrVXNYV1pWdHRNUVpqXzFGRF90WjlzRGxXS1pmZU1EenlzSUowYlptM0ZoYUtHUE9hQ2tNVXJOSUFUQjBKWXEzY3ZmUF9HMDhBMjFB0gFzQVVfeXFMTm9tZ1RJcmRJLUlpSC00T2RNaHdJNVZGanEwZzZZWEJ3WGt0cWo0Q0NwdUlNNjM3UnNqcm9PWlo5a2xWZGd6cXd4RXRKM0RaUDdqYjhGdDFCSHY4dzg2YU1Gc1o3RmlhSjRic0lOTnY0LUh0Yw?oc=5",
+   "source": "한국일보",
+   "published": "2026-11-03T16:41+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습개발센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "덕성여자대"
+   ],
+   "group": "741706db793b"
+  },
+  {
    "id": "5ad9176ba064",
    "title": "국립목포해양대 등 5개 지역대학 연계 교수법 워크숍 성료",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ubzBoYlh4THNBaUh5N0NHN3RuQS1QaXY0S0tVVnB4QTlmdlJzazMwUlVkYUFKR2JtN3MydDZhcnJBMHhFZ1pZbU8tMEVsMV92WG5tbEZPeTJ2RmpJN3ZWOEt1bTFWU1BHNGIzdg?oc=5",
@@ -3119,6 +3544,24 @@
    "group": "04252c25d0eb"
   },
   {
+   "id": "c4a2c5b86cd4",
+   "title": "[인사] 덕성여대 - 26.11.02",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlVFplbXdtZjd2MEtJLU1PVEU5aGVzWlRPNzBUU3YyTHFDX3gxRjF1Z1N4YldCLVBxNDFvU1NpaFRxcXY5VEhVWENJd0tGWHhta3MyY2FqbHJMV1c2NmpnT2VxN0xoYXY00gFoQVVfeXFMUGVUWmVtd21mN3YwS0ktTU9URTloZXNaVE83MFRTdjJMcUNfeDFGMXVnU3hiV0ItUHE0MW9TU2loVHFxdjlUSFVYQ0l3S0ZYeG1rczJjYWpsckxXVzY2amdPZXE3TGhhdjQ?oc=5",
+   "source": "Usline(유스라인)",
+   "published": "2026-11-03T15:31+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습개발센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "덕성여대"
+   ],
+   "group": "c4a2c5b86cd4"
+  },
+  {
    "id": "83f2e13d421a",
    "title": "재능대·뤼튼테크놀로지스, AI 교육 혁신 산학협력…콘텐츠·실무인재 양성 협력",
    "link": "https://news.unn.net/news/articleView.html?idxno=599872",
@@ -3309,6 +3752,24 @@
     "덕성여대"
    ],
    "group": "a6948e38a537"
+  },
+  {
+   "id": "5ce76c892cef",
+   "title": "‘2027학년도 수시2차 전문대학 입학정보 박람회’, 11월 20~21일 동서울대서 개최",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aazViQ1pWblM0ZkZDenFUSTk0d1F0dmxUZXFWbVJqX3BfMTIxOGRuVDFzVnhXeExJcm9WYWhYQXBZVnd3N1QtN2VBWTU3azRVanRwTzBEenBrRWNUN1Rqd29BNEZyMjQ?oc=5",
+   "source": "E동아",
+   "published": "2026-11-03T12:53+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [],
+   "group": "5ce76c892cef"
   },
   {
    "id": "12bf18e09cbd",
@@ -4422,7 +4883,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -4658,7 +5120,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · \"교수학습지원센터\""
    ],
    "direct": false,
    "tags": [
@@ -4992,6 +5455,22 @@
    "group": "58ab9190b7f2"
   },
   {
+   "id": "97c22ae1c76d",
+   "title": "비정규교수노조, “대학강사제도발전협의회 즉각 재가동” 촉구",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tT3pMSVRWaXROLVlqRUpEQVY3Qy1qRnYwOGZzb3FUUkJoeDNWQlB6ZXFRUkVPVV9zLWplaFFpU081NEJvRTRfakxsUFJJZlhDdUFLNmtodFZxRUk2d2wwZXhzUm5pcHRlX1ZaVw?oc=5",
+   "source": "대학지성 In&Out",
+   "published": "2026-10-30T12:59+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "97c22ae1c76d"
+  },
+  {
    "id": "0a0f872fb5d7",
    "title": "인천대학교, 지역기업 19곳과 AI 전환·기술협력 논의",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kXy1YVXdlLURrUm53NkNjN05iX0hnQU1UVEJuajI2TEhfTE9MSl9ERlVzSDFSdVByVmtZdUpycFJ5cUtZQ0Jvd0xPbXZEUUY0c3N3V1BjeVJOel92RXBLUmdOcC0?oc=5",
@@ -5148,6 +5627,23 @@
    ],
    "univs": [],
    "group": "f851e7510296"
+  },
+  {
+   "id": "47e8817f4923",
+   "title": "일반 사립대 수익용 기본재산 확보율 96.2%… 전년보다 4.3%p 하락",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Yb1NUUTl2eURZRGxmM1ZTTXBnZU56eUxldlB0RDl1aktZcnFJRGl6X1FPbWhvZnlLWllmN1ZHdG13QU55SV9qWmlYcEZaY3Z3ZldtNHY2c2JQcGRSSFlYa2VpMGh6dw?oc=5",
+   "source": "한국대학신문",
+   "published": "2026-10-30T10:26+09:00",
+   "first_seen": "2026-11-06T10:43+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "bb4bb39f20ba"
   },
   {
    "id": "1d7ae91677dc",
