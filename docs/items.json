@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:18+09:00",
+ "updated": "2026-11-07T10:04+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -34,12 +34,12 @@
   {
    "name": "구글 뉴스: \"교수학습센터\"",
    "ok": true,
-   "count": 5
+   "count": 4
   },
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
    "ok": true,
-   "count": 8
+   "count": 6
   },
   {
    "name": "구글 뉴스: \"교수학습혁신센터\"",
@@ -64,32 +64,32 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 27
+   "count": 26
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
    "ok": true,
-   "count": 28
+   "count": 31
   },
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 26
+   "count": 27
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 25
+   "count": 27
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
@@ -98,6 +98,24 @@
   }
  ],
  "items": [
+  {
+   "id": "e7f77d66ab84",
+   "title": "부산보건대, 아미시장 점포 간판·홍보물 제작 지원",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVckxKZ0tFV1d6UFpoSDFzTVRKLUlmX3VvOWNOQ3RxcGtJbVFVT2NfNTNrR2pyOG5kOGExY1FzdW5yQlM0Y2FSNElpbEZaSkF1MXEzaW1ZRmE0NEFLaWstTg?oc=5",
+   "source": "메트로신문",
+   "published": "2026-11-06T19:43+09:00",
+   "first_seen": "2026-11-07T10:04+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "부산보건대"
+   ],
+   "group": "6718a48415b4"
+  },
   {
    "id": "528473f70323",
    "title": "전공별 AI 적용법 배운다…경북전문대, 교원 대상 스마트 교육",
@@ -331,6 +349,49 @@
    "group": "c271484afc2f"
   },
   {
+   "id": "264b315c3300",
+   "title": "경북전문대, 전공 수업에 인공지능 접목…교수법 혁신 나서",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QNm5PMnBCX0tTcFpkcS1uT01sb1pCREJEMWhZUzhqVTVnNXFxTWJISWp2akZqYnVLaWlnTmc3dmFyOWRVZUY5d1R5LXJXV0h5THRqT1hvaWNhYUlWcFpzV0xhbGZ1TEE?oc=5",
+   "source": "영주시민신문",
+   "published": "2026-11-06T16:35+09:00",
+   "first_seen": "2026-11-07T10:04+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법",
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "264b315c3300"
+  },
+  {
+   "id": "97670a2d61ad",
+   "title": "경북전문대 학생들, 전공지식에 창의력 더해 현장 문제 해결 나섰다",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sc0NiTG1vZWJIZUxPVDBwVm5adG1lMDc1cnNFTlp2bjIzT1hiQTloVmNVTk1UV3cxVkJEY3E0dy1MSzBuN0RPb0FFOEpVbE5Ma1BKV3l1eS1Fa3phMnRmZEVUQzEyX2FX?oc=5",
+   "source": "영주시민신문",
+   "published": "2026-11-06T16:12+09:00",
+   "first_seen": "2026-11-07T10:04+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "97670a2d61ad"
+  },
+  {
    "id": "247b373f30e7",
    "title": "‘수시 미등록하면 정시 지원 가능’은 틀렸다…온라인 안내 믿었다간 입학 취소",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93Z1NFamJzeWtzMFJMQllVbEFSLUpEczR2NXplUjI4cVc1UjZjYXFNd005ZUNnNGFDQUsxdFBuYkdGRG1uTFVBNFBxNktMZ01OUFp1SUtJQjRKYkRPMmN6YlpobnpoUQ?oc=5",
@@ -505,6 +566,26 @@
    "group": "cddc31052d6d"
   },
   {
+   "id": "a885a891ef3b",
+   "title": "【한밭대학교 공고 제2010",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwZHNMVUVOOUlaeXRwMWlCd2s3WHFxeVh5WVFRdE56MDMxbFFjaXpxNE82UWI2N2g1QTY0THRFalJsdmtaN0puSmJuZTlIYzlPZzlmX1pvdW9mUnFQXzFLNW1VbHNIbGlkMlZiU2ozM1pmeW85aEE?oc=5",
+   "source": "대한민국 정책브리핑",
+   "published": "2026-11-06T14:30+09:00",
+   "first_seen": "2026-11-07T10:04+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · site:korea.kr 교육부 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [
+    "한밭대"
+   ],
+   "group": "a885a891ef3b"
+  },
+  {
    "id": "3f6be6a720e0",
    "title": "국립공주대 앵커사업단 '2026 충남앵커공유대학 성과포럼' 성황리 개최",
    "link": "https://www.veritas-a.com/news/articleView.html?idxno=635727",
@@ -598,7 +679,8 @@
    "summary": "[한국대학신문 김윤미 기자] 오산대학교(총장 황홍규)는 한국전문대학교육협의회가 실시한 '2025학년도 학사학위 전공심화과정 운영진단'에서 호텔조리학과가 최고 등급인 S등급을, 호텔관광경영학과가 A등급을 받았다고 밝혔다.학사학위 전공심화과정 운영진단은 전문대학 전공심화과정의 교육 여건과…",
    "via": [
     "한국대학신문 RSS",
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": true,
    "tags": [
@@ -2506,7 +2588,8 @@
    "first_seen": "2026-11-05T20:21+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": false,
    "tags": [],
@@ -4118,6 +4201,22 @@
     "덕성여자대"
    ],
    "group": "741706db793b"
+  },
+  {
+   "id": "f88a7ac83f66",
+   "title": "[인사] 행정안전부 외",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10dy1nQzZNOTFRQlF6c29rdkN4cWhvU0pMMndrVXNYV1pWdHRNUVpqXzFGRF90WjlzRGxXS1pmZU1EenlzSUowYlptM0ZoYUtHUE9hQ2tNVXJOSUFUQjBKWXEzY3ZmUF9HMDhBMjFB?oc=5",
+   "source": "한국일보",
+   "published": "2026-11-03T16:41+09:00",
+   "first_seen": "2026-11-07T10:04+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습개발센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "f88a7ac83f66"
   },
   {
    "id": "5ad9176ba064",
