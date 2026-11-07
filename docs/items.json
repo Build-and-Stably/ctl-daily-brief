@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:04+09:00",
+ "updated": "2026-11-07T19:33+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -39,7 +39,7 @@
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
    "ok": true,
-   "count": 6
+   "count": 3
   },
   {
    "name": "구글 뉴스: \"교수학습혁신센터\"",
@@ -54,7 +54,7 @@
   {
    "name": "구글 뉴스: 전문대학 교수법",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "name": "구글 뉴스: 대학 교수법 워크숍",
@@ -64,12 +64,12 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 26
+   "count": 29
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
@@ -79,12 +79,12 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 27
+   "count": 24
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 27
+   "count": 26
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -98,6 +98,47 @@
   }
  ],
  "items": [
+  {
+   "id": "520652bff718",
+   "title": "나다움놀이터 사회적협동조합, 성운대학교 평생교육원과 지역사회 평생교육 활성화 위한 업무협약 체결",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ORmxQdFV4dE52WFYzSWdhaTFYRlo0Q1A1ODRFYlRORko2RVdTbjZ0REZ2ZWFMcG1Wdjd0enhHWkNBektEWV93LU95YkNkeWpxY1lkUDdOQnhuR0dyZ3p0dlJoMXpYbW9nLWE4RmNiZnM1QnfSAXdBVV95cUxPTDBnRHJpaDNUbWNOdUd2ZGtBV3Q4Q2dkWEsxNGFXenFWTGhiYVBRRzhnX05nVkdycER3cnFVUUhQRE5XOXQwemRuLU1ONkMzelhVb1EyeGFWenV3MTIyNmlEc3pFM3ExT3haN29FT21idE1UbVlkSQ?oc=5",
+   "source": "한국시민기자협회 뉴스포털1",
+   "published": "2026-11-07T12:35+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "성운대"
+   ],
+   "group": "520652bff718"
+  },
+  {
+   "id": "88e448e248cd",
+   "title": "AI 활용 넘어 전공 수업 혁신으로…경북전문대, 교수법도 바꾼다",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LN1p5MUxsS2t1czQ2bC16a2hxUmJVVV93S01VdGdSaUpzYktiNXU3Nkp6VWNsYXd1NzNkNXF6b29mZkl1N3pvNi1ZWVY4WkFCMUpLdUR30gFWQVVfeXFMTUs3WnkxTGxLa3VzNDZsLXpraHFSYlVVX3dLTVV0Z1JpSnNiS2I1dTc2SnpVY2xhd3U3M2Q1cXpvb2ZmSXU3em82LVlZVjhaQUIxSkt1RHc?oc=5",
+   "source": "더팩트",
+   "published": "2026-11-07T11:01+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법",
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "264b315c3300"
+  },
   {
    "id": "e7f77d66ab84",
    "title": "부산보건대, 아미시장 점포 간판·홍보물 제작 지원",
@@ -1319,6 +1360,24 @@
    "group": "2183815073b5"
   },
   {
+   "id": "d8818684331a",
+   "title": "대경대 이채영 총장, ‘남양주 한류캠퍼스 미래’ 발전 전략 제시",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fR2VSWlpCZGd0VjJKOTJxaGpyaF91WWN0M0FwMklNcXlTLWJjVWdIcmJJblNUVXZQT1NJYlhVUUVQUGUzV0RxeEY5S096RnZSelN3dEloNmVaWEtBSkwwc3pvRUo?oc=5",
+   "source": "서울경제TV",
+   "published": "2026-11-05T17:37+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대경대"
+   ],
+   "group": "d8818684331a"
+  },
+  {
    "id": "1a8abb7092fa",
    "title": "‘강철부대 마스터’ 방송인 최영재 초청해 교관 역량강화",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GTEpNVWgxNzV3NGZ5MUlTMjZHdjZJdi1NLXBMWThxTmJVel9NN21adGVtYjc5R2M2ZXgzbmhSRUo2UmVjNHAtb08yTXF2MGFmX09LanEwSWdwclRDckxPWFoxRUhjQjlJ?oc=5",
@@ -1883,6 +1942,24 @@
    "group": "b0be4e7c2f4b"
   },
   {
+   "id": "248e78656ec0",
+   "title": "부산과기대 평생교육원, 부산평생학습주간서 MBTI·아로마 체험 부스 성황",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VRHFaT0xUT0hSZnVVNVVIdzVoeU1VSFNRRnRMcEFUeENaVFEwYkJsUDFmdnFOa2lFeTNoQTQ0TFlvMWpvUlE4eE03VE1ZMGNaQnFrQjlieUdUQ3NjekNad3NMbHFYaWdWSXF2QVlXU2lSR0dH?oc=5",
+   "source": "부산일보",
+   "published": "2026-11-05T14:29+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "부산과기대"
+   ],
+   "group": "248e78656ec0"
+  },
+  {
    "id": "c7a5cde9d8eb",
    "title": "부천대, ‘한국서비스품질지수’ 전문대학 최초 12년 연속 1위 선정",
    "link": "https://news.unn.net/news/articleView.html?idxno=600045",
@@ -2321,6 +2398,22 @@
    "tags": [],
    "univs": [],
    "group": "4ba0c212b412"
+  },
+  {
+   "id": "ca28cea51a67",
+   "title": "“80년 해군교육의 전통, 새로운 도전으로 잇는다”…교육사, 교관 역량강화 나서",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Vd09YZVFBU2RwZE8yV29MWm0ydC1JNHhLR3YxY3FtZXZsRUgwVDN6c3NFUEktbU9keTNzSHVUODJPbFlWTm5ONmhobkl1VUd6cEdWRQ?oc=5",
+   "source": "시사의창",
+   "published": "2026-11-05T00:38+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습지원센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "ca28cea51a67"
   },
   {
    "id": "c3d8fcb686b4",
@@ -5479,7 +5572,7 @@
    "direct": false,
    "tags": [],
    "univs": [],
-   "group": "2bb4b91b628c"
+   "group": "3da58076477e"
   },
   {
    "id": "03a6a00466a7",
@@ -5628,6 +5721,22 @@
    ],
    "univs": [],
    "group": "fb520f07a009"
+  },
+  {
+   "id": "3da58076477e",
+   "title": "경북도, 대학 계약학과 충원율 64%…전국 평균 웃돌고 수도권 수준 근접",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xQmN2cnVvWmhKTmhDS3liVXhXdFRDNFhpQ1BvWHV5YWN2WVZ1UUluNUtmd2tBMzVnSzI5bGY4RTNMTnhTd2NsanI0VXN5ZlI4QzhRM1hWOU4tVUJPWUNYZWJVbHZodUduSHJJ?oc=5",
+   "source": "웹플러스뉴스",
+   "published": "2026-11-02T08:15+09:00",
+   "first_seen": "2026-11-07T19:33+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "3da58076477e"
   },
   {
    "id": "2fdc1b57c3b3",
