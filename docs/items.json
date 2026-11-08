@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:51+09:00",
+ "updated": "2026-11-08T19:40+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -22,7 +22,7 @@
   {
    "name": "베리타스알파 RSS",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "total": 50
   },
   {
@@ -59,7 +59,7 @@
   {
    "name": "구글 뉴스: 대학 교수법 워크숍",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "name": "구글 뉴스: RISE 전문대학",
@@ -69,17 +69,17 @@
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 25
+   "count": 24
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
    "ok": true,
-   "count": 31
+   "count": 29
   },
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 23
+   "count": 26
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
@@ -98,6 +98,140 @@
   }
  ],
  "items": [
+  {
+   "id": "454e9f05bba3",
+   "title": "경북전문대, 교원 AI 기반 스마트 교육 역량 강화",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YWmljTWxDNjlJd2stZWlCRnp0b3ZJamNwUHdtSWRjY3BwNzNfMjM1VFdsa0NCTHRhVE9laUF0djdBbFB6MnhMT3QxOHg2RXIxejE4ZU9wV1F0M3k3eDFJWGRjdGtYLXpELUE?oc=5",
+   "source": "www.hidomin.com",
+   "published": "2026-11-08T17:13+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "528473f70323"
+  },
+  {
+   "id": "52b1886375ac",
+   "title": "오산대, 학사학위 전공심화 진단서 호텔조리학과 ‘S등급’·호텔관광경영학과 ‘A등급’",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81dFE5S2hwVHdvVElCLXdsdl91WnRGZm5XdTVKQjVySHBRSXctUXlYM0dPaXZBanFkMlRTMC1WajJzSDYxMDV5cVhLX2U2WWM0NFhtZU5jZ18zYXlCU29Ia253?oc=5",
+   "source": "경기신문",
+   "published": "2026-11-08T16:59+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "오산대"
+   ],
+   "group": "52b1886375ac"
+  },
+  {
+   "id": "44a107736cbb",
+   "title": "대전과기대 간호학과, 간호로봇 아이디어 9건 발굴",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04Z3pURUhLMlNvSTFLYlFxYU1SMUVvbTBnU3ExQWZjYXFNeVpmLWRVVUlCNkY1VzB6ajdPYVc0NXVUZmV2S0tUNGFvUXJnRDMwU1p6aXN1RDN3bGVpUjJfckRuOTVWWGpNWUE?oc=5",
+   "source": "금강일보",
+   "published": "2026-11-08T14:57+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대전과기대"
+   ],
+   "group": "9a2974e0b36b"
+  },
+  {
+   "id": "4dba2e9162f3",
+   "title": "울산과학대 주관 ‘2026 전문대학 연합 AI 해커톤’ 경주서 성황리 마무리",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nTUZBYWNUOF9rZl9OM1BkYXZaUjBsYjNPdlZFS1VBOHg1MnR4Q196MnRKand0VW5KanNuVUxSNHd4SFFsakR3ZlFOcDJ5MmRpY1BwVXpUNHA4LWtIVVJwbzdXVHA4c0VxTGfSAW5BVV95cUxNcjB6aUxGTDJjZjctRXpRVHJQV0pXWnk5YU1ReFNrbndrU1EzZ3kzMW90MmkzVjFEaWV4N28xV0FYcjdSTV9lb01udnRYUzN3MjBWaS1wVHk3NlhUamxOS2hqOFNvTGtwa0c1V3NJdw?oc=5",
+   "source": "울산매일 - 울산최초, 최고의 조간신문",
+   "published": "2026-11-08T14:06+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "울산과학대"
+   ],
+   "group": "968556e3af40"
+  },
+  {
+   "id": "77a5f7c3dde5",
+   "title": "[기획] 의대·인서울 입시는 과열…대학 학술 수준은 제자리",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aRmx4UU9aN0stWmRzT2w2UW1XcUFGbFR6SkpsaDlFLUNEaVFaN0hlcVBhb2QxM04ycEtSRjNIZDRta191S2pMMG5ybnlBQlVKQktEOFBzank5RElySF9iZEVST0E?oc=5",
+   "source": "매일일보",
+   "published": "2026-11-08T12:00+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "77a5f7c3dde5"
+  },
+  {
+   "id": "3da7846630df",
+   "title": "순천제일대 ‘산학협력 학술 EXPO’... 미래인재 양성 성료",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xVEo4Vk1IbXI0QXdoSzd1cmhhOTVmM29zdUZQLXVUTnoxOE1MTXpsMkEwS2Nyako3TlVmcEE4LXlYYm9zb0F1WThjQWZ2amNxeGwyeTdHYlZaZGR6YXVUQm55ZkpCUVZSVTBQVjVR?oc=5",
+   "source": "전국매일신문",
+   "published": "2026-11-08T11:12+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "순천제일대"
+   ],
+   "group": "5a4383cabe7b"
+  },
+  {
+   "id": "f3e83543717f",
+   "title": "경북전문대 캡스톤디자인 아이디어 경진대회 성료",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xWDV2czQ5eWpUYlpPeThSakpEcHVGM0Z3OThaeDAtc0Y1Vzk4ZHhtZzdENl9xNElPSjR0eHluVXdxb0c0MDdDRXY4cE9kcFlLZWVsT2lGNFhldw?oc=5",
+   "source": "경북매일",
+   "published": "2026-11-08T11:08+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "5d493c2a18d9"
+  },
   {
    "id": "f0c4913641cc",
    "title": "한국농어촌공사 구미김천지사, 농촌일손돕기 행복충전활동 실시",
@@ -307,6 +441,26 @@
     "창원대"
    ],
    "group": "bddacc1d90b1"
+  },
+  {
+   "id": "366ade01913f",
+   "title": "건국대 글로컬캠 의과대학 김주원 교수 연구팀 '2026 제78회 대한생리학회' 우수 구두발표상/우수 포스터상 수상",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635774",
+   "source": "베리타스알파",
+   "published": "2026-11-06T17:22+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "[베리타스알파=정다빈 기자] 건국대 글로컬캠은 의과대학 생리학교실 민진영 박사와 박주민 석사과정생(지도교수 김주원)이 2026 제78회 대한생리학회 학술대회에서 각각 우수 구두발표상과 우수 포스터상을 수상했다고 밝혔다. 3일부터 5일까지 사흘간 개최된 이번 학술대회에서 김주원 교수 연구…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "건국대"
+   ],
+   "group": "c8e00699cb1d"
   },
   {
    "id": "3a0cbfaae863",
@@ -2687,6 +2841,22 @@
    ],
    "univs": [],
    "group": "c473b77e2c45"
+  },
+  {
+   "id": "0d4da0ed6630",
+   "title": "쿠키뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uLWpkbGM2MmdWOGFPZFBoemNiaGEtNE5QTFFMR0wzWTQzd0dvc2tPMXc5TkpBa3ZONU5hMDFRNE5obnV2TnYwY3lIdlBoaFRNSzQ5S1RpT2FyQ0ZjZENDSlB4Q1A?oc=5",
+   "source": "쿠키뉴스",
+   "published": "2026-11-04T17:33+09:00",
+   "first_seen": "2026-11-08T19:40+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "0d4da0ed6630"
   },
   {
    "id": "f7975eddf019",
