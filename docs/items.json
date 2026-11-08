@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:33+09:00",
+ "updated": "2026-11-08T09:51+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -34,7 +34,7 @@
   {
    "name": "구글 뉴스: \"교수학습센터\"",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
@@ -49,7 +49,7 @@
   {
    "name": "구글 뉴스: \"교수학습개발센터\"",
    "ok": true,
-   "count": 8
+   "count": 9
   },
   {
    "name": "구글 뉴스: 전문대학 교수법",
@@ -69,7 +69,7 @@
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 29
+   "count": 25
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
@@ -79,12 +79,12 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 24
+   "count": 23
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 26
+   "count": 29
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -98,6 +98,62 @@
   }
  ],
  "items": [
+  {
+   "id": "f0c4913641cc",
+   "title": "한국농어촌공사 구미김천지사, 농촌일손돕기 행복충전활동 실시",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NejhGOTdPRGtpNXJnSHNVMk5qeFNzbHIybWZTazh3YzJNclBpRkJRcDN4Y1lTWGJveDVSb0JtNEM4akNwQWlzbEtlX2RXM1VSY2dlVDJfY01EOE1PQWc?oc=5",
+   "source": "구미일보",
+   "published": "2026-11-07T21:52+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "f0c4913641cc"
+  },
+  {
+   "id": "5a4383cabe7b",
+   "title": "순천제일대, 산학협력 EXPO서 AIDX 인재양성 성과 선보여",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ERjJvQmJETG5BNnJNNFBpTTZabUs1OUdvLXZqTm5vUjVMUUZpcGZMM3VoSVdJM0xoSXAzSFlfb0piWFMxa05FaEFxUm56c1UzRWlHa3BVZmFsYUlGNExCb0VQWF81VUF5S3haajZmN2dqQQ?oc=5",
+   "source": "중앙이코노미뉴스",
+   "published": "2026-11-07T20:34+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "순천제일대"
+   ],
+   "group": "5a4383cabe7b"
+  },
+  {
+   "id": "08c4fbcc47d7",
+   "title": "울산과학대, 6개 대학 AI 해커톤서 미래형 웹서비스 경연",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nLUY0R1BxTFA1REdXLU9XNVdsc19MX0dlWGtMbmh0VUhxeFY3VmRPWkhEakdoSGF5MFlGWjNDNkJfb2VZWmhxRVM0aEMybnA0TV9RSUl2V1VjUWNUTDVSaDEwZHlYUXgtc2ZERg?oc=5",
+   "source": "중도일보",
+   "published": "2026-11-07T19:39+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "울산과학대"
+   ],
+   "group": "08c4fbcc47d7"
+  },
   {
    "id": "520652bff718",
    "title": "나다움놀이터 사회적협동조합, 성운대학교 평생교육원과 지역사회 평생교육 활성화 위한 업무협약 체결",
@@ -559,7 +615,8 @@
    "summary": "[한국대학신문 박인규 기자] 국가미래직업교육포럼 지혜나눔스쿨(NFVEF_WSS, 대표 한광식)은 오는 25일 오후 7시부터 9시까지 제4회 지혜나눔스쿨(Wisdom Sharing School)을 연다. 이 행사는 NFVEF 회원과 다양한 직업교육 전문가들이 참여해 지식과 경험, 가치를…",
    "via": [
     "한국대학신문 RSS",
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": true,
    "tags": [],
@@ -1233,7 +1290,8 @@
    "first_seen": "2026-11-06T10:43+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대 AI 교육"
    ],
    "direct": false,
    "tags": [
@@ -1340,6 +1398,26 @@
     "정화예술대"
    ],
    "group": "9e60d47178da"
+  },
+  {
+   "id": "1b2eb0df2356",
+   "title": "영진전문대, 일본 취업생 1000명 넘었다",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fem5BbHg1akhZbUZWU2JSWjl0VTlWbFlJT0p1ZE5OX0xDamp2ZkU0YzdnMVVhb1J1bHJqa2R1bzVzZVp0UkpXdkw0djRsMXV3MlItcDFPa1JhQQ?oc=5",
+   "source": "한국경제",
+   "published": "2026-11-05T18:30+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "영진전문대"
+   ],
+   "group": "1b2eb0df2356"
   },
   {
    "id": "2183815073b5",
@@ -2547,6 +2625,26 @@
     "한국기술교육대"
    ],
    "group": "e2530de6f0ac"
+  },
+  {
+   "id": "ad31083fab35",
+   "title": "영진전문대·포항흥해공고와 협약형 특성화고 육성 맞손…산업 현장 수요 반영한 맞춤형 인재양성",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDY1U5dl8zTjhibEs5SE9fQW15cjlSckF2V3I5S1h2R2QzTVU3LVZkN3E2WDdZc1VCaUt3bFI2NmQ3TC1VQWJyTDExT0JNUQ?oc=5",
+   "source": "전자신문",
+   "published": "2026-11-04T17:44+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "영진전문대"
+   ],
+   "group": "7a0e8dd47ea1"
   },
   {
    "id": "47b53c9a0296",
@@ -4219,6 +4317,22 @@
    "group": "cebc1da566bc"
   },
   {
+   "id": "b32c224c4205",
+   "title": "오늘의 인사 종합",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNkU5Q0NqQlN3Q3dVZGp4VWJXSzB1MndNVk0xVWljYVprNlZ4eXM1Sk03WUFVemUxVVdGYUVXOFFqS2p3YjlZTnN5bDJRWVo2TGxRNndaOTc1eU5IdDhfMEZodkNFbjQzM2N1b3E4ODAxaU5sV0tsLTJ5eHM1VndoMg?oc=5",
+   "source": "edaily.co.kr",
+   "published": "2026-11-03T17:08+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습개발센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "b32c224c4205"
+  },
+  {
    "id": "d391cf344ee5",
    "title": "동명대, ‘AI 교육 리더교수’ 중심으로 AI 교육 생태계 조성",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEUzFzeTZ3Tkc4aDhpa3BDS2QtbVFZd0kwVUwtWmV0SnZwdmFKc0JRQlNHRVRobndCZG1PWkR4ajZDRGQtQi1BU0UtUDFmbjJNNDJyMHRJQXljanBpMi0tZl9Va2ZVQnVPS3pfdEpRVFZEcGs5?oc=5",
@@ -5575,6 +5689,22 @@
    "group": "3da58076477e"
   },
   {
+   "id": "bd7038e93541",
+   "title": "학생만의 문제가 아니었다…교수·직원도 마음이 아픈 대학",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0czIyVEYtRUphNVhhTHREbG96Rk9SSDUzMF9oUU9MWjhyN1pUb1BJMTEwbjh2RlIxS0xrMUlycm9ZOVJaTU5sQVRzVFYwOU9JYl84dW9iRWjSAVRBVV95cUxOYVVZQUVQazMtUTIyNHdUNTQ5cUx1QmNEZ0JJV254bndXNkV1eGpxUU1iLTNDZ0gtQjNGcWxic0gwMDQ3NDN6T3Z1alFEZkFpN3JmYXM?oc=5",
+   "source": "세계일보",
+   "published": "2026-11-02T12:03+09:00",
+   "first_seen": "2026-11-08T09:51+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "bd7038e93541"
+  },
+  {
    "id": "03a6a00466a7",
    "title": "서정대학교, ‘2026 서정 EXPO’ 개막.... 20여 년 성장의 힘으로 미래를 열다",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xUjlXNkJYQUNiN2ZWZ3EzZWJwSDlfaUZpUnh0cVUySzlxZ2pUQjZlOUdkU192N0NybDltcW82TFhsUjdfVHNxM3pQQ2p4STZGOXhfMXgxU3Y2RkFiOTRUR25fOHdoay1JRDE0YkJsblRpZ9IBckFVX3lxTE4xUjlXNkJYQUNiN2ZWZ3EzZWJwSDlfaUZpUnh0cVUySzlxZ2pUQjZlOUdkU192N0NybDltcW82TFhsUjdfVHNxM3pQQ2p4STZGOXhfMXgxU3Y2RkFiOTRUR25fOHdoay1JRDE0YkJsblRpZw?oc=5",
@@ -5860,7 +5990,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [],
