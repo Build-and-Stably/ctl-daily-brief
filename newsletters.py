@@ -28,7 +28,7 @@ TESSERACT = os.environ.get("TESSERACT", "tesseract")
 MIN_PAGE_CHARS = 80  # 이보다 글자가 적은 쪽은 이미지로 보고 OCR한다
 OCR_DPI = 200  # 흑백 200dpi가 300dpi나 컬러보다 뉴스레터에서 더 잘 읽혔다
 UNIV_RE = re.compile(r"([가-힣]{2,12}(?:대학교|대학))")
-PARSER_VERSION = 1  # 글자 읽는 방식을 바꾸면 올려서 기존 파일도 다시 읽게 한다
+PARSER_VERSION = 2  # 글자 읽는 방식을 바꾸면 올려서 기존 파일도 다시 읽게 한다
 HANGUL_GAP_RE = re.compile(r"(?<=[가-힣]) (?=[가-힣](?:[^가-힣]|$))")
 
 
