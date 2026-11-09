@@ -1,6 +1,6 @@
 # CTL 데일리 브리프
 
-국내 대학 교수학습센터·RISE·교육정책 소식을 매일 자동으로 모아 보여주는 페이지입니다.
+국내 대학 교수학습·교육과정·원격교육·RISE·교육정책 소식을 매일 자동으로 모아 보여주는 페이지입니다.
 
 - **페이지**: GitHub Pages (`docs/index.html`)
 - **수집**: `collect.py` — GitHub Actions가 매일 06:30, 12:30(KST)에 실행하고 `docs/items.json`을 갱신합니다.

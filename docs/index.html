@@ -10,17 +10,17 @@
 :root{
   --bg:#f6f7f9; --surface:#fff; --text:#1d2330; --muted:#677084; --line:#e3e6ec;
   --accent:#2457c5; --accent-soft:#e8eefb; --new:#d9480f; --chip:#eef0f4;
-  --t1:#2457c5; --t2:#0b7a5c; --t3:#7a4cc2; --t4:#b5520b; --t5:#9a3366;
+  --t1:#2457c5; --t2:#0b7a5c; --t3:#7a4cc2; --t4:#b5520b; --t5:#9a3366; --t6:#7a6a00; --t7:#0b6f8a;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#12151b; --surface:#1b1f27; --text:#e6e9ef; --muted:#9aa3b5; --line:#2b313d;
   --accent:#7ea2ff; --accent-soft:#22304f; --new:#ff8a50; --chip:#262b36;
-  --t1:#7ea2ff; --t2:#4fd1a5; --t3:#b79bff; --t4:#ffaa66; --t5:#f08bbd;
+  --t1:#7ea2ff; --t2:#4fd1a5; --t3:#b79bff; --t4:#ffaa66; --t5:#f08bbd; --t6:#e0c94f; --t7:#5ccfe6;
 }}
 :root[data-theme="dark"]{
   --bg:#12151b; --surface:#1b1f27; --text:#e6e9ef; --muted:#9aa3b5; --line:#2b313d;
   --accent:#7ea2ff; --accent-soft:#22304f; --new:#ff8a50; --chip:#262b36;
-  --t1:#7ea2ff; --t2:#4fd1a5; --t3:#b79bff; --t4:#ffaa66; --t5:#f08bbd;
+  --t1:#7ea2ff; --t2:#4fd1a5; --t3:#b79bff; --t4:#ffaa66; --t5:#f08bbd; --t6:#e0c94f; --t7:#5ccfe6;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 "Noto Sans KR",system-ui,sans-serif}
@@ -51,7 +51,7 @@ h1{margin:0;font-size:22px;letter-spacing:-.02em}
 .meta{font-size:12.5px;color:var(--muted);margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
 .summary{font-size:13.5px;color:var(--muted);margin:6px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tag{font-size:11.5px;font-weight:500;padding:1px 8px;border-radius:999px;background:var(--chip)}
-.tag[data-i="0"]{color:var(--t1)}.tag[data-i="1"]{color:var(--t2)}.tag[data-i="2"]{color:var(--t3)}.tag[data-i="3"]{color:var(--t4)}.tag[data-i="4"]{color:var(--t5)}
+.tag[data-i="0"]{color:var(--t1)}.tag[data-i="1"]{color:var(--t2)}.tag[data-i="2"]{color:var(--t3)}.tag[data-i="3"]{color:var(--t4)}.tag[data-i="4"]{color:var(--t5)}.tag[data-i="5"]{color:var(--t6)}.tag[data-i="6"]{color:var(--t7)}
 .new{font-size:11px;font-weight:700;color:var(--new);border:1px solid currentColor;border-radius:4px;padding:0 5px}
 .univ{font:inherit;font-size:12px;border:0;background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:1px 7px;cursor:pointer}
 details.more{margin-top:8px;font-size:13px}
@@ -79,7 +79,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
 <body>
 <header><div class="wrap">
   <h1>CTL 데일리 브리프</h1>
-  <div class="sub">국내 대학 교수학습센터 · RISE · 교육정책 소식 모음 · <span id="updated">불러오는 중…</span></div>
+  <div class="sub">국내 대학 교수학습 · 교육과정 · 원격교육 · RISE · 교육정책 소식 모음 · <span id="updated">불러오는 중…</span></div>
   <div class="stats" id="stats"></div>
 </div></header>
 
@@ -113,7 +113,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
 <footer>기사 제목·요약·링크만 모아 보여주며, 저작권은 각 언론사에 있습니다. 매일 아침 자동 갱신됩니다.</footer>
 
 <script>
-const TAGS = ["교수학습", "RISE·재정사업", "AI·에듀테크", "정부·기관", "전문대학"];
+const TAGS = ["교수학습", "교육과정", "원격교육", "RISE·재정사업", "AI·에듀테크", "정부·기관", "전문대학"];
 const state = { q: "", period: 7, tag: "전체", univ: null };
 let DATA = { items: [], status: [] };
 const $ = id => document.getElementById(id);

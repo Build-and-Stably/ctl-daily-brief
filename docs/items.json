@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-09T10:08+09:00",
+ "updated": "2026-11-09T15:53+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
    "ok": true,
-   "count": 17,
+   "count": 19,
    "total": 50
   },
   {
    "name": "교수신문 RSS",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "total": 50
   },
   {
    "name": "대학저널 RSS",
    "ok": true,
-   "count": 1,
+   "count": 6,
    "total": 40
   },
   {
@@ -28,23 +28,23 @@
   {
    "name": "에듀진 RSS",
    "ok": true,
-   "count": 0,
+   "count": 2,
    "total": 50
   },
   {
    "name": "구글 뉴스: \"교수학습센터\"",
    "ok": true,
-   "count": 3
+   "count": 8
   },
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
    "ok": true,
-   "count": 2
+   "count": 3
   },
   {
    "name": "구글 뉴스: \"교수학습혁신센터\"",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   {
    "name": "구글 뉴스: \"교수학습개발센터\"",
@@ -74,7 +74,7 @@
   {
    "name": "구글 뉴스: 전문대 AI 교육",
    "ok": true,
-   "count": 28
+   "count": 29
   },
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
@@ -84,12 +84,52 @@
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 29
+   "count": 28
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
    "ok": true,
    "count": 8
+  },
+  {
+   "name": "구글 뉴스: 대학 교육과정 개편",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "name": "구글 뉴스: 전문대학 교육과정",
+   "ok": true,
+   "count": 31
+  },
+  {
+   "name": "구글 뉴스: 전공자율선택 대학",
+   "ok": true,
+   "count": 11
+  },
+  {
+   "name": "구글 뉴스: \"원격교육\" 대학",
+   "ok": true,
+   "count": 9
+  },
+  {
+   "name": "구글 뉴스: \"원격강좌\"",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "구글 뉴스: 대학 원격수업",
+   "ok": true,
+   "count": 14
+  },
+  {
+   "name": "구글 뉴스: K-MOOC",
+   "ok": true,
+   "count": 6
+  },
+  {
+   "name": "구글 뉴스: 공유대학 온라인 강좌",
+   "ok": true,
+   "count": 15
   },
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
@@ -99,19 +139,710 @@
  ],
  "items": [
   {
-   "id": "32c9908dcea1",
-   "title": "[전문대교협 소식] 교무·입학처장 연수 열려… 대학 교육혁신 방향 공유",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wbUpkQ3BmN0hMUGhsalFRVHdXdThUX2tJaC1rNDRDRUtBdWVOWVJacUZvWGlTMnpqYzI2bnEwVVo5YnNLRnF1LWZnbE9JbTYzeVM0bHN5dUkxOVJfb0ZOb1lOMWhEdw?oc=5",
-   "source": "한국대학신문",
-   "published": "2026-11-09T09:04+09:00",
-   "first_seen": "2026-11-09T10:08+09:00",
+   "id": "a0f6b0605ef4",
+   "title": "한양대 경영대, 슈피겐코리아와 산학연계 교육 협약…실제 기업 과제 수행",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212179",
+   "source": "교수신문",
+   "published": "2026-11-09T15:47+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "한양대 경영대학이 지난 3일 슈피겐코리아와 산학연계 교육 협력을 위한 업무협약을 체결했다. 양 기관은 실제 기업 과제에 인공지능을 접목한 실무 중심 교육과정을 운영하고, 학생들의 현장실습과 취업 기회 확대를 위해 협력한다고 밝혔다. 이번 협약은 기업 현장에서 발생하는 문제를 대학 교육과…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "교육과정",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "한양대"
+   ],
+   "group": "a0f6b0605ef4"
+  },
+  {
+   "id": "0d0c431ced28",
+   "title": "MBC아카데미원격평생교육원, 사회복지사2급 학습설계 지원",
+   "link": "http://www.dhnews.co.kr/news/view/1065595318381310",
+   "source": "대학저널",
+   "published": "2026-11-09T15:43+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 임춘성 기자] 사회복지사 전문 학점은행제 교육원인 MBC아카데미원격평생교육원(원장 천애리)은 사회복지사2급 자격증을 최단 11개월 만에 취득할 수 있는 학습 일정의 마지막 개강반을 오는 11월 13일 운영한다고 밝혔다.사회복지사2급은 별도의 국가시험 없이 정해진 교과목과 학력…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [],
+   "group": "0d0c431ced28"
+  },
+  {
+   "id": "b0ed52599073",
+   "title": "제시문 면접에서 사회문제가 나왔다면?…시사 상식보다 중요한 '생각의 과정'",
+   "link": "https://www.edujin.co.kr/news/articleView.html?idxno=54566",
+   "source": "에듀진",
+   "published": "2026-11-09T15:27+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "“인공지능이 채용 과정에서 차별적인 결과를 낳는다면, AI 활용을 제한해야 할까요?”대학 제시문 면접에서 충분히 활용할 수 있는 사회문제형 질문이다. 이때 수험생들은 AI 관련 최신 뉴스나 실제 기업 사례를 얼마나 알고 있는지가 중요하다고 생각하기 쉽다.그러나 제시문 기반 면접은 단순한…",
+   "via": [
+    "에듀진 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "b0ed52599073"
+  },
+  {
+   "id": "5451dc25c3b7",
+   "title": "경남정보대, 마산대·춘해보건대와 AIDX 사업 합동 워크숍",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk9KWW42TDJNRy0tanlIeWxSQ3VudlBCX1BQb3NybDFlb0JQaDlpNmN0T0FEdkp2b2ZvczQyeVRlTF9xSUY5Z3Q3V1ZBQ1F5QW1lZHA0MWxMbHlaV05nbWlsYjJfSEpTaVlhY0htY3RoS0FKb2x1Zk1pUjNfWVpGYk5NRWNFUEc1TUMzaXVR?oc=5",
+   "source": "국제신문",
+   "published": "2026-11-09T15:22+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경남정보대",
+    "마산대",
+    "춘해보건대"
+   ],
+   "group": "ad72de82461f"
+  },
+  {
+   "id": "f513092e78a2",
+   "title": "대학 교육에 AI 바람… 동남권 3개 전문대, 전공·행정 혁신 공유",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kUGNjbXJkQXg2TGdHZnRpMEljakVvUzFmcDUwMHlWaEZCS1lVN3RlNXI0TVB5Zm1GSnBDNXlkQUx6bGpXdHI0b2pJZjZtLXFvTF9CR0NjN1VzdWV1a3dtbw?oc=5",
+   "source": "아시아경제",
+   "published": "2026-11-09T15:18+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [],
+   "group": "f513092e78a2"
+  },
+  {
+   "id": "f3ca2bbaa4d8",
+   "title": "춘해보건대, 학사학위 전공심화과정 운영진단 ‘전 학과 최고 등급(S·A)’ 달성",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQekl4ejRUV0NSaFhQSUJiSUkxMlY5YWtNRU42OEtKTTBVUGcxRTU2c3VJRUNZd0VIdEF4b1pPUDlGNjVPTUVZZmZhbElCRTMzMHpTUWVVWmtlNXhkT1NBVlZTVWd3eDg?oc=5",
+   "source": "울산시민신문",
+   "published": "2026-11-09T15:12+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "춘해보건대"
+   ],
+   "group": "3e6ad552a190"
+  },
+  {
+   "id": "fda3a279d62e",
+   "title": "춘해보건대 전공심화 7개 학과, 운영진단 모두 상위등급",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CcnVZUlFDdE5yLWhkSFQ1ZTlHd1c1dUJFWFh6MVpVZjYtSFRod09WWnpaZWR3bnktSDA3TVlqbUpVckE1RHoxWHpKUk1zNDA2TUlUOVNEVS1CWnFXckwwWUgycXk?oc=5",
+   "source": "중도일보",
+   "published": "2026-11-09T15:07+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "춘해보건대"
+   ],
+   "group": "3e6ad552a190"
+  },
+  {
+   "id": "058deff73af5",
+   "title": "AI로 산학협력 업무 혁신, 4개 권역 전문대 머리 맞대",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45WXRKODZud2s1N1FfZG1HdjBINkM5MEpmbG1Fa1RRcHNmdWExTWExMzh0VXI5QkluclZjVm1qMzRNZVdZUFdqanpRZk91dGFaMzVVVy1DeG9EUFlCZ0ZrTlpjNk5LLW5GNUE?oc=5",
+   "source": "아이굿뉴스",
+   "published": "2026-11-09T14:59+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [],
+   "group": "058deff73af5"
+  },
+  {
+   "id": "00b1e3a591a8",
+   "title": "국립한밭대, 청년고용정책 박람회 성료…누적 1천416명 참여",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5idnJlUEY4dVJnTlBCT1lNNjBoalE0NU5NblVJSnZ3akxWT3haM0IwNERzcG9OVHBsZWVZa3M3dVBXQU5zSGloRmxMNmt2WGZUY2c2MXc2bjRFTTZPN1l4NTNhUjd3ZE1DblE?oc=5",
+   "source": "충청매일",
+   "published": "2026-11-09T14:55+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "국립한밭대"
+   ],
+   "group": "00b1e3a591a8"
+  },
+  {
+   "id": "ad72de82461f",
+   "title": "동남권 3개 전문대학, AI·디지털 전환 해법 찾는다…경남정보대 주관 'AIDX 컨소시엄 워크숍' 성료",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5idXN6a3BLclNLb3ZvN1FKU1BYS0hwV3BCUWRWQ3hxdGJNQ0lPMUxEN1lYR1kyei1DckNBVnF5aTRwZjk0ZU5SbWhzWTh6NHRXemotMkJDem90Z3VwYnl4V1U2MFg?oc=5",
+   "source": "베타뉴스",
+   "published": "2026-11-09T14:42+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "ad72de82461f"
+  },
+  {
+   "id": "2fc35bd8e412",
+   "title": "국립공주대, 미국 플로리다대에 ‘제1호 글로벌 연구거점센터’ 구축",
+   "link": "http://www.dhnews.co.kr/news/view/1065591314382529",
+   "source": "대학저널",
+   "published": "2026-11-09T14:41+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 이선용 기자] 국립공주대학교 산학협력단가 미국 플로리다대학교에 제1호 글로벌 연구거점센터를 구축했다. 글로컬대학사업의 일환으로 추진 중인 이번 사업을 통해 국립공주대는 글로벌 공동연구 Global Branch를 본격 추진하게 됐다.국립공주대는 지난 8월 미국 플로리다대학교와…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "국립공주대",
+    "플로리다대"
+   ],
+   "group": "2fc35bd8e412"
+  },
+  {
+   "id": "3e6ad552a190",
+   "title": "춘해보건대, 전공심화과정 운영진단 ‘전 학과 S·A등급’ 획득",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92MFRRZjg3dXFUY3ZhZUpYV1hTaFhZNFNnVm53VmhWQnJ4cHVibUxUWVlMV2JIV1pJal9TaWxRMmE4X0ZsQ1lTUUdVSEJWa21hajBRWWJBXzlxVkl4OEwyQTVMVE9xWWgteXM0ZA?oc=5",
+   "source": "경상일보",
+   "published": "2026-11-09T14:36+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "춘해보건대"
+   ],
+   "group": "3e6ad552a190"
+  },
+  {
+   "id": "0b68d2f37d64",
+   "title": "한국유아교육·보육복지학회, 한성대서 ‘2026년 추계학술대회’ 개최",
+   "link": "http://www.dhnews.co.kr/news/view/1065581805607771",
+   "source": "대학저널",
+   "published": "2026-11-09T14:17+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 이선용 기자] 한국유아교육·보육복지학회가 ‘2026년 추계학술대회’를 지난 7일 한성대 미래관 DLC에서 개최했다.이번 학술대회는 <영유아 발달과 놀이를 기반으로 한 AI 교육혁신: 관찰·기록·평가 패러다임 재정립>을 주제로, 급변하는 디지털 교육환경 속에서 인공지능(AI)…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "0b68d2f37d64"
+  },
+  {
+   "id": "597f98a458c9",
+   "title": "고등학교 진학 앞둔 중3 학부모, 고교학점제 미리 배운다",
+   "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1jTWFsaks3SUt5c0FBRHZHYnFNYjU5TjNFU3BMWmRRZlBtaWNkLUptbE5jUzhvVWhSVEVBdFNpSkhmRGlC?oc=5",
+   "source": "일등방송",
+   "published": "2026-11-09T14:13+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "597f98a458c9"
+  },
+  {
+   "id": "44ce5c61faff",
+   "title": "울산과학대학교, 성인학습자 대상 ‘AI·DX 기초과정’ 운영…학과별 맞춤형 AI 교육 펼쳐",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iNlZFa040QjBxVGRGQjlKNm5fdFlMV3RZUnN5UERXcmdaT0FqQlZfU0tKd1ZndHd6dEtPR25hc0JRaGJCLXhDT3NDNl9XdWpoU1lEWWg4OWpRaFVrd29WRkhUbVh3UFhBdWdoNQ?oc=5",
+   "source": "경상일보",
+   "published": "2026-11-09T14:10+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "울산과학대"
+   ],
+   "group": "44ce5c61faff"
+  },
+  {
+   "id": "ad11cacdc142",
+   "title": "한밭대, 한밭모비 mini 공학페스티벌 개최",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kVVBjeEEyQVo0eTVFYnBaVmFpTl84UkE4RkFtbEZVdkNSa3gzVkFoSlV0S1JGeldQV0owVWUtaExoTHRXdDZ0aE1LdmZiUGJxUml3TlRacVZUVmRaMDNZT1Frelp0Z2lwbWU0?oc=5",
+   "source": "충청뉴스",
+   "published": "2026-11-09T14:08+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한밭대"
+   ],
+   "group": "261443a51bfb"
+  },
+  {
+   "id": "15bc97422212",
+   "title": "동의과학대 DITAI허브센터, `AI 네이티브 교수법 마스터링` 특강 개최",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU08wRUZQQnZjaG9wS2VpdFlHSXc0YWZyQzgyMEg4ODExSk40Sl9ic25wclM2TE5UakxnUUR6Ml9FS0JrZUl3RUlzOWQySHliREE5UjgxQ0FYbVRSX1oxeVdLWjhHaG56SFBTZEJyVVk5a0RVOW10Wk8tUEtSbDhJLTlUNFVWQkx5aWtTZVdB?oc=5",
+   "source": "국제신문",
+   "published": "2026-11-09T13:56+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법",
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "동의과학대"
+   ],
+   "group": "351bade2e1f2"
+  },
+  {
+   "id": "8ba0b5fe597e",
+   "title": "경북전문대, 봉화서 정착·창업 교육…외국인 주민 자립 돕는다",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMSU9FTVRRUlpZT3JqQjREaFJBMExSWXBaYmtMSjgwZjJzX1lReUdYNklYQk5xa3h1SWtRdm8yQ0kwbWVMRUZ5TW5pVkFHQ3ZTTGdNQg?oc=5",
+   "source": "이투데이",
+   "published": "2026-11-09T13:44+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "8ba0b5fe597e"
+  },
+  {
+   "id": "ba7e3ecd7d4e",
+   "title": "안산대 앵커사업단 '경기 앵커 인재양성 분과 전문대 공동 PBL 경진대회' 대상 수상",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635915",
+   "source": "베리타스알파",
+   "published": "2026-11-09T12:09+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[베리타스알파=김하연 기자] 안산대(총장 윤동열) 앵커사업단은 지난 10월 28일 경기도경제과학진흥원에서 열린 '경기 앵커 인재양성 분과 전문대 공동 PBL 경진대회'에서 간호학과 학생들로 구성된 NursEase팀이 대상을 수상했다고 밝혔다.이번 경진대회는 경기앵커전문대협의회 인재양성…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "교수학습",
+    "RISE·재정사업",
+    "전문대학"
+   ],
+   "univs": [
+    "안산대"
+   ],
+   "group": "ba7e3ecd7d4e"
+  },
+  {
+   "id": "9ce6795c317c",
+   "title": "안경 바꿔쓰고 안경테 만지작 ‘덜미’…AI 스마트안경 시험 부정행위 전국 4건 적발",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212233",
+   "source": "교수신문",
+   "published": "2026-11-09T12:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[교육부, 스마트안경 관련 내신 부정행위 전수조사 결과 발표] 시험 시간 내내 안경테를 만지작거리는 학생, 시험 도중 일반 안경을 인공지능(AI) 스마트안경으로 바꿔 쓰는 학생, 안경에 비친 수상한 초록색 불빛까지…. AI 스마트안경을 이용한 시험 부정행위가 잇따라 확인됐다. 교실과 강…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크",
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "9ce6795c317c"
+  },
+  {
+   "id": "dee36ba72934",
+   "title": "한수원, 산학연 원자력 교육 협력체계 구축",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HVGhldmRQSVVyUzZSLXFTMm9obHU3eVR1Z1RsMFlHNWhyVFBsZm5fVnFWc1lkck1wQU5COFk4ZUFYQnpwYWlVT3VtNDRhSTk2VlZUWXoyVHRxMWdBTnJHcGh1UXZuOTJqeTR3Y0U5Ui1Kc2V4NFBr0gF3QVVfeXFMTUdUaGV2ZFBJVXJTNlItcVMyb2hsdTd5VHVnVGwwWUc1aHJUUGxmbl9WcVZzWWRyTXBBTkI4WThlQVhCenBhaVVPdW00NGFJOTZWVlRZejJUdHExZ0FOckdwaHVRdm45Mmp5NHdjRTlSLUpzZXg0UGs?oc=5",
+   "source": "핀포인트뉴스",
+   "published": "2026-11-09T11:45+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "dee36ba72934"
+  },
+  {
+   "id": "dc87e8ad04af",
+   "title": "여기스터디사이버평생교육원, 11월 16일 사회복지사 2급 개강",
+   "link": "http://www.dhnews.co.kr/news/view/1065580102902370",
+   "source": "대학저널",
+   "published": "2026-11-09T11:29+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 임춘성 기자] 교육부 평가인정 학점은행제 원격교육기관인 여기스터디사이버평생교육원이 오는 11월 16일 사회복지사 2급 자격증 취득과정을 개강하고 수강생을 모집한다. 이번 과정은 2026년 2학기 마지막 개강반으로, 수강 신청은 11월 15일까지 홈페이지에서 가능하다.사회복지사…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "원격교육",
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "dc87e8ad04af"
+  },
+  {
+   "id": "d2341ef4a1bc",
+   "title": "대동대, 온천천 환경 보호 위한 ‘줍깅’봉사활동 실시",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600205",
+   "source": "한국대학신문",
+   "published": "2026-11-09T11:26+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[한국대학신문 김윤미 기자] 대동대학교(총장 민경화) 지역사회ECO봉사센터(센터장 김지원 교수)는 전문대학 혁신지원사업의 일환으로 지난달 27일, 대학 인근 온천천 일대에서 지역사회 환경보전을 위한 환경정화 봉사활동을 실시했다고 9일 밝혔다.올해 세 번째로 진행된 이번 활동은 기후변화와…",
+   "via": [
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업",
+    "전문대학"
+   ],
+   "univs": [
+    "대동대"
+   ],
+   "group": "d2341ef4a1bc"
+  },
+  {
+   "id": "40402a134dcb",
+   "title": "해수부, 'K-오션MOOC' 신규 강좌 5편 공개…유튜브로 해양교육 확대",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13eDZhbEdTckNnRUFDaG9rdkpuM2hIX0NPeVZ5QXJvdjNTOFgxZVpPSjhLZlZuRzhmc2J5ZUJ1bEtGUzB1RDRWRTBfTHRkWHFRZy1LZFYxc1lQV29LVktqMTF4Qng4Q2FYU0hr?oc=5",
+   "source": "해사신문",
+   "published": "2026-11-09T11:09+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "40402a134dcb"
+  },
+  {
+   "id": "b17a6817102b",
+   "title": "국립한밭대 '2026학년도 도전! 프레젠테이션 경진대회' 성료",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635906",
+   "source": "베리타스알파",
+   "published": "2026-11-09T11:05+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[베리타스알파=김하연 기자] 국립한밭대(총장 오용준) 교수학습센터는 지난 4일 교내에서 '2026학년도 도전! 프레젠테이션 경진대회'를 개최했다고 전했다.이번 경진대회는 재학생들의 자기주도적 학습 역량과 프레젠테이션 역량을 강화하고, 우수한 학습 경험과 성과를 공유해 학생 간 학습 교류…",
+   "via": [
+    "베리타스알파 RSS",
+    "구글 뉴스 · \"교수학습센터\""
+   ],
+   "direct": true,
+   "tags": [
+    "교수학습"
+   ],
+   "univs": [
+    "국립한밭대"
+   ],
+   "group": "b17a6817102b"
+  },
+  {
+   "id": "261443a51bfb",
+   "title": "국립한밭대, ‘2026 한밭모비 mini 공학페스티벌’ 성료",
+   "link": "http://www.dhnews.co.kr/news/view/1065577875782559",
+   "source": "대학저널",
+   "published": "2026-11-09T10:53+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 이선용 기자] 국립한밭대학교 공학교육혁신센터가 지난 5일 교내 창의혁신관(N11동)에서 ‘2026 한밭모비 mini 공학페스티벌’을 성황리에 개최했다.이번 행사는 국가 산업발전의 핵심역량인 공학인재 양성의 중요성을 널리 알리기 위해 마련됐다.특히 참여 대학의 학생 및 관계자뿐…",
+   "via": [
+    "대학저널 RSS",
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [
+    "국립한밭대"
+   ],
+   "group": "261443a51bfb"
+  },
+  {
+   "id": "29d0af0b5a6b",
+   "title": "전남대 광주·전남 지식재산전문인력양성센터, 글로벌 IP 교류 간담회",
+   "link": "http://www.dhnews.co.kr/news/view/1065577423784397",
+   "source": "대학저널",
+   "published": "2026-11-09T10:53+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[대학저널 이선용 기자] 전남대학교 광주·전남 지식재산전문인력양성센터는 지난 4일 교내 AI융합대학 204호에서 ‘글로벌 IP 교류 간담회’를 개최했다.이번 간담회는 해외 지식재산(IP) 전문가와의 교류를 통해 국가별 지식재산 교육 및 산업 동향을 공유하고, 지식재산융합전공과 일반대학원…",
+   "via": [
+    "대학저널 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "교육과정",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "전남대"
+   ],
+   "group": "29d0af0b5a6b"
+  },
+  {
+   "id": "9b0da7e05fa3",
+   "title": "건국대 글로컬캠퍼스 국제교육원 '외국인 유학생의 밤' 개최",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635889",
+   "source": "베리타스알파",
+   "published": "2026-11-09T10:49+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[베리타스알파=김하연 기자] 건국대 글로컬캠퍼스 국제교육원(원장 이창진)은 오는 11월 13일 오후 6시 30분 교수연구동(K3) 1층 컨벤션홀에서 '2026학년도 2학기 외국인 유학생의 밤(International Students' Night 2026)'을 개최한다고 밝혔다. 이번 행…",
+   "via": [
+    "베리타스알파 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "건국대"
+   ],
+   "group": "9b0da7e05fa3"
+  },
+  {
+   "id": "a92bbdb484f3",
+   "title": "동의과학대, 전체 교원 대상 ‘AI 네이티브 교수법’ 특강 진행",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ueGI1MU5SelMteHZYdFJZWUhRWkplR1BQUzF3cU9lenFJVWl6MElXbC1uTFRLd3AzZUtJZFRYbmtxQ3RYVmVNeHFieDloR0xaTXdYemN0akt0R2JZTnE5VA?oc=5",
+   "source": "아시아경제",
+   "published": "2026-11-09T10:46+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법"
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "동의과학대"
+   ],
+   "group": "351bade2e1f2"
+  },
+  {
+   "id": "351bade2e1f2",
+   "title": "동의과학대 DIT AI허브센터 전체 교원 대상 ‘AI 네이티브 교수법' 특강 개최.. '교원 104명 참석'",
+   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635879",
+   "source": "베리타스알파",
+   "published": "2026-11-09T10:41+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[베리타스알파=김하연 기자] 동의과학대 DIT AI허브센터(센터장 조수범)가 10월27일 전체 교원을 대상으로 ‘AI 네이티브 교수법 마스터링' 특강을 진행했다고 9일 밝혔다.이번 특강은 교육부 ‘AID(AI+Digital) 전환 중점 전문대학 지원사업'의 하나로 기획됐다. 교원들이 사…",
+   "via": [
+    "베리타스알파 RSS",
+    "구글 뉴스 · 전문대학 교수법",
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": true,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크",
+    "정부·기관",
+    "전문대학"
+   ],
+   "univs": [
+    "동의과학대"
+   ],
+   "group": "351bade2e1f2"
+  },
+  {
+   "id": "24eed85ea1f7",
+   "title": "청주대 호텔외식경영학과, 특급호텔 현장교육 실시",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600200",
+   "source": "한국대학신문",
+   "published": "2026-11-09T10:37+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[한국대학신문 김윤미 기자] 청주대학교(총장 김윤배)는 호텔외식경영학과가 신세계그룹 계열 조선팰리스 서울 강남 호텔을 방문해 ‘호텔 현장교육’을 진행했다고 9일 밝혔다.이번 현장교육은 2026학년도 2학기 취업역량 강화 프로그램의 일환으로, 청주대 대학혁신지원사업의 지원을 받아 현장실습…",
+   "via": [
+    "한국대학신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "청주대"
+   ],
+   "group": "24eed85ea1f7"
+  },
+  {
+   "id": "f89776ca0b83",
+   "title": "‘20년 만의 공대 총장’…서울대 신임 총장 최종 후보에 최해천 석좌교수",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212215",
+   "source": "교수신문",
+   "published": "2026-11-09T10:24+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "서울대학교 제29대 총장 최종 후보로 최해천(64) 기계공학부 석좌교수가 선출됐다.서울대 이사회는 지난 8일 회의를 열고 총장추천위원회(총추위)가 추천한 후보 3명에 대한 면접과 투표를 거쳐 최해천 교수를 신임 총장 최종 후보로 확정했다고 밝혔다. 신임 총장은 교육부 장관의 제청을 거쳐…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [
+    "서울대"
+   ],
+   "group": "f89776ca0b83"
+  },
+  {
+   "id": "701f956ebe64",
+   "title": "숭의여대, 난치성질환연합회와 함께 음악 공연…환우들과 따뜻한 나눔 잇다",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600196",
+   "source": "한국대학신문",
+   "published": "2026-11-09T10:06+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[한국대학신문 김윤미 기자] 전국 7개 여자전문대학 혁신협의체인 ‘WE-Connect’의 공동 사회공헌 프로젝트 ‘나눔이음 릴레이’가 숭의여대 참여로 마지막 여정을 마무리 했다. 숭의여자대학교(총장 박경호)는 한국희귀·난치성질환연합회와 함께 음악공연을 진행하며 환우와 가족들에게 따뜻한…",
+   "via": [
+    "한국대학신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "숭의여대"
+   ],
+   "group": "701f956ebe64"
+  },
+  {
+   "id": "aa8961df3e16",
+   "title": "한국폴리텍대학 동부산캠퍼스, 요르단대학 교원에 용접·배관기술 전수",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZaUQ4WWxocHo2VGJ0cTZpX0hDODVncGh1bE5MY2NWalZtcW0zeTdBSUVkZVZoc1BNQ1NFLWVlcTlqZnY5c2RWNjZqRnFEWXA5VEwzX1J4RXg4dw?oc=5",
+   "source": "파이낸셜뉴스",
+   "published": "2026-11-09T09:35+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한국폴리텍대",
+    "요르단대"
+   ],
+   "group": "aa8961df3e16"
+  },
+  {
+   "id": "768a4f78be11",
+   "title": "AI를 어떻게 사용하면 인문학 연구를 긍정적으로 자극할 수 있을까",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600192",
+   "source": "한국대학신문",
+   "published": "2026-11-09T09:10+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[한국대학신문 이정환 기자] 서울대학교 인문대학은 오는 11일(수) 국어국문학과 박진호 교수를 초청해 ‘인문대학 2026학년도 2학기 브라운 백 미팅 - AI와 모든 것’ 제8차 행사를 개최한다.‘AI와 모든 것’은 인문대학 교원들이 생성형 AI를 교육과 연구에 어떻게 활용하고 있는지,…",
+   "via": [
+    "한국대학신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "768a4f78be11"
+  },
+  {
+   "id": "32c9908dcea1",
+   "title": "[전문대교협 소식] 교무·입학처장 연수 열려… 대학 교육혁신 방향 공유",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600190",
+   "source": "한국대학신문",
+   "published": "2026-11-09T09:04+09:00",
+   "first_seen": "2026-11-09T10:08+09:00",
+   "summary": "[한국대학신문 김소현 기자] 한국전문대학교육협의회(회장 김영도, 동의과학대 총장)는 지난 5일부터 6일까지 여수 베네치아호텔에서 열린 ‘교무·입학처장협의회 연수’에 참여해 대학의 입학과 학사 운영을 위한 정책 정보를 제공하고 주요 현안에 대한 대응 방향을 공유했다.이번 연수는 교무·입학…",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회",
+    "한국대학신문 RSS"
+   ],
+   "direct": true,
    "tags": [
     "정부·기관",
     "전문대학"
@@ -122,16 +853,18 @@
   {
    "id": "9f57e948bec7",
    "title": "[전문대교협 소식] 교무학사관리자 연수 참여로 학사 운영 내실화 지원",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YX2dTdFRkOTBfanRWa1hLOGV2a1hkem5CWFhvNE5BRWpkSXBGNkZ3bXl3Zkgyd2RMUHF1RjgxdFRhc1RQUW02ektXZm9UdTdnb1RkTWQ0X2tzWWYta2tfdUpnYVZKZw?oc=5",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600189",
    "source": "한국대학신문",
    "published": "2026-11-09T09:04+09:00",
    "first_seen": "2026-11-09T10:08+09:00",
-   "summary": "",
+   "summary": "[한국대학신문 김소현 기자] 한국전문대학교육협의회(회장 김영도, 동의과학대 총장)는 지난 2일부터 4일까지 부산 코모도호텔에서 열린 ‘교무학사관리자협의회 하반기 연수’에 참여해 고등직업교육 정책과 학사제도에 대한 이해를 높이고 대학 현장의 실무역량 강화를 지원했다.이번 연수는 교무학사관…",
    "via": [
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
-   "direct": false,
+   "direct": true,
    "tags": [
     "정부·기관",
     "전문대학"
@@ -142,17 +875,18 @@
   {
    "id": "e21f940e5813",
    "title": "[전문대교협 소식] 제159차 이사회 개최… 2027 사업 계획 논의",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjcjQ1aDE3OUIxSW5IajhJckE4b3gyWXhRdTJLdm5TcTFvdU9UazBLSVBtMVpUckFvb01uUUp1TWpQUzMybHR3QncyUU5BNXpaVEM2VmMyV1hxTW5HUE0za2U5eTJfQQ?oc=5",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600186",
    "source": "한국대학신문",
    "published": "2026-11-09T09:03+09:00",
    "first_seen": "2026-11-09T10:08+09:00",
-   "summary": "",
+   "summary": "[한국대학신문 김소현 기자] 한국전문대학교육협의회(회장 김영도, 동의과학대 총장)는 지난 5일 청주 오스코 회의실에서 제159차 이사회를 개최하고, 2027년도 사업계획과 예산 등 전문대학 발전과 회원대학 지원을 위한 주요 안건을 논의했다.본격적인 안건 심의에 앞서 구본억 교육부 전문대…",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "한국대학신문 RSS"
    ],
-   "direct": false,
+   "direct": true,
    "tags": [
     "정부·기관",
     "전문대학"
@@ -170,7 +904,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
@@ -181,6 +916,44 @@
     "울산과학대"
    ],
    "group": "968556e3af40"
+  },
+  {
+   "id": "f510b6c87b01",
+   "title": "온라인 성악교육의 대표주자 서울사이버대, 재학생들 '도쿄 국제 성악 콩쿠르 그랑프리' 입상 쾌거",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YMkJoVENIUjkydDdiRUFPYmlMUjVGMEo0Qlh2clNNampUeXZSVVlSYkxaRVpNb3ZULV9ieEhzX1BYVnAtMmZtTlNkQUdkVjZ0ckhRTGJhMWpMSl9XaWR3NDBoX0pLQmdqdnptSlJubV8zNHR6VjcyS21nMA?oc=5",
+   "source": "비욘드포스트",
+   "published": "2026-11-09T08:55+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "서울사이버대"
+   ],
+   "group": "f510b6c87b01"
+  },
+  {
+   "id": "bfbce548a43d",
+   "title": "한양대, ‘기업 참여형 글로벌 이커머스’ 실무교육 …현장실습·채용까지 연계",
+   "link": "https://news.unn.net/news/articleView.html?idxno=600187",
+   "source": "한국대학신문",
+   "published": "2026-11-09T08:54+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "[한국대학신문 김연주 기자] 한양대학교 경영대학(학장 이상명)이 글로벌 모바일 액세서리 기업 ㈜슈피겐코리아(대표이사 김대영)와 지난 3일 서울 성동구 한양대 서울캠퍼스 경영관에서 산학연계 교육 협력을 위한 업무협약을 체결했다. 이번 협약을 통해 양 기관은 실제 기업 과제에 인공지능(AI…",
+   "via": [
+    "한국대학신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "한양대"
+   ],
+   "group": "bfbce548a43d"
   },
   {
    "id": "080ee0995c8e",
@@ -231,6 +1004,7 @@
    ],
    "direct": true,
    "tags": [
+    "원격교육",
     "RISE·재정사업"
    ],
    "univs": [
@@ -353,6 +1127,56 @@
    "group": "1adb2fb1e93c"
   },
   {
+   "id": "57fcd6c70bdf",
+   "title": "[공지사항] HCCC 프로그램 신청, 오는 13일까지",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XR3RFSnprRzVDVXdnRzAxQXRDMkV4dVVUUUh5dHJXT1JVQjdfTnQ5OFdZbGhmMXRrTFFwSGEzYUJlQzJGZnJjaXZMZEYtVTkteklTdzBDbjdNUC1KeHpJZy1IUEdZUEZuT0RZ?oc=5",
+   "source": "한림학보",
+   "published": "2026-11-09T00:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"교수학습혁신센터\""
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "57fcd6c70bdf"
+  },
+  {
+   "id": "34a8b5684a7b",
+   "title": "[영국] 중학교 조기 시험교육에 제동…“폭넓은 배움 보장”",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PVWN5UDNESDNBNExUaGlSNTFiZXBUZWQ2RHFrUWRKdTBqNnktSHFyekdVejRFelNVUkRnbHVxa3hLd2I5UExDTlVMdVVFUFlZR1N6ZXMxTnBKVEltT200MDZJOVpUV28?oc=5",
+   "source": "교육플러스",
+   "published": "2026-11-08T21:18+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "34a8b5684a7b"
+  },
+  {
+   "id": "dbe27ba0649c",
+   "title": "대구과학대, 우즈베키스탄 인재 108명 국내 유학길 연다",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uZTZNS3I1amhyeWxoXzFiaXRhUDAwR0FiVWZiS3QzTGZjX203NW9tZkphcGIwVUNGNzBtaG1sVUR0V1dLZU96RGhubHVEdVdhamdQc2prcEhTS21TUkRDVEZHU2R6R19ad2c?oc=5",
+   "source": "경북도민일보",
+   "published": "2026-11-08T20:07+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구과학대"
+   ],
+   "group": "dbe27ba0649c"
+  },
+  {
    "id": "b49378f1dc79",
    "title": "고대·홍대 세종캠퍼스 신입생 '5명 중 1명 이상' 서울 출신",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1raWp0dkFHTTZLcjFWd2l0S2U5b0tHUVdNQUs4dG0zYXRuTEFycXlERDNfMmYxWEpwZWFJRUlUdWk5ZlEzR29kdWR5TGVNbzZMQ2RLLWt5M1lNRWlqbk5SQl9lRE44bUlJTjNzTzFYUdIBb0FVX3lxTE1raWp0dkFHTTZLcjFWd2l0S2U5b0tHUVdNQUs4dG0zYXRuTEFycXlERDNfMmYxWEpwZWFJRUlUdWk5ZlEzR29kdWR5TGVNbzZMQ2RLLWt5M1lNRWlqbk5SQl9lRE44bUlJTjNzTzFYUQ?oc=5",
@@ -367,6 +1191,24 @@
    "tags": [],
    "univs": [],
    "group": "b49378f1dc79"
+  },
+  {
+   "id": "eb1c92cbdc77",
+   "title": "심해의 신비부터 해양 제국의 역사까지, 'K-오션MOOC'에서 쉽고 친숙하게 배운다",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jUndmeVk5allYcmZCaWV4WGxwRmU4RHltX0dlUWhGOTlsbzdXV0NnX0NlaUcyd09wR2hjcUNIb3o5a1kzaVlfaEdwa0hPOF9pUS1Fd3FfUjdQejE4eTZjVE9HckNEc0VzLWc?oc=5",
+   "source": "이즈보험",
+   "published": "2026-11-08T18:20+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "a2d3759ef0e3"
   },
   {
    "id": "454e9f05bba3",
@@ -399,7 +1241,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [],
@@ -407,6 +1250,56 @@
     "오산대"
    ],
    "group": "52b1886375ac"
+  },
+  {
+   "id": "b39c7dfa7038",
+   "title": "전남광주교육청, 중3 학부모 300여 명 대상 고교학점제 설명회",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRMWZXS0V2VWd3Ml9RVElqclBBUjgwLVJ0MU9vV3pKWE9NODJ2ZnJ1eFZRdl9vMi1OLTRYRDBZM25WdUVHX01TQmZXSFNuWnBWSmJKNlFvOTBRdW4xalJ3eE1MNEs2RDc0TW9mTl9sYVZkdw?oc=5",
+   "source": "중앙이코노미뉴스",
+   "published": "2026-11-08T16:46+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "b39c7dfa7038"
+  },
+  {
+   "id": "3adb5b120ad5",
+   "title": "고교학점제·2028 대입 개편…중3 학부모 진학 설계 지원",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wZlc4c3R4U2U0MnRNY0Y4dVBpX0NVTnQzY1VhQXItZm5lRV8zamNDNnBxSFQzOFNVeWJQNURDekU1TFoySER3RWtxcml3Si1OVm9mdGN6bEFYNU8zbURlaExDVnkteXdtOU9GOA?oc=5",
+   "source": "호남교육신문",
+   "published": "2026-11-08T16:10+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "3adb5b120ad5"
+  },
+  {
+   "id": "3f2967338629",
+   "title": "경북대, 2027학년도 외국인 유학생 지원자 38% 증가",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWXhmRFMwX24xR29GWlhOVGhfLUY4SURTajBhUUQ1eko5WXU3ekJuVWhmNDdIbFppbU1QY0tBc3BQMllWSkRNOVRJWldoZUgwaUFEckt0X05BYnRqSWZWWnVyX1o0Q1Zs?oc=5",
+   "source": "대경일보",
+   "published": "2026-11-08T15:06+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경북대"
+   ],
+   "group": "26e8ff55bd42"
   },
   {
    "id": "44a107736cbb",
@@ -449,6 +1342,42 @@
    "group": "968556e3af40"
   },
   {
+   "id": "a4cf198a46b7",
+   "title": "경북대, 2027학년도 외국인 신입생 지원 38% 증가…412명 접수",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mei13eEJRU0VaYThrN1RSbG1DbmJDczZtTFpfM3hqejQwQUV5TXp3TVVpbl9aY3o1TERmOFBEeGNrdWZVYThDeFdBVk90clAwdUtDR1YyUHZfUHV3V3VuSDR3NmlMZ3E0WHFIN0pHUFlYQQ?oc=5",
+   "source": "웹이코노미",
+   "published": "2026-11-08T13:09+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경북대"
+   ],
+   "group": "26e8ff55bd42"
+  },
+  {
+   "id": "10d544ea5664",
+   "title": "해수부, 'K-오션MOOC' 5개 신규 강좌 공개... 심해 생물부터 해양 역사까지",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Odm5sNG5CbEJPakVFOHlERkpzajFuMldYRHBBMkF6Y0lLVHlLdjQ2bkh1VjVIWFBOTXJvM1N0dlluR29LY0Jxay1lbHVjak1SLVZONlptZE1oYWh3?oc=5",
+   "source": "피디언뉴스",
+   "published": "2026-11-08T12:04+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "10d544ea5664"
+  },
+  {
    "id": "77a5f7c3dde5",
    "title": "[기획] 의대·인서울 입시는 과열…대학 학술 수준은 제자리",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aRmx4UU9aN0stWmRzT2w2UW1XcUFGbFR6SkpsaDlFLUNEaVFaN0hlcVBhb2QxM04ycEtSRjNIZDRta191S2pMMG5ybnlBQlVKQktEOFBzank5RElySF9iZEVST0E?oc=5",
@@ -463,6 +1392,24 @@
    "tags": [],
    "univs": [],
    "group": "77a5f7c3dde5"
+  },
+  {
+   "id": "d92e167df865",
+   "title": "\"바다의 숨겨진 세계를 열다\"…'K-오션MOOC' 해양 강좌 5편 공개",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54a05UbUtBOHRhbU5oSGdjSEdhM1dnaU5MVFFWaFhOTUtBbTBMbDlPRFpWbTJhaks4WkhQWjFldTNDbkVVUUZGdzAxOGphWDJKMkdfdVRBeXdIbzM0RXBSd2xkOWtJdzhTVGZXbG5n?oc=5",
+   "source": "국제뉴스",
+   "published": "2026-11-08T11:49+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "d92e167df865"
   },
   {
    "id": "bbd09f34a44e",
@@ -523,6 +1470,60 @@
    "group": "5d493c2a18d9"
   },
   {
+   "id": "7e06e7fa32c0",
+   "title": "한국영상대, 2027학년도 수시 2차 모집… 콘텐츠 17개 학과 88명 선발",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sZ3I1RXhIQUJjVTc0a01FZ0hfazFXYmJUbUhQNHVkZXluOXRFNXh2WjEwODNJMXQxZTJyNTB6WEx1VS1QWUpPM0xRMGNSekM4Rlg3NUdtSzU0N1FTVERiSDV2UTFWcTZJdnVxdVpB0gFuQVVfeXFMTmxncjVFeEhBQmNVNzRrTUVnSF9rMVdiYlRtSFA0dWRleW45dEU1eHZaMTA4M0kxdDFlMnI1MHpYTHVVLVBZSk8zTFEwY1J6QzhGWDc1R21LNTQ3UVNURGJINXZRMVZxNkl2dXF1WkE?oc=5",
+   "source": "충청신문",
+   "published": "2026-11-08T11:03+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한국영상대"
+   ],
+   "group": "5b709eb16a72"
+  },
+  {
+   "id": "53be9ee51975",
+   "title": "김한민 감독의 바다 이야기…'K-오션 MOOC' 신규 강좌 5편",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wa1J0ZU9PY2V6ejE2LWMyemR5cVB0ODRiWE8yZVR3TG1RNjgyYlJTYlNOWjNwejJpWUdQeW8zVWxzMGpzX2J4dGtCa3MtNW8xRjBpbFFiVmJydGJtWWM3V9IBYEFVX3lxTE9wa1J0ZU9PY2V6ejE2LWMyemR5cVB0ODRiWE8yZVR3TG1RNjgyYlJTYlNOWjNwejJpWUdQeW8zVWxzMGpzX2J4dGtCa3MtNW8xRjBpbFFiVmJydGJtWWM3Vw?oc=5",
+   "source": "연합뉴스",
+   "published": "2026-11-08T11:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "53be9ee51975"
+  },
+  {
+   "id": "a2d3759ef0e3",
+   "title": "'K-오션MOOC'에서 심해 신비~해양 제국 역사까지 다양하게 배운다 - 머니투데이",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBncGlmdHBOSW1ya0RMM2lpZlFsVU1jZ1c2Tzh4TlJYWTh2OEVhR1BBWVBTVUJBR0xlVzlUQzRkb3F4QXhFWHZTYU5IZ2pCY1AxNEZOVm8xbGVvcHlWZXBIQkdKYWJLMTNVclNjN1ctclPSAXBBVV95cUxQZ3BpZnRwTkltcmtETDNpaWZRbFVNY2dXNk84eE5SWFk4djhFYUdQQVlQU1VCQUdMZVc5VEM0ZG9xeEF4RVh2U2FOSGdqQmNQMTRGTlZvMWxlb3B5VmVwSEJHSmFiSzEzVXJTYzdXLXJT?oc=5",
+   "source": "머니투데이",
+   "published": "2026-11-08T11:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "a2d3759ef0e3"
+  },
+  {
    "id": "25d89c4f8bf1",
    "title": "강동대학교 스포츠건강학과, 2026년 교육성과 바탕으로 2027년 ‘스포츠재활학과’ 새 도약",
    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9HbzFPNWxCUENuYVBxZ3pIS09vVXF6YVdVYmkyaFVxMmVjcWR0SkJjcWZ3VnM5NndwUFhEM0w1eGhSa2RRcVZudXV3?oc=5",
@@ -540,6 +1541,42 @@
     "강동대"
    ],
    "group": "25d89c4f8bf1"
+  },
+  {
+   "id": "e465004c47c3",
+   "title": "\"고개 숙이면 집중력 부족?\"…中 대학 AI 감시 교실에 발칵 [차이나 워치]",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zTG5LdG0ya2Fid1MteWgzRGdVRW9lMWNUaDlUcUV4MXZLZFc5MTFfblRJNjFZMVRGaV9ScGY3cWVDN1JtVVVrZTcxNkc0amlmNnRtVU5Ka3pLQQ?oc=5",
+   "source": "한국경제",
+   "published": "2026-11-08T10:21+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "e465004c47c3"
+  },
+  {
+   "id": "e2a2abeb9b29",
+   "title": "경북대, 외국인 유학생 지원 38% 증가···'글로벌자율학부' 인기",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wTDFaczl2YjZNN2dJQTAxMWFXeHdVWlJuVnduMTBzZFd0U3NNcnZYVTdOdTBGc2xYNUxKR3hWSnprcHVnUVJaWlBFMXYzNXQ2Rm9CaDk4d0M?oc=5",
+   "source": "경북신문",
+   "published": "2026-11-08T07:21+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경북대"
+   ],
+   "group": "26e8ff55bd42"
   },
   {
    "id": "56a797206c18",
@@ -560,6 +1597,24 @@
     "군산대"
    ],
    "group": "56a797206c18"
+  },
+  {
+   "id": "03eeb430d982",
+   "title": "농생대, 7학부·1학과에서 4학부·8학과 되나",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pRG5QM3NPM28yY1lzc3VKMFl6UUgzTThCakgzYUZEeUY1SlVqa0k0cTdMWHZmNjEwUmROWDZ5Y0hOeGlqSHFTYUFsUGxoVzhBUlZrVC1UTDlJYy1ES0xqcEFtOG9yYzA?oc=5",
+   "source": "대학신문",
+   "published": "2026-11-08T03:32+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "농생대"
+   ],
+   "group": "03eeb430d982"
   },
   {
    "id": "f0c4913641cc",
@@ -636,6 +1691,24 @@
    "group": "08c4fbcc47d7"
   },
   {
+   "id": "5b709eb16a72",
+   "title": "한국영상대, 2027학년도 수시 2차 신입생 모집",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55RU95M01MMXNNS1pwelM0WGV1cTU3THQwV29RMFdXNU05bk15ellJLW14SS16ZUdBZUU2ZHBhQ0ZyMUpWRDFQVEUtLUNQaW9MdGhERlpDZVRianZnZWhTZTZVX2RVOGFkQWs1b3lIcGg?oc=5",
+   "source": "로컬투데이",
+   "published": "2026-11-07T18:29+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한국영상대"
+   ],
+   "group": "5b709eb16a72"
+  },
+  {
    "id": "73d0ffbda28c",
    "title": "동국대 WISE캠퍼스, `대학 AI 기본교육과정 개발 지원사업` 선정",
    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02eXpjS1hJcTZQX1ZYRFFDaXhjVF9NT29tVnllUDFlX3ZnWlhnZk9aOUFwUzB4OWxTMVRtdUIyOEVZZ0RjcWxfZjVSSmhoc0lNTlF4UVdrNlVLdWRxRjZ1Rg?oc=5",
@@ -648,6 +1721,7 @@
    ],
    "direct": false,
    "tags": [
+    "교육과정",
     "AI·에듀테크"
    ],
    "univs": [
@@ -734,6 +1808,24 @@
    "group": "6718a48415b4"
   },
   {
+   "id": "3b7a5979e2d0",
+   "title": "경복대, 2027 전문기술석사과정 신입생 모집…마감 30일",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41Unl4V25QMThJSE4xTUl5cVNoa3U4VTNhc2xTZ21VVDlmX2p1S3E1QWc1UHRlV3NuWnMwUTlCd1ZNYWgwWlp4bllXdHlJZXVNRmg0eHg4OHhCaU0?oc=5",
+   "source": "에너지경제신문",
+   "published": "2026-11-06T19:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경복대"
+   ],
+   "group": "50c6c3db8dac"
+  },
+  {
    "id": "528473f70323",
    "title": "전공별 AI 적용법 배운다…경북전문대, 교원 대상 스마트 교육",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fcld2TnZtNk43TDEzSEYzWm1DRWRWY0RMUEZnUzhsY0dSaDJ0MGhYUGtOM0IxWXBBM21Ic3gxVHRNQnZzbDBpdjhaSld5WnlsaVRjWG5BLXlLeDkzOUJVRThqMzNXZGxCdnM3QU1R?oc=5",
@@ -775,6 +1867,24 @@
    "group": "5d493c2a18d9"
   },
   {
+   "id": "9f61fe39ad3e",
+   "title": "중부대 원격대학원 정원문화산업학과, 2027학년도 전기 신입생 모집",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoaVpGWlpEXzV0V19CdjRKYTA1T0xia0REd3o1elVzbEl6LW9GZjNGVEFYNzVvXzVxQnNxRy0ybGtWVDdSTE9abUkybERBbHJSNWtMRml1MG90a29MakE?oc=5",
+   "source": "환경과조경",
+   "published": "2026-11-06T18:28+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "중부대"
+   ],
+   "group": "9f61fe39ad3e"
+  },
+  {
    "id": "9556abda80b3",
    "title": "교육부 “아무도 가보지 않은 길… 앵커 주체간 연대 강화해야”[2026 앵커 리더스 서밋]",
    "link": "https://news.unn.net/news/articleView.html?idxno=600168",
@@ -801,10 +1911,13 @@
    "first_seen": "2026-11-06T20:18+09:00",
    "summary": "[한국대학신문 정수정 기자] 대구대학교(총장 윤재웅)가 전공 선택부터 자기주도적 도전, 학업 적응과 진로 설계에 이르기까지 학생의 성장 여정을 잇는 교육혁신을 추진하고 있다. 전통적인 특성화 분야의 경쟁력을 바탕으로 학과 맞춤형 교육과 전공자율선택 지원을 확대하고, 학생이 스스로 정한…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전공자율선택 대학"
    ],
    "direct": true,
-   "tags": [],
+   "tags": [
+    "교육과정"
+   ],
    "univs": [
     "대구대"
    ],
@@ -827,6 +1940,44 @@
     "창원대"
    ],
    "group": "bddacc1d90b1"
+  },
+  {
+   "id": "2c8af3dcaa57",
+   "title": "[대학소식]커피머신 기술인력 키운다...경남정보대, 맞춤형 인재양성 박차",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oNHlBQWxUMndYZUNNM3U4Z1hsTnMwb2dxYjZOb1Vuc013QnZVdFFxa3Vua0QyYVpZYzM3bjBEclB2bGU1T3o3MWhkMkN0YXdrZlZOR3Q2Y1fSAVhBVV95cUxPaDR5QUFsVDJ3WGVDTTN1OGdYbE5zMG9ncWI2Tm9VbnNNd0J2VXRRcWt1bmtEMmFaWWMzN24wRHJQdmxlNU96NzFoZDJDdGF3a2ZWTkd0NmNX?oc=5",
+   "source": "아주경제",
+   "published": "2026-11-06T17:46+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "2c8af3dcaa57"
+  },
+  {
+   "id": "50c6c3db8dac",
+   "title": "경복대학교, 2027학년도 전문기술석사과정 신입생 모집… AI기반XR 및 디지털헬스케어 미래 인재 이끈다",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rWnhjWnVIcWdaTndieVI4Q3ZkSlN3aDlydGlteTFaZDJnUzRJbHdzN2JyM0J5VG95MzdIcHlQaVJVeGNyYkZrMjdWLThkZndzZlF6S3dWb0JQcFBjYVF1dHpn?oc=5",
+   "source": "경기신문",
+   "published": "2026-11-06T17:38+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경복대"
+   ],
+   "group": "50c6c3db8dac"
   },
   {
    "id": "366ade01913f",
@@ -885,6 +2036,22 @@
    "group": "2c2caef2cd62"
   },
   {
+   "id": "76e8148d380c",
+   "title": "대학생들의 전공 역량으로 전통시장에 새로운 활력",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeVVCVFp1dVMxNExma0xmc3pSV2xLY1hEWW01V1Ixems4LTF5MlNLeXQ5SWlKTnF6bDh2LUlyeVp2ZDlMXy04NFIyZXVSV3o1WXg2djFkdHB2RWE3Z2RRMlRsNWtoS3JrY09rTWg1MVZxaXJFa3hIMTVLVy1HVE83M2tEOTFTdi11dVdGV0RR?oc=5",
+   "source": "국제신문",
+   "published": "2026-11-06T17:12+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "76e8148d380c"
+  },
+  {
    "id": "32710aa9ea54",
    "title": "광주보건대 교양교육센터 '광주향교 현장체험형 인성교양교육' 운영",
    "link": "https://www.veritas-a.com/news/articleView.html?idxno=635770",
@@ -931,7 +2098,8 @@
    "first_seen": "2026-11-06T20:18+09:00",
    "summary": "[한국대학신문 박인규 기자] 대구가톨릭대학교(총장 성한기)는 학생들의 전공 선택의 자율성을 넓히고 AI·디지털 기반 맞춤형 지원과 심리·정서 돌봄을 연결하며 학생 성장 중심의 교육혁신을 이어가고 있다. 학생이 자신의 적성과 가능성을 탐색하고, 스스로 배움의 경로를 설계하며, 대학 생활에…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전공자율선택 대학"
    ],
    "direct": true,
    "tags": [
@@ -1106,6 +2274,27 @@
    "group": "968556e3af40"
   },
   {
+   "id": "7e2fac90cd6e",
+   "title": "세종대, 2026 HUSS 위험사회 총장단협의회서 학점교류 및 현장 중심 AI 교육 확대 논의",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qOFMtX2hsVWRmOTU1ZXNxN1NMWVVzUWxGa3pOTDJfY3U5eHZ6OFFHbGl6RmFtdHE5RU14NFZjRnZpUHR6QkJnVTZJRDRwVV9BNXdfNjZSNW5jMmRXT3l2d1NSYnhGcDZfZ1E?oc=5",
+   "source": "프레스맨",
+   "published": "2026-11-06T15:42+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "세종대"
+   ],
+   "group": "7e2fac90cd6e"
+  },
+  {
    "id": "9a2974e0b36b",
    "title": "대전과기대 간호학과, AI·로봇 활용 미래 간호서비스 창업아이디어 9건 발굴",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wRWM4dkF1T3owOElMbHRVTHpIUVVzcXhxWExrdTJGR28yaUZZc1JxQkRpRmNvYnE1ZERXV1lGRWI0UVcwaHBiT2VLTU9ibVh3bTJiWGdrTG1ZblRhNUFnb1pWUjMzV29u?oc=5",
@@ -1124,6 +2313,24 @@
     "대전과기대"
    ],
    "group": "9a2974e0b36b"
+  },
+  {
+   "id": "26e8ff55bd42",
+   "title": "경북대 '글로벌자율학부' 인기↑…외국인 신입생 135명 지원",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ybm41b1FJc1FLUlZEbkIzTEdtcDlObURkNFVFaFhvSjlfaFhFM0xrcy1TaXBHQ01KclZtUE0wSGNRQVRNdE1oa2VLTGVXUXducG9tRGVyZTY2NXNoR0Zz?oc=5",
+   "source": "뉴스1",
+   "published": "2026-11-06T15:41+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경북대"
+   ],
+   "group": "26e8ff55bd42"
   },
   {
    "id": "e8278bb882a2",
@@ -1236,6 +2443,8 @@
    ],
    "direct": true,
    "tags": [
+    "교육과정",
+    "원격교육",
     "RISE·재정사업"
    ],
    "univs": [
@@ -1243,6 +2452,24 @@
     "충남앵커공유대"
    ],
    "group": "6f7d8425b3b8"
+  },
+  {
+   "id": "cd74a4a1f05b",
+   "title": "건국대, ‘KUmbrella 사랑의 김장봉사’로 지역사회에 온기 전달",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93M19WWkl1TXJLVzRvUzVZblBBU3paNkU3cFdOdndBRVY4LXdUeWZLM1hfUXROSW9xMWRiY0hSaDBWWEFnU016djNreGlGRVhXTDQySmhob2JkcHNJRjRpRm1WNVd1QQ?oc=5",
+   "source": "press24(프레스24)",
+   "published": "2026-11-06T14:18+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격교육\" 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "건국대"
+   ],
+   "group": "cd74a4a1f05b"
   },
   {
    "id": "597e4a002ab0",
@@ -1327,6 +2554,25 @@
    ],
    "univs": [
     "오산대"
+   ],
+   "group": "a255828be2b2"
+  },
+  {
+   "id": "3b17f6ec7d02",
+   "title": "대전과기대, 학사학위 전공심화과정 운영진단 '최우수'",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qbXNSSlNTU0dDVmNTR0Zmc1VrTVpOQ3VpZnhfdXA0TDVCNnlyaUpZMnJNcTNpbzQ2NUdvUHBYQTZfdk1pOGduQ21NQjltc01qUHRMVGotWEhpc28xRWpiYnJsT3o0SnFLZXNiMg?oc=5",
+   "source": "충청뉴스",
+   "published": "2026-11-06T13:35+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편",
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대전과기대"
    ],
    "group": "a255828be2b2"
   },
@@ -1436,14 +2682,15 @@
    "first_seen": "2026-11-09T10:08+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [],
    "univs": [
     "대구과학대"
    ],
-   "group": "f4d504acde60"
+   "group": "ebf6a2eea46e"
   },
   {
    "id": "7e7ec070265d",
@@ -1454,7 +2701,8 @@
    "first_seen": "2026-11-06T20:18+09:00",
    "summary": "[한국대학신문 김연주 기자] 울산과학대학교(총장 조홍래)가 6일 오전 울산과학대 동부캠퍼스 행정본관 E-스튜디오에서 재학생을 대상으로 ‘AI·DX Special Talk’ 1차 특강을 개최했다.‘AI·DX Special Talk’는 AID전환중점전문대학지원사업의 지원으로 운영하는 202…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": true,
    "tags": [
@@ -1523,6 +2771,24 @@
     "선문대"
    ],
    "group": "f08b613120b8"
+  },
+  {
+   "id": "58930c309366",
+   "title": "연암대학교, 2026년 농업계학교 교육지원사업 융복합 성과 공유",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmUl9RQTZ6OVhNQmtfRGlhQmdJUXZjX1hzRlZNY3lTRmtLRjlRVGpDUVhBSVhLSDk4cUk0bTZwdU5TVmo3ZXVNenV5NWVaR2xOOFBKVWlneXFxaTNKVERaMTBwRVhGRmR4V3F5X0NCdTk?oc=5",
+   "source": "로컬투데이",
+   "published": "2026-11-06T11:16+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 공유대학 온라인 강좌"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "연암대"
+   ],
+   "group": "58930c309366"
   },
   {
    "id": "280734149c69",
@@ -1621,6 +2887,24 @@
     "서울예대"
    ],
    "group": "12a219f0eeac"
+  },
+  {
+   "id": "7403ecc20c50",
+   "title": "[전공 가이드] 경희대 자율전공학부, 30개 전공 소개한 '2026 전공 탐색 가이드북' 발간",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hU3BEZUtzaVhwWVRUNGdlanJRYTJXdE51a0wyY2VZa25pWkRmLXZPai13bE5VZVc2LWhTUjRjQTlRbmtQOG1pdkt0Zi1VbUMwMVpQc2NmY2hoY1k0ZGszNk90WGJpUQ?oc=5",
+   "source": "교육을 비추다",
+   "published": "2026-11-06T10:12+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경희대"
+   ],
+   "group": "7403ecc20c50"
   },
   {
    "id": "e582cd1f92ad",
@@ -1840,6 +3124,22 @@
    "group": "e2c099a414ae"
   },
   {
+   "id": "60c9cf936e83",
+   "title": "UC, SAT·ACT 입시 재도입 검토 본격화",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEbm11VEM1OE5wZ1dydmdmOWVqeXJ0SEJMOXZCZXpsdjJJRHFaTUhMZ0xvM005cUZkUkVfVFRHb2g5YlV1WjMwc25KdzFpSmhFb0hRWW9RRzd5RGdSNGdMbUlES1pKN1lWRGFUUFIyOWc2MkV2N0E?oc=5",
+   "source": "미주조선일보",
+   "published": "2026-11-06T09:13+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "60c9cf936e83"
+  },
+  {
    "id": "16f21bf3ca55",
    "title": "서일대 KS-SQI 전문대학(서울) 부문 8년 연속 1위.. '학생 중심 교육혁신 성과 인정'",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQVVEzYnF3a3VpRjFUbHJRWUdaTm5WYVFfNzhGNXhiUVVXckZuLXR5YkN4aXFZMm1CdVBfaExqeGUyRW9XSG9fYURTR0xqOFRXRmR6ME0ybEZhZ2pkcVNVLWNmeENpRFZIclVIeg?oc=5",
@@ -1978,6 +3278,46 @@
    "group": "1b2eb0df2356"
   },
   {
+   "id": "b6fa2e2502fa",
+   "title": "한국항공대, ‘피지컬 AI와 월드 모델’ 세미나 개최…차세대 AI 두 갈래 조망",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KQVI5dE0xWjg1TkNUZjdKRTVycHlFeHZ0RUhDczhidjFqOTdxX3I0UHBDWVZxT1o5SF9JdU1YLTRiLVRKWWZpQ2tOY3hQUmNDa05DLXVsZTNRTFZaLU1feVI3VUZ1YVJYVXI4aQ?oc=5",
+   "source": "press24(프레스24)",
+   "published": "2026-11-05T18:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격교육\" 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "한국항공대",
+    "차세대"
+   ],
+   "group": "b6fa2e2502fa"
+  },
+  {
+   "id": "a670456c113f",
+   "title": "[후속취재] 군 e-러닝 ‘가뭄에 단비’··· 전용 강좌 신설로 정원 확대",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83aWdRenMwR2dGUFl5V29RbndKVUlWYWYwakVNVjFVdC01c1JlSHAzZDNzeFhUc1M3ZjRwNy10LVpBSllrSUp0bG1CYktHWHRCX01CVVhVQy1saWxIampuSlU0UThrcTJVNVpkYjd1bDczd9IBdkFVX3lxTE5EakpOalJYLUphMDY5QVBXTjVSMFNaT3V1a294RkZaQ3YzUnlfMno0RFA4R1RJM3JIdjE3bkRBSUp4bXowNGpHVmltZFhWc1FxOXp6MFNaVDZiY0pUejQ1V0JoYU85b20tU29zOWRFZ1o3b1c1RlE?oc=5",
+   "source": "채널PNU",
+   "published": "2026-11-05T18:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격강좌\"",
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "a670456c113f"
+  },
+  {
    "id": "2183815073b5",
    "title": "거제대, GJU인재역량인증제 인식 확산 프로그램 운영",
    "link": "https://news.unn.net/news/articleView.html?idxno=600079",
@@ -2114,6 +3454,22 @@
    "group": "e2c099a414ae"
   },
   {
+   "id": "677df6c6cbac",
+   "title": "채플·학점포기제 난색 표한 대학본부···4대 요구안 모두 논의 진전 없어",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sUURIX0FiWFpIWU1tUmE2dmJuWk5maDNyS2dzMjRYNWxKVG1pLTczQ1MwVV9wTzVFaUxSZG9Tc0F4RkVHNTJCaDBmQlFCUy1GZVFUdjUxbGJnd0JDYVh3ZUZlUndKX1NLV0HSAW5BVV95cUxQcFkzTVczcVgzVHBFQnl2VGlyRkVDQmFaQkFTZ1pVU0Zxd25pelFnVWVtNzduaU5zTk8tSlduemE2bkRsUjlRc19pMmZEUWJKeGl6ZDRKZjU4c3FuRDRHYUZhMDlLOUZoY2M0Qm53dw?oc=5",
+   "source": "이대학보",
+   "published": "2026-11-05T17:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "677df6c6cbac"
+  },
+  {
    "id": "799bb46931a4",
    "title": "서울시립대, KOICA와 ‘자메이카 토지행정 역량강화’ 성과 공유… K-Geo Festa서 중남미 인사 초청",
    "link": "https://news.unn.net/news/articleView.html?idxno=600072",
@@ -2168,6 +3524,24 @@
    "tags": [],
    "univs": [],
    "group": "2ac6d64c8e65"
+  },
+  {
+   "id": "2a1065931946",
+   "title": "[정시분석] 용인대, 경쟁률보다 전형부터 봐야…충원도 학과별 차이",
+   "link": "https://www.edujin.co.kr/news/articleView.html?idxno=54489",
+   "source": "에듀진",
+   "published": "2026-11-05T16:44+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "용인대 정시는 같은 나군 모집이라도 학과에 따라 수능 반영비율과 전형방법이 크게 달라진다. 자율전공 특별전형은 수능 100%로 선발하지만, 일반학생전형은 수능 100%부터 실기 70%, 기초체력 70% 반영까지 모집단위별 차이가 있다. 따라서 경쟁률과 입결을 비교하기 전에 전형방법부터…",
+   "via": [
+    "에듀진 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [
+    "용인대"
+   ],
+   "group": "2a1065931946"
   },
   {
    "id": "82340a5d3f20",
@@ -2297,7 +3671,8 @@
    "first_seen": "2026-11-05T20:21+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [],
@@ -2558,6 +3933,24 @@
    "group": "0ce228cb523f"
   },
   {
+   "id": "8fccb03d6e56",
+   "title": "OECD 교육국장 \"한국, 교육과정보다 대입시험 바꾸는 게 중요\"",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fR2wxQlZFSEROdzdUT2YtcHF1QU1GRlpQTjRZRlBpeU1hcW92RjMwS1FZb1MtSGs0SzQ1eTNwaEt3V3FXNGhXOE50T2Rjb0NzSGxocWFvY0tyZWvSAWBBVV95cUxQbEdSSnU0UjVsSDJOZGkwSWNhYldsenhMUEZ2Z3EyeTJFQmR0Mm1tbWN0OVcxc01BX2ViMm5pTkNXeWdwQXJYWTNhNFRIeWtBYng4QUM1Y2c4RzdJZ1BKZG8?oc=5",
+   "source": "연합뉴스",
+   "published": "2026-11-05T15:02+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [
+    "교육과정"
+   ],
+   "univs": [],
+   "group": "8fccb03d6e56"
+  },
+  {
    "id": "b0be4e7c2f4b",
    "title": "한신대, ‘2026 소상공인 디지털 특성화대학’ 4기 개강식",
    "link": "http://www.dhnews.co.kr/news/view/1065591781354116",
@@ -2605,7 +3998,8 @@
    "summary": "[한국대학신문 김윤미 기자] 부천대학교(총장 한정석)가 한국표준협회가 주최하는 ‘한국서비스품질지수(KS-SQI)’ 평가에서 경기·인천 지역 전문대학 최초로 12년 연속 1위를 달성했다고 5일 밝혔다.한국서비스품질지수(KS-SQI)는 한국표준협회와 서울대학교 경영연구소가 공동 개발한 서비…",
    "via": [
     "한국대학신문 RSS",
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대 AI 교육"
    ],
    "direct": true,
    "tags": [
@@ -2615,6 +4009,22 @@
     "부천대"
    ],
    "group": "c7a5cde9d8eb"
+  },
+  {
+   "id": "c790d141ba55",
+   "title": "전남광주 고교생 대입 면접 미리 준비한다…학년별 맞춤형 지원",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fNkJ5VUwwTDJac0YwOFRtTGtWWVVTSEpYUmd1MGM5Q1lGUGdWSDhRV0VHZGJ3Y3I1M0dldlV2Nzd3bjd4eTNHTjV1MU5XSTZMUWxpODU2YWs1Q2M3NDRlOE10QjFWeFlfTDRkVEpaNA?oc=5",
+   "source": "진일보 | 전남일보",
+   "published": "2026-11-05T13:47+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "c790d141ba55"
   },
   {
    "id": "cb6e22e607f1",
@@ -2745,6 +4155,22 @@
     "전남대"
    ],
    "group": "29e00d6750a2"
+  },
+  {
+   "id": "9d99cc617e44",
+   "title": "전남광주 중학교 교사들, 학생 질문 살리는 수업·평가 배운다",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BMTMwMWlueFF1dzg4NGtJNUtDQjdaWlMzNFNKekRsdVBMcEJpcnhEV2tQWW56VFM5a1RtOFd1bjd1d3NIMXhyYU5NVHhnMG5sVGE3dWZ4R2ZWd3QtaUdTZG9MaTcxY01OSXdUNXZzNA?oc=5",
+   "source": "진일보 | 전남일보",
+   "published": "2026-11-05T10:53+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "9d99cc617e44"
   },
   {
    "id": "0ce228cb523f",
@@ -2879,7 +4305,9 @@
     "교수신문 RSS"
    ],
    "direct": true,
-   "tags": [],
+   "tags": [
+    "교육과정"
+   ],
    "univs": [
     "김포대"
    ],
@@ -2946,6 +4374,22 @@
    "group": "dfce76313b42"
   },
   {
+   "id": "fff3a7c80112",
+   "title": "\"의대 유치 다음은 지역 인재\"…경북교육청, 맞춤형 진학 지원",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qeGJ5ZldGenBDWUdVUmo2RnVCTGhUQmh2MEhTYWlvNXowalpDR0o0MjFDLWFhb2FMQ2p3UVFYWGhEWGJ4OU5qMTlUY2Q5TkdZYWVjOVAxNTRRdnJKeVRIUtIBeEFVX3lxTFBYNzV2RVQwam9Cc1RKcWRURTVFX21EdVM3cWR3N1lpdFh5XzBIdWp3dTJTNnBWUjVkYnlFb0F6dzRMRmZlNTVabVpnTVluRUE4cFJacTZKS0pHTVpueDFIY2ZabWFfb0RYSW5EVmRmcjNUSlRlR3VkTg?oc=5",
+   "source": "뉴시스",
+   "published": "2026-11-05T09:16+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "fff3a7c80112"
+  },
+  {
    "id": "8d906de6e811",
    "title": "[사설] 고등교육 예산 18.2% 증액, 대학 생태계 살리는 투자 돼야",
    "link": "https://news.unn.net/news/articleView.html?idxno=599901",
@@ -2990,7 +4434,8 @@
    "first_seen": "2026-11-05T10:42+09:00",
    "summary": "[한국대학신문 박인규 기자] 대구과학대학교가 우즈베키스탄 현지 전문대학과 연계한 ‘1+2 국제공동교육 프로그램’을 본격적으로 운영한다. 이 프로그램은 현지에서 1년간 한국어와 전공 기초교육을 이수한 뒤 대구과학대학교에 입학해 2년제 전문학사 과정을 밟는 방식으로 외국인 유학생 유치와 글…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": true,
    "tags": [
@@ -2999,7 +4444,7 @@
    "univs": [
     "대구과학대"
    ],
-   "group": "f4d504acde60"
+   "group": "ebf6a2eea46e"
   },
   {
    "id": "305e493f5bf6",
@@ -3050,6 +4495,24 @@
    "tags": [],
    "univs": [],
    "group": "ca28cea51a67"
+  },
+  {
+   "id": "73c6ed2d41de",
+   "title": "경남정보대, 시민 100명 의견 모아 직업교육 손본다",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JNk1QUjlVMnJLbEpmTC1ibGY3Y2w0ci14aF9jeV9XbFRJWEs4Z1ZFNWg0UUVscVlETnljWUUzb2M3aXY4OW4zeTBlaVlraFpRTTFLYmlTb3Bad0hvUVRMd3M3NDhoSTRpaTVOdlRTclhGZw?oc=5",
+   "source": "인더스트리뉴스",
+   "published": "2026-11-05T00:30+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "46b4a127638d"
   },
   {
    "id": "c3d8fcb686b4",
@@ -3116,7 +4579,8 @@
    "first_seen": "2026-11-05T10:42+09:00",
    "summary": "대구과학대가 우즈베키스탄 현지 전문대학과 연계한 '1+2 국제공동교육 프로그램'을 본격적으로 운영한다고 밝혔다. 이번 프로그램은 외국인 유학생 유치와 글로벌 전문인재 양성을 목표로 한다. 대구과학대는 우즈베키스탄 현지 4개 전문대학에서 1년간 한국어와 전공 기초교육을 받은 학생들이 대구…",
    "via": [
-    "교수신문 RSS"
+    "교수신문 RSS",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": true,
    "tags": [
@@ -3125,7 +4589,7 @@
    "univs": [
     "대구과학대"
    ],
-   "group": "f4d504acde60"
+   "group": "ebf6a2eea46e"
   },
   {
    "id": "ef058311cf4e",
@@ -3214,10 +4678,12 @@
    "summary": "[한국대학신문 김윤미 기자] 거제대학교(총장 박장근)는 전문대학 혁신지원사업의 일환으로 거제여자상업고등학교 재학생을 대상으로 운영한 ‘2026 G-UTEC 고교-전문대 통합교육과정 연계 프로그램’을 마무리했다고 밝혔다.이번 프로그램은 4월 10일부터 10월 23일까지 총 10회, 30시…",
    "via": [
     "한국대학신문 RSS",
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": true,
    "tags": [
+    "교육과정",
     "RISE·재정사업",
     "전문대학"
    ],
@@ -3255,7 +4721,8 @@
    "first_seen": "2026-11-08T19:40+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 대학 원격수업"
    ],
    "direct": false,
    "tags": [],
@@ -3317,6 +4784,7 @@
    ],
    "direct": false,
    "tags": [
+    "원격교육",
     "AI·에듀테크"
    ],
    "univs": [
@@ -3383,6 +4851,22 @@
    "group": "6d1a33113886"
   },
   {
+   "id": "62d2d8adebf2",
+   "title": "[카드뉴스] 텔레프레즌스에서 홀로그램으로 나타난 교수님",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HZGN6S2dXV01mRnFjUVMyZzlwQzQ3SHFNQkMtanlaRlNMbWpaOXczanRzenNOS0d1cmx2R2lWOFk3NXpLQ1k4R0ctX2pnd2VCVjJCV3N0QjA5MFI3U1YwS0F0NVUzQXJhVFE?oc=5",
+   "source": "뉴스H",
+   "published": "2026-11-04T17:00+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "62d2d8adebf2"
+  },
+  {
    "id": "19ad45e486ab",
    "title": "순천대 60명·경국대 40명…국립 지역의대 2곳 신설 확정",
    "link": "https://www.kyosu.net/news/articleView.html?idxno=212060",
@@ -3439,7 +4923,7 @@
    "univs": [
     "대구과학대"
    ],
-   "group": "f4d504acde60"
+   "group": "ebf6a2eea46e"
   },
   {
    "id": "4c39e88f92f0",
@@ -3517,6 +5001,26 @@
     "국민대"
    ],
    "group": "d6897c442e12"
+  },
+  {
+   "id": "a39871bb01eb",
+   "title": "경남정보대 앵커사업단, 부산평생학습주간서 시민과 함께한 배움 체험",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOUw4OXNyR1pVQ0swbXRmSEV4a1o0eUttSmdTMExqVDRsOWZIMHJqbi1lUDBabU5jYzc4X0NQMHdvQVN1cVIwcEdSZHBfaFVzM2ZZRHEtVXVDTm94VnQ1dXJtWEF6amhlcFl5M0JyaHJNZWVpbVFyNmpUXy1pUlVSV1BoVzlsZUtMMDBwTDBR?oc=5",
+   "source": "국제신문",
+   "published": "2026-11-04T15:42+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [
+    "RISE·재정사업"
+   ],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "a39871bb01eb"
   },
   {
    "id": "aee7cde79a30",
@@ -3643,6 +5147,41 @@
    "group": "5785fc212edd"
   },
   {
+   "id": "a24b5f8ae9ab",
+   "title": "북한, 12년제 의무교육 틀 유지하며 ‘선택교육’ 확대…지역 인재 수요와 연계",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85UnJlUjM0QnREcVlQYXJxdmxNYkZHeFFnWjBHeGRVQ3pVOHE3TjRnU24zTjNPRWV3allIYkdMTWF3NmF0QklaeWVhSjVuWWV3U3FMMk53OWZWUTFGVGFza280Vi1acVE?oc=5",
+   "source": "남북경협뉴스",
+   "published": "2026-11-04T15:06+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "a24b5f8ae9ab"
+  },
+  {
+   "id": "db15fe0a2fff",
+   "title": "북한, ‘전민과학기술인재화’로 노동력 재교육…원격교육 지방발전과 연계",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aSkNpd2NvMENxazRQVnhBSVVvZkt1amtjMUhIdmdVb1BVVjJETU4wQjVBWXBiNHRjdUJEN2VMc29Wc1dMeFdzeFJzRS0xYW5WbTZYeDNsdklQWG9POExiTTI1Ym1TMkE?oc=5",
+   "source": "남북경협뉴스",
+   "published": "2026-11-04T15:03+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격교육\" 대학",
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "db15fe0a2fff"
+  },
+  {
    "id": "46b4a127638d",
    "title": "경남정보대, 부산평생학습주간 직업교육 체험부스 운영…시민 100명 대상 수요조사",
    "link": "https://news.unn.net/news/articleView.html?idxno=599959",
@@ -3651,7 +5190,8 @@
    "first_seen": "2026-11-05T10:42+09:00",
    "summary": "[한국대학신문 박인규 기자] 경남정보대학교(총장 김태상) 앵커사업단 직업교육혁신센터는 지난달 30일부터 31일까지 열린 ‘제6회 부산평생학습주간’에서 시민을 대상으로 평생직업교육 체험부스를 운영했다고 밝혔다.이번 행사는 부산여성가족과 평생교육진흥원이 ‘배움으로 펼치는 다음 페이지’를 주…",
    "via": [
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 대학 교육과정 개편"
    ],
    "direct": true,
    "tags": [
@@ -3776,6 +5316,7 @@
    ],
    "direct": true,
    "tags": [
+    "교육과정",
     "AI·에듀테크",
     "정부·기관"
    ],
@@ -3908,6 +5449,24 @@
    "group": "7a0e8dd47ea1"
   },
   {
+   "id": "5281caa5ad8f",
+   "title": "경남정보대, 시민 의견 반영해 평생직업교육 과정 개편 추진",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXBscHQ5TVViTWRGalROOWlJdnNvOHJDYWFlV1FHWXh5OEVxYTEwRGcyTWU2WTREY0RNbFZtSjQtc3BPUWU4YlVtaDZnaXJfSEpfZ3VuT19qRnZWbkU3VXVMY2ZFczVLRkVjSFhvNkVCOEt5Tl8xWTE4T1FMV2xuODJPOE0xeG9sZjlz?oc=5",
+   "source": "글로벌이코노믹",
+   "published": "2026-11-04T14:23+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "5281caa5ad8f"
+  },
+  {
    "id": "a4f4698fe8a6",
    "title": "광주대 경영학과 현직 CEO 초청 '기업의 AI 활용 전략' 특강",
    "link": "https://www.veritas-a.com/news/articleView.html?idxno=635230",
@@ -4004,6 +5563,24 @@
    "group": "5794d8863ccf"
   },
   {
+   "id": "d519b6a9ff31",
+   "title": "영산대, ‘YCMP 페스타’ 진로박람회 성료",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQaFdNMkN5NFFzaGNKbVU2eGY5UGxJcU1oSnZYUnV6QW5CMGZ5amNmeUx4ejhiRVRmMTUxREdDOWNXUVNIODFKOFAxRy1vMDRPSEVXMGtRNHQ2cVlzVTUtckxaWWxpOVg0X3h5VzZxeG1PNU9QWG1Tdw?oc=5",
+   "source": "부산일보",
+   "published": "2026-11-04T13:55+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "영산대"
+   ],
+   "group": "d519b6a9ff31"
+  },
+  {
    "id": "8c05087cc0a6",
    "title": "‘공감과 소통’으로 여는 2027학년도 1학기…원광디지털대, 신규 수업개발 워크숍 성황",
    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1majBReFJJNnRlMHhaa2pYa1ZQLVlpTUpaZkRyUHQxRThEOU1zVFhBN0l1VVdYVHpBMUoxaF9uTmNJV1g2ZUtId2hUVE9aeXllOGpHbFRfdy14Qlp3RXZURA?oc=5",
@@ -4042,6 +5619,24 @@
     "원광디지털대"
    ],
    "group": "50139076a2b3"
+  },
+  {
+   "id": "c996faae7e43",
+   "title": "''수원대, 전공 탐색/융합 프로그램 '메이저 페스타' 개막''",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTV3VrU09GWUdvcVZWUEo1dTlBTlVkc1lyNXgyb21OaElvdzN1ZnlqTFc4SzNXSF9ZNFVyeUh3R19Pd1dnak1FRXRCTWxUVDB6cGpzUUo5Y1dUM2ZQRXVFRVFoQXRqem0tUVZJeg?oc=5",
+   "source": "베리타스알파",
+   "published": "2026-11-04T13:47+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "수원대"
+   ],
+   "group": "c996faae7e43"
   },
   {
    "id": "0fc307a8a7a7",
@@ -4154,6 +5749,44 @@
     "대신대"
    ],
    "group": "5133358e6260"
+  },
+  {
+   "id": "72b98c547b76",
+   "title": "우즈베키스탄 학생 108명 대구 온다...대구과학대, '1+2 국제공동교육' 본격화",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tZTlwTHFEU29samlWUEpfLXJNNEFJYjNObGFNQkw2bkhxVWJ4eDZtYS1kUVNMZ1djVG5aY3paYjB6bW5xWWMwV2M4b2dqMkYyZ05NYVpyTS1WQkQzcFdPS1NBMFo3N1VFdmVF?oc=5",
+   "source": "프레시안",
+   "published": "2026-11-04T12:52+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구과학대"
+   ],
+   "group": "ebf6a2eea46e"
+  },
+  {
+   "id": "ba889b74831e",
+   "title": "경북전문대, 경북 첫 보잉 737NG 정비 기종 교육 인가",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MOGxxQldzWU1KczdpZGdRd1paUmdCYUhIcXBMbGlOQmQySXNMYl9FWnBUd21aRGVTYzRLT2RoSGtoQlBLTFZ3X3VKcXk5ZnNRUkRaeTM3ek5BQ2lUU2x5cGpB?oc=5",
+   "source": "매일신문",
+   "published": "2026-11-04T12:40+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "경북전문대"
+   ],
+   "group": "ba889b74831e"
   },
   {
    "id": "ed3473bffb61",
@@ -4299,7 +5932,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 대학 교수법 워크숍"
+    "구글 뉴스 · 대학 교수법 워크숍",
+    "구글 뉴스 · 공유대학 온라인 강좌"
    ],
    "direct": false,
    "tags": [
@@ -4369,6 +6003,24 @@
     "국립경국대"
    ],
    "group": "b5d097422d33"
+  },
+  {
+   "id": "7b7c13c588ab",
+   "title": "한양IDEA센터, 전공자율선택제 초기 효과 분석… 이공계열 핵심역량 우위 확인",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CTndyR0RoX2JmcU9uWmtRMDVjSGx3Y0pLdVdNY2NyX0VKeVJhaDAxS3ZYelplLWQxbkpWbmxiei16WWdsbXhKRTJiN2VIeWItVWtVQVRZRTFfSlJxZ1lUUmpNOExRMkdJVlVZ?oc=5",
+   "source": "뉴스H",
+   "published": "2026-11-04T10:11+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "교육과정"
+   ],
+   "univs": [],
+   "group": "7b7c13c588ab"
   },
   {
    "id": "5399992abfe0",
@@ -4464,6 +6116,24 @@
    ],
    "univs": [],
    "group": "788347f70dbc"
+  },
+  {
+   "id": "ebf6a2eea46e",
+   "title": "대구과학대, 우즈벡과 '1+2 국제공동교육 프로그램'",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aVXZUbllQSlZiSXptWFJkV3lneFFsRGd3QXRBUUZvNVh0QmN0TzcwQWl3SGhXRW1fMEhFZllXSTNBNVpCb1VROGxGY0lIWWc0SVhmRVh2ZnNoNnJHdnFyOdIBeEFVX3lxTE5RRzNQRVRwRnhNWUVnTW1QZlZUcWlyRFk0RHk4VXQ4dUdWR0dhejdoaElyWTRwcmhQQVp4dVRNNnZJYU1rUk1iVWtZcDdBcUdVaDFRUEdIWFFSckJyY28xbGY3S2YzbmFvb2V1UkhuQVJwcXdIOTZxbg?oc=5",
+   "source": "뉴시스",
+   "published": "2026-11-04T09:29+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구과학대"
+   ],
+   "group": "ebf6a2eea46e"
   },
   {
    "id": "e7694e1ccd97",
@@ -4830,6 +6500,22 @@
    "group": "764d56d5ee5c"
   },
   {
+   "id": "8f5bb588fdf0",
+   "title": "임상병리사 국가시험 직무 중심 개편…4년제 학제일원화 로드맵",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QREstOVZpLUtTek40THJUd1piOXZqMUZMMEVKSDNwem1TVTByR0RDMGYzQ3FKV0JHeElIRFlqNzhZc3ZoaGJKamtnLVpfTmxGd2ZWbHlGc2pTYzZrSkdpWXdyOG9tSnpMMWJ3?oc=5",
+   "source": "헬스경향",
+   "published": "2026-11-03T18:22+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "8f5bb588fdf0"
+  },
+  {
    "id": "764d56d5ee5c",
    "title": "코딩 몰라도 AI 로봇 만든다…명지전문대 'Step AI Camp' 개최",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YSWd6UUJwNnlsUDRMbTV4dE9VRUZwSnpxU01PMGlFdy1OWHBrS1dsSHpucWhNT0d2SVdzNlRKcV9FMlpZbDBoSGw5ZXFHWWRYZHFvZEl4UWtEeXdS?oc=5",
@@ -5126,10 +6812,12 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 전문대 AI 교육"
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
+    "교육과정",
     "전문대학"
    ],
    "univs": [
@@ -5210,6 +6898,25 @@
    "group": "c4a2c5b86cd4"
   },
   {
+   "id": "727e49d1c6a7",
+   "title": "세종사이버대, ‘2026 고객 신뢰도 1위 프리미엄 브랜드 대상’ 사이버대학 부문 수상",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNmhBSUdRUDVCVzVucGs5TWdZUkc4Z0paeTIzUWN5UVR6VXVnbzZfU2xjbHlxa3dBQWlSbUE5aXctMDFhSU1IamF6Z0c1aXB5NEhaM2h6c0Vqb1lDcXlQTDgwVEjSAWhBVV95cUxQbkRBUFFaWXY2LUhhTXJOUHZZVjVsZDB3YWw0eUYtOFNheF9qVzdIMWlZTVhnZlJpcnFBd3Vvc3lYMS15aDJjVWVzMkZTVlFSMXBTV0RxN1pEYzdzbEtiTTlfSEtBMWJ3NQ?oc=5",
+   "source": "Usline(유스라인)",
+   "published": "2026-11-03T15:16+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격교육\" 대학",
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "세종사이버대"
+   ],
+   "group": "727e49d1c6a7"
+  },
+  {
    "id": "83f2e13d421a",
    "title": "재능대·뤼튼테크놀로지스, AI 교육 혁신 산학협력…콘텐츠·실무인재 양성 협력",
    "link": "https://news.unn.net/news/articleView.html?idxno=599872",
@@ -5281,7 +6988,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [],
@@ -5328,6 +7036,22 @@
    "group": "405213ed53c9"
   },
   {
+   "id": "379fc786580e",
+   "title": "충남교육청, 공동 교육 과정·온라인학교·대학으로 과목선택권 넓힌다",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nN250T251clAwd1RnVVFpWXN3QUZLZnVnQkZBSWVuTi1hdDlpNTZ0QXRxT3ZDZjNxSThuX3NOcjJBY3BLckZGb0lZcnJGZHgyMWR4dUtrd3czaU5uTkI3QnNBWDVHbl9NQ01URmlBVFd0M3M?oc=5",
+   "source": "충남일보",
+   "published": "2026-11-03T14:25+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 공유대학 온라인 강좌"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "379fc786580e"
+  },
+  {
    "id": "f65ae6acab0a",
    "title": "AI 수업활용 사례 공모전, 민지유 교수 금상 등 4건 선정",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uTTF6NnV6eE5YV3JBWjhENGktNnRYUXhna3lvYmczOEhETWVkWTBzUzl2OUJyTW44M0lzMHFmWkVxeTk3YXVFX2xCTDl6Qmhpb2FOaGEzQktlNzMzeUZ6VEx5ZXpFeFNLMXN5NQ?oc=5",
@@ -5344,6 +7068,24 @@
    ],
    "univs": [],
    "group": "f65ae6acab0a"
+  },
+  {
+   "id": "93d37175bb90",
+   "title": "이호 전북대 총장 예비후보 “의무강의 9→6학점”…교육 4대 공약 발표",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JMUF1WXdEbDRGQzdadkZWN2ZQSmd4TlQ1RkRtekVPVzFOd3ZPWUhWZEpRVU5zb2FYVXhaeFF0bmJjU24tT0NQb2tzNTh3TjhJVk5hbg?oc=5",
+   "source": "매일경제",
+   "published": "2026-11-03T14:14+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "전북대"
+   ],
+   "group": "93d37175bb90"
   },
   {
    "id": "cea73f484cf5",
@@ -5374,7 +7116,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
@@ -5400,6 +7143,24 @@
     "덕성여대"
    ],
    "group": "a6948e38a537"
+  },
+  {
+   "id": "b554686dd4f0",
+   "title": "서경대, 현장실습학기제 참여기업 찾아가며 ‘이론을 실무로’ 연결",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rNnJNRUM1WHp2NjVKTGlZV0hpcGFETlotN1dVOU55SGRicjl3RWh3bk5NcUlSekhtNHItbFJvclRZR080MFVneG9vNXp1UzNxdUZIa2MzV1NJcjlHME91d1Z4c1phM05lUmtNZg?oc=5",
+   "source": "유니메이트 알파",
+   "published": "2026-11-03T12:58+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "서경대"
+   ],
+   "group": "b554686dd4f0"
   },
   {
    "id": "5ce76c892cef",
@@ -5489,7 +7250,8 @@
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
@@ -5526,7 +7288,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [],
@@ -5664,6 +7427,24 @@
    "group": "eeefcd1e563b"
   },
   {
+   "id": "cb4c11a46e01",
+   "title": "한양사이버대, ‘허들’로 가족돌봄 이슈 조명…5일 온라인 복지 워크숍 개최",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QQk42YU5uYXMtN0hQMjhDYU1UeVZ2OHlSWkM5RHNBSm4yV2Q2aXA0cjdIUnNfMGFBRGxPMmV2M1NZZEZranVRb3RxM0dQejBxQXJsamVHZGtJLW9SbzNkek9VdW41Zw?oc=5",
+   "source": "한국대학신문",
+   "published": "2026-11-03T09:27+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 공유대학 온라인 강좌"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한양사이버대"
+   ],
+   "group": "cb4c11a46e01"
+  },
+  {
    "id": "7a644d8da8df",
    "title": "명지전문대 주관 'K-Lab 볼리비아', 볼리비아 하원 공식 표창 받아",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OR2h6UkVhMkU5VUVfdEw2bUhSU3FyQk5yYTBMeFBnV3JEaWtIa0NqckF2d0JFNXBNMEJ2QVlqakhVRGRrXzlvbEVjMlpjdkR2NjdPb0hRcmZZcGlxWXlqM1ItZllmc3Q1M28wOdIBbEFVX3lxTE5OR2h6UkVhMkU5VUVfdEw2bUhSU3FyQk5yYTBMeFBnV3JEaWtIa0NqckF2d0JFNXBNMEJ2QVlqakhVRGRrXzlvbEVjMlpjdkR2NjdPb0hRcmZZcGlxWXlqM1ItZllmc3Q1M28wOQ?oc=5",
@@ -5700,6 +7481,23 @@
    ],
    "univs": [],
    "group": "9b9c0fd19fbf"
+  },
+  {
+   "id": "f7a9e173fc53",
+   "title": "軍부대서 원격으로 따는 대학학점 늘어난다",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPU19TaWlvNXNyVUNRejhqdXNMZnVDX3dsY1M2czhpeHBxeUNyVGQxUXhudVpRTkc0ekFxYzhCaURURk1KR2hIN1RlcUduNjYzY0xwSUxHQlQ?oc=5",
+   "source": "대구광역일보",
+   "published": "2026-11-03T00:12+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격강좌\"",
+    "구글 뉴스 · 대학 원격수업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "f7a9e173fc53"
   },
   {
    "id": "11b56f3f9441",
@@ -5864,7 +7662,8 @@
    "summary": "",
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
-    "구글 뉴스 · 전문대 AI 교육"
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
@@ -5940,7 +7739,8 @@
    "first_seen": "2026-11-04T16:00+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대학 교육과정"
    ],
    "direct": false,
    "tags": [
@@ -5970,6 +7770,22 @@
     "영진전문대"
    ],
    "group": "fba48e47f110"
+  },
+  {
+   "id": "2bc795216f6a",
+   "title": "“보험은 누가 가르치나요”… 학교 보험교육 ‘현장과 괴리’",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pT1FQUUQ4ZXpsZmJkME5lU0xrMks3a2ozRklabWdWbWhOLXdYaXBiUkF0TklJdXZHdlBGU3F3RG12dFBIYTc0WEl5V00wYTVGNGVMa1JYWHppc1ZpdEZaZE1rb1FPRm9nNnpn0gFvQVVfeXFMTnB2b0tmUFZaWndWTFJObXdvWGthaHQxV096Z25NWm9VeVphUFc2TkU1b2k2UE9aMmhSM1R2V2x6YzJkYnJ4VVVDSU5yR0YyYS15SnN6U3lTR1RDd0ltenprWDRhbTQwNVlNYWszYm1r?oc=5",
+   "source": "한국보험신문",
+   "published": "2026-11-02T16:48+09:00",
+   "first_seen": "2026-11-09T15:53+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "2bc795216f6a"
   },
   {
    "id": "0829dc3a5d55",
@@ -6168,6 +7984,7 @@
    ],
    "direct": false,
    "tags": [
+    "교육과정",
     "AI·에듀테크",
     "전문대학"
    ],
@@ -6205,6 +8022,7 @@
    ],
    "direct": false,
    "tags": [
+    "교육과정",
     "정부·기관"
    ],
    "univs": [],
@@ -7841,6 +9659,7 @@
    ],
    "direct": false,
    "tags": [
+    "교육과정",
     "AI·에듀테크"
    ],
    "univs": [
