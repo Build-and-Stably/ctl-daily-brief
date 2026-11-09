@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:27+09:00",
+ "updated": "2026-11-09T16:28+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -4317,7 +4317,7 @@
    "univs": [
     "경남정보대"
    ],
-   "group": "46b4a127638d"
+   "group": "73c6ed2d41de"
   },
   {
    "id": "c3d8fcb686b4",
@@ -4808,26 +4808,6 @@
    "group": "d6897c442e12"
   },
   {
-   "id": "a39871bb01eb",
-   "title": "경남정보대 앵커사업단, 부산평생학습주간서 시민과 함께한 배움 체험",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOUw4OXNyR1pVQ0swbXRmSEV4a1o0eUttSmdTMExqVDRsOWZIMHJqbi1lUDBabU5jYzc4X0NQMHdvQVN1cVIwcEdSZHBfaFVzM2ZZRHEtVXVDTm94VnQ1dXJtWEF6amhlcFl5M0JyaHJNZWVpbVFyNmpUXy1pUlVSV1BoVzlsZUtMMDBwTDBR?oc=5",
-   "source": "국제신문",
-   "published": "2026-11-04T15:42+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 대학 교육과정 개편"
-   ],
-   "direct": false,
-   "tags": [
-    "RISE·재정사업"
-   ],
-   "univs": [
-    "경남정보대"
-   ],
-   "group": "a39871bb01eb"
-  },
-  {
    "id": "aee7cde79a30",
    "title": "세종대 경영전문대, ‘AI 기술경영 DBA’ 입학설명회 개최",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kN1lJR0xKQkZHQTFBTVNDdVB6R1FkclJnUG9RN0RxR1JSWGI1THFFbHdreE9PeWwta1YteTdfdXZLa1ZuMXpkRWFuV2hVSmRYNHM1aGtkMXNpYS1SdlZvckFGZlREbWFZd0ExOGdsLUQ?oc=5",
@@ -4930,27 +4910,6 @@
     "강동대"
    ],
    "group": "e0d37c57193b"
-  },
-  {
-   "id": "46b4a127638d",
-   "title": "경남정보대, 부산평생학습주간 직업교육 체험부스 운영…시민 100명 대상 수요조사",
-   "link": "https://news.unn.net/news/articleView.html?idxno=599959",
-   "source": "한국대학신문",
-   "published": "2026-11-04T15:02+09:00",
-   "first_seen": "2026-11-05T10:42+09:00",
-   "summary": "[한국대학신문 박인규 기자] 경남정보대학교(총장 김태상) 앵커사업단 직업교육혁신센터는 지난달 30일부터 31일까지 열린 ‘제6회 부산평생학습주간’에서 시민을 대상으로 평생직업교육 체험부스를 운영했다고 밝혔다.이번 행사는 부산여성가족과 평생교육진흥원이 ‘배움으로 펼치는 다음 페이지’를 주…",
-   "via": [
-    "한국대학신문 RSS",
-    "구글 뉴스 · 대학 교육과정 개편"
-   ],
-   "direct": true,
-   "tags": [
-    "RISE·재정사업"
-   ],
-   "univs": [
-    "경남정보대"
-   ],
-   "group": "46b4a127638d"
   },
   {
    "id": "39dbbd1a65c6",
@@ -5445,22 +5404,6 @@
    "group": "175a3e0c48ae"
   },
   {
-   "id": "614699b20a8e",
-   "title": "서초·장성 등 신규 평생학습도시 동판… 금천·은평은 우수 도시 시상",
-   "link": "https://news.unn.net/news/articleView.html?idxno=599947",
-   "source": "한국대학신문",
-   "published": "2026-11-04T13:28+09:00",
-   "first_seen": "2026-11-05T10:42+09:00",
-   "summary": "[한국대학신문 김의진 기자] 올해 평생학습도시로 신규 선정된 서울 서초구, 전남광주 장성군, 강원 고성군, 경북 김천시·울릉군 등 5개 지방자치단체가 증서와 동판을 받는다. 평생학습도시 평가인증에서 우수 도시로 선정된 서울 금천구·용산구·은평구, 부산 서구·중구 등 5개 지자체에는 표창…",
-   "via": [
-    "한국대학신문 RSS"
-   ],
-   "direct": true,
-   "tags": [],
-   "univs": [],
-   "group": "614699b20a8e"
-  },
-  {
    "id": "a4a34fe04138",
    "title": "임팩터스·앱티마이저, 서울대와 AI 교육 3자 협약… 현직 교사가 직접 쓴다",
    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96dHVBTU9OUmRidEpWaW9LbXRxUUR0M1BPQ09TM0ZGYzN3cXlqZGFkWWhmNTdQT1ZTdzFsT1hRZ3lMVW5oZGxsZHVrN2pJMkM3M21TMQ?oc=5",
@@ -5654,24 +5597,6 @@
    ],
    "univs": [],
    "group": "27f1d95a7771"
-  },
-  {
-   "id": "18e2b37d6480",
-   "title": "구움과자 무료로 배운다..당진 신성대, 평생교육 수강생 모집",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04NnB1YzJOS3hXZ2p0QnNUUjFKYTdkWHpmby11SnE1c01UcmQybW9WcEJ2SDNEUlRSSjNqYVBpNWZTeGtRclY0a1BhZHZTZ3NhOEpqdk95QXo0WDBtQVVmX0dweGdhcDVG?oc=5",
-   "source": "당진신문",
-   "published": "2026-11-04T11:40+09:00",
-   "first_seen": "2026-11-04T16:00+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "신성대"
-   ],
-   "group": "18e2b37d6480"
   },
   {
    "id": "50139076a2b3",
@@ -9241,24 +9166,6 @@
     "재능대"
    ],
    "group": "e405bd5a1104"
-  },
-  {
-   "id": "03af038ca831",
-   "title": "부산과기대, ‘북구 평생학습 페스티벌’서 주민과 함께하는 체험부스 성료",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMEphLVZYSTZJZ3JvTHV0Tmtua291bWNIYW1HRGFwY3ZBMmVRSEhHRmoxNUhHS192dGlzVmlWbWJ3MFhMVjY1M211X1dnc1JhbmxQQWlPUDhBOEFNT2dLVUhsbC1ZZnBNVlV2RldlcWNzc0k3czB0ZFowZ0l4VVdRQkQ4SmxNQQ?oc=5",
-   "source": "부산일보",
-   "published": "2026-10-29T17:33+09:00",
-   "first_seen": "2026-11-04T16:00+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "부산과기대"
-   ],
-   "group": "03af038ca831"
   },
   {
    "id": "15b54f663224",
