@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:53+09:00",
+ "updated": "2026-11-09T16:25+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -79,12 +79,12 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 27
+   "count": 26
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 28
+   "count": 30
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -94,7 +94,7 @@
   {
    "name": "구글 뉴스: 대학 교육과정 개편",
    "ok": true,
-   "count": 30
+   "count": 31
   },
   {
    "name": "구글 뉴스: 전문대학 교육과정",
@@ -138,6 +138,27 @@
   }
  ],
  "items": [
+  {
+   "id": "3c55cc0a5565",
+   "title": "경남정보대 등 3개 대학, AI 교육·행정 활용 방안 논의",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsVjA4d2hER3NVdVdrVjZ4bjFlYUJpTURaUmVFWmZMNWRlQklYVWU4OFFrNFdUcUFycWJWSWIxbGdWR0ZQZGpoa2J6VE1SVGJMVmpuM0hjMFhSOTJTOFZTcUV5R1diQU0?oc=5",
+   "source": "더쎈뉴스",
+   "published": "2026-11-09T16:09+09:00",
+   "first_seen": "2026-11-09T16:25+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업",
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경남정보대"
+   ],
+   "group": "3c55cc0a5565"
+  },
   {
    "id": "a0f6b0605ef4",
    "title": "한양대 경영대, 슈피겐코리아와 산학연계 교육 협약…실제 기업 과제 수행",
@@ -212,6 +233,27 @@
     "경남정보대",
     "마산대",
     "춘해보건대"
+   ],
+   "group": "ad72de82461f"
+  },
+  {
+   "id": "f6da7bb3459f",
+   "title": "경남정보대, ‘AIDX 컨소시엄 3개 대학 사업단 합동 워크숍’ 성료",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11MHdLR1NIbzRvak8wVG9ycUF2dGVtR0EwTzFMblVMYVdpWklGMUVxalpwbW5hN2d4VzhLNVNmcFBRa0YtQkgyMExIWjJBRU1BbmExUm5MaDBMc3B5eUluc2xkZmtfbE4tLVBMbkdOT3ZOVm80?oc=5",
+   "source": "부산일보",
+   "published": "2026-11-09T15:19+09:00",
+   "first_seen": "2026-11-09T16:25+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [
+    "RISE·재정사업",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경남정보대"
    ],
    "group": "ad72de82461f"
   },
@@ -585,24 +627,6 @@
     "대동대"
    ],
    "group": "d2341ef4a1bc"
-  },
-  {
-   "id": "40402a134dcb",
-   "title": "해수부, 'K-오션MOOC' 신규 강좌 5편 공개…유튜브로 해양교육 확대",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13eDZhbEdTckNnRUFDaG9rdkpuM2hIX0NPeVZ5QXJvdjNTOFgxZVpPSjhLZlZuRzhmc2J5ZUJ1bEtGUzB1RDRWRTBfTHRkWHFRZy1LZFYxc1lQV29LVktqMTF4Qng4Q2FYU0hr?oc=5",
-   "source": "해사신문",
-   "published": "2026-11-09T11:09+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "40402a134dcb"
   },
   {
    "id": "b17a6817102b",
@@ -1193,24 +1217,6 @@
    "group": "b49378f1dc79"
   },
   {
-   "id": "eb1c92cbdc77",
-   "title": "심해의 신비부터 해양 제국의 역사까지, 'K-오션MOOC'에서 쉽고 친숙하게 배운다",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jUndmeVk5allYcmZCaWV4WGxwRmU4RHltX0dlUWhGOTlsbzdXV0NnX0NlaUcyd09wR2hjcUNIb3o5a1kzaVlfaEdwa0hPOF9pUS1Fd3FfUjdQejE4eTZjVE9HckNEc0VzLWc?oc=5",
-   "source": "이즈보험",
-   "published": "2026-11-08T18:20+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "a2d3759ef0e3"
-  },
-  {
    "id": "454e9f05bba3",
    "title": "경북전문대, 교원 AI 기반 스마트 교육 역량 강화",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YWmljTWxDNjlJd2stZWlCRnp0b3ZJamNwUHdtSWRjY3BwNzNfMjM1VFdsa0NCTHRhVE9laUF0djdBbFB6MnhMT3QxOHg2RXIxejE4ZU9wV1F0M3k3eDFJWGRjdGtYLXpELUE?oc=5",
@@ -1320,6 +1326,26 @@
    "group": "9a2974e0b36b"
   },
   {
+   "id": "5007915c43a3",
+   "title": "경복대, AI·XR·디지털헬스케어 전문기술석사 신입생 모집",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUbEJydTZVazVJamMzSThpNGM0S0VhQzNGZ05YbjVCYk1fcEVEeU8zMFJ2d3hMWFBZdnhOT2YxUHA0WWVxSC1pNkpwbkZza24yTjZXeFl5S3Nnd1J6QkRjWU9KQW5fTTFLTGVpdGxQMNIBc0FVX3lxTE1Xb3l6TFJxdTZtbWlDaU5VQUdkeTA1N1JCa0VuWDVnR2VucHdMZTU5OEdjWXNfUXF3blR3d2tITEpqeXRVcHNFbWQyWDBhVDd5MjdYVVpZNFhaQlR6VFJvRWs5MDBNd0FseGZZZUdWNUtPT0E?oc=5",
+   "source": "뉴스웍스",
+   "published": "2026-11-08T14:50+09:00",
+   "first_seen": "2026-11-09T16:25+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교육과정"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "경복대"
+   ],
+   "group": "50c6c3db8dac"
+  },
+  {
    "id": "4dba2e9162f3",
    "title": "울산과학대 주관 ‘2026 전문대학 연합 AI 해커톤’ 경주서 성황리 마무리",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nTUZBYWNUOF9rZl9OM1BkYXZaUjBsYjNPdlZFS1VBOHg1MnR4Q196MnRKand0VW5KanNuVUxSNHd4SFFsakR3ZlFOcDJ5MmRpY1BwVXpUNHA4LWtIVVJwbzdXVHA4c0VxTGfSAW5BVV95cUxNcjB6aUxGTDJjZjctRXpRVHJQV0pXWnk5YU1ReFNrbndrU1EzZ3kzMW90MmkzVjFEaWV4N28xV0FYcjdSTV9lb01udnRYUzN3MjBWaS1wVHk3NlhUamxOS2hqOFNvTGtwa0c1V3NJdw?oc=5",
@@ -1360,24 +1386,6 @@
    "group": "26e8ff55bd42"
   },
   {
-   "id": "10d544ea5664",
-   "title": "해수부, 'K-오션MOOC' 5개 신규 강좌 공개... 심해 생물부터 해양 역사까지",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Odm5sNG5CbEJPakVFOHlERkpzajFuMldYRHBBMkF6Y0lLVHlLdjQ2bkh1VjVIWFBOTXJvM1N0dlluR29LY0Jxay1lbHVjak1SLVZONlptZE1oYWh3?oc=5",
-   "source": "피디언뉴스",
-   "published": "2026-11-08T12:04+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "10d544ea5664"
-  },
-  {
    "id": "77a5f7c3dde5",
    "title": "[기획] 의대·인서울 입시는 과열…대학 학술 수준은 제자리",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aRmx4UU9aN0stWmRzT2w2UW1XcUFGbFR6SkpsaDlFLUNEaVFaN0hlcVBhb2QxM04ycEtSRjNIZDRta191S2pMMG5ybnlBQlVKQktEOFBzank5RElySF9iZEVST0E?oc=5",
@@ -1392,24 +1400,6 @@
    "tags": [],
    "univs": [],
    "group": "77a5f7c3dde5"
-  },
-  {
-   "id": "d92e167df865",
-   "title": "\"바다의 숨겨진 세계를 열다\"…'K-오션MOOC' 해양 강좌 5편 공개",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54a05UbUtBOHRhbU5oSGdjSEdhM1dnaU5MVFFWaFhOTUtBbTBMbDlPRFpWbTJhaks4WkhQWjFldTNDbkVVUUZGdzAxOGphWDJKMkdfdVRBeXdIbzM0RXBSd2xkOWtJdzhTVGZXbG5n?oc=5",
-   "source": "국제뉴스",
-   "published": "2026-11-08T11:49+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "d92e167df865"
   },
   {
    "id": "bbd09f34a44e",
@@ -1486,42 +1476,6 @@
     "한국영상대"
    ],
    "group": "5b709eb16a72"
-  },
-  {
-   "id": "53be9ee51975",
-   "title": "김한민 감독의 바다 이야기…'K-오션 MOOC' 신규 강좌 5편",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wa1J0ZU9PY2V6ejE2LWMyemR5cVB0ODRiWE8yZVR3TG1RNjgyYlJTYlNOWjNwejJpWUdQeW8zVWxzMGpzX2J4dGtCa3MtNW8xRjBpbFFiVmJydGJtWWM3V9IBYEFVX3lxTE9wa1J0ZU9PY2V6ejE2LWMyemR5cVB0ODRiWE8yZVR3TG1RNjgyYlJTYlNOWjNwejJpWUdQeW8zVWxzMGpzX2J4dGtCa3MtNW8xRjBpbFFiVmJydGJtWWM3Vw?oc=5",
-   "source": "연합뉴스",
-   "published": "2026-11-08T11:00+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "53be9ee51975"
-  },
-  {
-   "id": "a2d3759ef0e3",
-   "title": "'K-오션MOOC'에서 심해 신비~해양 제국 역사까지 다양하게 배운다 - 머니투데이",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBncGlmdHBOSW1ya0RMM2lpZlFsVU1jZ1c2Tzh4TlJYWTh2OEVhR1BBWVBTVUJBR0xlVzlUQzRkb3F4QXhFWHZTYU5IZ2pCY1AxNEZOVm8xbGVvcHlWZXBIQkdKYWJLMTNVclNjN1ctclPSAXBBVV95cUxQZ3BpZnRwTkltcmtETDNpaWZRbFVNY2dXNk84eE5SWFk4djhFYUdQQVlQU1VCQUdMZVc5VEM0ZG9xeEF4RVh2U2FOSGdqQmNQMTRGTlZvMWxlb3B5VmVwSEJHSmFiSzEzVXJTYzdXLXJT?oc=5",
-   "source": "머니투데이",
-   "published": "2026-11-08T11:00+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · K-MOOC"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "a2d3759ef0e3"
   },
   {
    "id": "25d89c4f8bf1",
@@ -4157,6 +4111,24 @@
    "group": "29e00d6750a2"
   },
   {
+   "id": "cfed2cbaa79b",
+   "title": "김정진 국립목포대학교 제약공학전공 주임교수 · GMP 품질협의회(GQC) 사무총장 - 산업의 언어로 답을 만드는 산업약학, 소재에서 제품으로 연결하다",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KYWNoejRNLW5tZVoxOHVnV29qSXVJMWRMc0piQUdaeDhEY3dhSDdpWXlfeUNpWVZTY1ZzR2dyZzNtSDZDb014UTRMcUlVQi1JTVRMN2RhTTJMOTdDRk5tbG5jUmY5b05ENU02M0xDQW00UdIBdkFVX3lxTE96TFR4R0k2NURDN0l2WkNXOXdDbUlzNFVoaWlPdmNUVS1CdlVpdVo2WlVobWZIbFctM1pPVjRKcG1kcUZoWmtNV3JkaGoyalgxRGV1SEZFaEViOG1LNmpZTkwtenR2UUl4LXZxUGZWWjFBdnFuUEE?oc=5",
+   "source": "월간인물",
+   "published": "2026-11-05T10:58+09:00",
+   "first_seen": "2026-11-09T16:25+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "국립목포대"
+   ],
+   "group": "cfed2cbaa79b"
+  },
+  {
    "id": "9d99cc617e44",
    "title": "전남광주 중학교 교사들, 학생 질문 살리는 수업·평가 배운다",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BMTMwMWlueFF1dzg4NGtJNUtDQjdaWlMzNFNKekRsdVBMcEJpcnhEV2tQWW56VFM5a1RtOFd1bjd1d3NIMXhyYU5NVHhnMG5sVGE3dWZ4R2ZWd3QtaUdTZG9MaTcxY01OSXdUNXZzNA?oc=5",
@@ -5145,41 +5117,6 @@
     "세종사이버대"
    ],
    "group": "5785fc212edd"
-  },
-  {
-   "id": "a24b5f8ae9ab",
-   "title": "북한, 12년제 의무교육 틀 유지하며 ‘선택교육’ 확대…지역 인재 수요와 연계",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85UnJlUjM0QnREcVlQYXJxdmxNYkZHeFFnWjBHeGRVQ3pVOHE3TjRnU24zTjNPRWV3allIYkdMTWF3NmF0QklaeWVhSjVuWWV3U3FMMk53OWZWUTFGVGFza280Vi1acVE?oc=5",
-   "source": "남북경협뉴스",
-   "published": "2026-11-04T15:06+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 대학 교육과정 개편"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [],
-   "group": "a24b5f8ae9ab"
-  },
-  {
-   "id": "db15fe0a2fff",
-   "title": "북한, ‘전민과학기술인재화’로 노동력 재교육…원격교육 지방발전과 연계",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aSkNpd2NvMENxazRQVnhBSVVvZkt1amtjMUhIdmdVb1BVVjJETU4wQjVBWXBiNHRjdUJEN2VMc29Wc1dMeFdzeFJzRS0xYW5WbTZYeDNsdklQWG9POExiTTI1Ym1TMkE?oc=5",
-   "source": "남북경협뉴스",
-   "published": "2026-11-04T15:03+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · \"원격교육\" 대학",
-    "구글 뉴스 · 대학 원격수업"
-   ],
-   "direct": false,
-   "tags": [
-    "원격교육"
-   ],
-   "univs": [],
-   "group": "db15fe0a2fff"
   },
   {
    "id": "46b4a127638d",
@@ -6742,6 +6679,22 @@
     "건양대"
    ],
    "group": "f108bcb3050c"
+  },
+  {
+   "id": "6c6cc9fd22b5",
+   "title": "춘천시, 교육혁신선도지역 2유형 선정…내년 19억원 지원",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHSW9fTFRzQkhVZTNqZFcwMXlLTGMxdWFObTliTVdHa0VGNGxRUEF5WVlSNjVtdGhYa0FtaDYtZkR2YlkxTjROZVVabE9UNWVxeTZLZFNxX2xGRjTSAWBBVV95cUxOVGpFUDM4cjNhMVQyQU1oUTREazVxeGMzTkZQRjFuUHVRTnRWNjltTEF2Y3AxUlExUzFkSkdmYzdzSGNJT2ZQNDdxOElfLVpEX0dLMjVkb3dPTkpISWVQdW8?oc=5",
+   "source": "연합뉴스",
+   "published": "2026-11-03T16:18+09:00",
+   "first_seen": "2026-11-09T16:25+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "6c6cc9fd22b5"
   },
   {
    "id": "d06be3c8bbf7",

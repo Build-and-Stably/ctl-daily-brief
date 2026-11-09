@@ -210,14 +210,14 @@ def assign_groups(items):
         i["group"] = root(i["id"])
 
 
-def merge(existing, fresh, tag_rules, keep_days, exclude_sources=()):
+def merge(existing, fresh, tag_rules, keep_days, exclude_sources=(), exclude_words=()):
     now = now_kst()
     cutoff = now - timedelta(days=keep_days)
     by_key = {norm_key(i["title"]): i for i in existing}
     items = list(existing)
 
     for it in fresh:
-        if not it["title"] or not it["link"] or it["source"] in exclude_sources:
+        if not it["title"] or not it["link"] or it["source"] in exclude_sources or                 any(w in it["title"] for w in exclude_words):
             continue
         pub = parse_date(it["date"]) or now
         if pub < cutoff or pub > now + timedelta(days=1):
@@ -254,7 +254,8 @@ def merge(existing, fresh, tag_rules, keep_days, exclude_sources=()):
     for i in items:  # 설정을 바꾸면 기존 기사에도 바로 반영되도록 매번 다시 계산
         i["tags"] = find_tags(i["title"] + " " + i["summary"], i["source"], tag_rules)
         i["univs"] = find_univs(i["title"])
-    items = [i for i in items if parse_date(i["published"]) >= cutoff and i["source"] not in exclude_sources]
+    items = [i for i in items if parse_date(i["published"]) >= cutoff and i["source"] not in exclude_sources
+             and not any(w in i["title"] for w in exclude_words)]
     assign_groups(items)
     items.sort(key=lambda i: i["published"], reverse=True)
     return items
@@ -273,7 +274,8 @@ def main():
     fresh += collect_naver(cfg["google_news_queries"], status)
     fresh += collect_google(cfg["google_news_queries"], status)
 
-    items = merge(existing, fresh, cfg["tags"], cfg["keep_days"], set(cfg.get("exclude_sources", [])))
+    items = merge(existing, fresh, cfg["tags"], cfg["keep_days"], set(cfg.get("exclude_sources", [])),
+                  cfg.get("exclude_title_words", []))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"updated": now_kst().isoformat(timespec="minutes"), "status": status, "items": items},

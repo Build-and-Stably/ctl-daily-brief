@@ -27,6 +27,8 @@
 
   "exclude_sources": ["Vietnam.vn"],
 
+  "exclude_title_words": ["오션MOOC", "오션 MOOC", "북한"],
+
   "full_feeds": [
     { "name": "한국대학신문", "url": "https://news.unn.net/rss/allArticle.xml" },
     { "name": "교수신문", "url": "https://www.kyosu.net/rss/allArticle.xml" },
