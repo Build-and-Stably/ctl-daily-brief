@@ -15,7 +15,7 @@
 | `filter_keywords` | 언론사 RSS에서 남길 기사의 키워드 |
 | `tags` | 페이지 상단 분류 칩. 제목·요약에 단어가 있으면 해당 분류가 붙습니다. |
 | `exclude_sources` | 제외할 매체 이름 |
-| `exclude_title_words` | 제목에 이 단어가 있으면 제외 (예: 북한) |
+| `exclude_title_words` | 제목에 이 단어가 있으면 제외 (예: 북한). `{"word": [...], "unless": [...]}`로 쓰면 `unless` 단어가 함께 있는 기사는 남깁니다. |
 | `keep_days` | 기사 보관 기간(일) |
 
 GitHub 웹에서 `config.json`을 열어 연필 아이콘으로 바로 수정해도 되고, 다음 수집 때부터 반영됩니다.

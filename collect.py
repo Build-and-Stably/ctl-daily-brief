@@ -179,6 +179,16 @@ def collect_naver(queries, status):
     return out
 
 
+def excluded(title, rules):
+    """제외어는 문자열 또는 {"word": [...], "unless": [제목에 있으면 남길 말]} 형태다."""
+    for r in rules:
+        if isinstance(r, str):
+            r = {"word": [r]}
+        if any(w in title for w in r["word"]) and not any(w in title for w in r.get("unless", [])):
+            return True
+    return False
+
+
 PARTICLE_RE = re.compile(r"(에서|으로|와|과|은|는|이|가|의|를|을|에|로|도)$")
 
 
@@ -217,7 +227,7 @@ def merge(existing, fresh, tag_rules, keep_days, exclude_sources=(), exclude_wor
     items = list(existing)
 
     for it in fresh:
-        if not it["title"] or not it["link"] or it["source"] in exclude_sources or                 any(w in it["title"] for w in exclude_words):
+        if not it["title"] or not it["link"] or it["source"] in exclude_sources or                 excluded(it["title"], exclude_words):
             continue
         pub = parse_date(it["date"]) or now
         if pub < cutoff or pub > now + timedelta(days=1):
@@ -255,7 +265,7 @@ def merge(existing, fresh, tag_rules, keep_days, exclude_sources=(), exclude_wor
         i["tags"] = find_tags(i["title"] + " " + i["summary"], i["source"], tag_rules)
         i["univs"] = find_univs(i["title"])
     items = [i for i in items if parse_date(i["published"]) >= cutoff and i["source"] not in exclude_sources
-             and not any(w in i["title"] for w in exclude_words)]
+             and not excluded(i["title"], exclude_words)]
     assign_groups(items)
     items.sort(key=lambda i: i["published"], reverse=True)
     return items

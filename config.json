@@ -27,7 +27,10 @@
 
   "exclude_sources": ["Vietnam.vn"],
 
-  "exclude_title_words": ["오션MOOC", "오션 MOOC", "북한"],
+  "exclude_title_words": [
+    "오션MOOC", "오션 MOOC", "북한", "원격평생교육원", "사이버평생교육원",
+    { "word": ["사이버대", "디지털대"], "unless": ["수업", "강의", "교수", "교원", "교육과정"] }
+  ],
 
   "full_feeds": [
     { "name": "한국대학신문", "url": "https://news.unn.net/rss/allArticle.xml" },

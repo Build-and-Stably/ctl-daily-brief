@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:25+09:00",
+ "updated": "2026-11-09T16:26+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -179,22 +179,6 @@
     "한양대"
    ],
    "group": "a0f6b0605ef4"
-  },
-  {
-   "id": "0d0c431ced28",
-   "title": "MBC아카데미원격평생교육원, 사회복지사2급 학습설계 지원",
-   "link": "http://www.dhnews.co.kr/news/view/1065595318381310",
-   "source": "대학저널",
-   "published": "2026-11-09T15:43+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "[대학저널 임춘성 기자] 사회복지사 전문 학점은행제 교육원인 MBC아카데미원격평생교육원(원장 천애리)은 사회복지사2급 자격증을 최단 11개월 만에 취득할 수 있는 학습 일정의 마지막 개강반을 오는 11월 13일 운영한다고 밝혔다.사회복지사2급은 별도의 국가시험 없이 정해진 교과목과 학력…",
-   "via": [
-    "대학저널 RSS"
-   ],
-   "direct": true,
-   "tags": [],
-   "univs": [],
-   "group": "0d0c431ced28"
   },
   {
    "id": "b0ed52599073",
@@ -588,25 +572,6 @@
    "group": "dee36ba72934"
   },
   {
-   "id": "dc87e8ad04af",
-   "title": "여기스터디사이버평생교육원, 11월 16일 사회복지사 2급 개강",
-   "link": "http://www.dhnews.co.kr/news/view/1065580102902370",
-   "source": "대학저널",
-   "published": "2026-11-09T11:29+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "[대학저널 임춘성 기자] 교육부 평가인정 학점은행제 원격교육기관인 여기스터디사이버평생교육원이 오는 11월 16일 사회복지사 2급 자격증 취득과정을 개강하고 수강생을 모집한다. 이번 과정은 2026년 2학기 마지막 개강반으로, 수강 신청은 11월 15일까지 홈페이지에서 가능하다.사회복지사…",
-   "via": [
-    "대학저널 RSS"
-   ],
-   "direct": true,
-   "tags": [
-    "원격교육",
-    "정부·기관"
-   ],
-   "univs": [],
-   "group": "dc87e8ad04af"
-  },
-  {
    "id": "d2341ef4a1bc",
    "title": "대동대, 온천천 환경 보호 위한 ‘줍깅’봉사활동 실시",
    "link": "https://news.unn.net/news/articleView.html?idxno=600205",
@@ -940,24 +905,6 @@
     "울산과학대"
    ],
    "group": "968556e3af40"
-  },
-  {
-   "id": "f510b6c87b01",
-   "title": "온라인 성악교육의 대표주자 서울사이버대, 재학생들 '도쿄 국제 성악 콩쿠르 그랑프리' 입상 쾌거",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YMkJoVENIUjkydDdiRUFPYmlMUjVGMEo0Qlh2clNNampUeXZSVVlSYkxaRVpNb3ZULV9ieEhzX1BYVnAtMmZtTlNkQUdkVjZ0ckhRTGJhMWpMSl9XaWR3NDBoX0pLQmdqdnptSlJubV8zNHR6VjcyS21nMA?oc=5",
-   "source": "비욘드포스트",
-   "published": "2026-11-09T08:55+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 대학 원격수업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "서울사이버대"
-   ],
-   "group": "f510b6c87b01"
   },
   {
    "id": "bfbce548a43d",
@@ -3636,26 +3583,6 @@
    "group": "bff0e55790d0"
   },
   {
-   "id": "c9a7eabe3018",
-   "title": "원광디지털대, 재학생 전문가 6명 참여 뷰티 실무강좌 개설…4K·다각도 영상 활용",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kZjRVUFRPVTdOV1h6ZnR5RFhmLTRMcXZqN0NWaTNlOXMzaWQweHo2ZVlKWnZ3ZXFKU0RfMnp6N0Nqd1prZ2hnTXYtcEJmRTJUZXZvUk9TbkktMmh5WkZIV3kyeUpfSUdiZFBoY1k4eDIzZ9IBckFVX3lxTE5kZjRVUFRPVTdOV1h6ZnR5RFhmLTRMcXZqN0NWaTNlOXMzaWQweHo2ZVlKWnZ3ZXFKU0RfMnp6N0Nqd1prZ2hnTXYtcEJmRTJUZXZvUk9TbkktMmh5WkZIV3kyeUpfSUdiZFBoY1k4eDIzZw?oc=5",
-   "source": "메가경제",
-   "published": "2026-11-05T16:27+09:00",
-   "first_seen": "2026-11-05T20:21+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 한국교육학술정보원 대학"
-   ],
-   "direct": false,
-   "tags": [
-    "AI·에듀테크"
-   ],
-   "univs": [
-    "원광디지털대"
-   ],
-   "group": "0ce228cb523f"
-  },
-  {
    "id": "810ffa975865",
    "title": "“직업교육, 이대로 괜찮은가”…교육부 현직 과장·전직 부교육감이 답을 찾는다",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRMzV1U1VxTFkxenExWjR6Zi1QOTlGZ2ZUVzBCdnk2YVdZUUVHOFJYbWdEd09jSDJFODQzZ29RXzlVUk16dzl5MDk2aDFPTV9WRFdnN2FjOTNiakd1LTVNcnl3bTJpVkk?oc=5",
@@ -3865,26 +3792,6 @@
     "호서대"
    ],
    "group": "264838f65a02"
-  },
-  {
-   "id": "5336727552ee",
-   "title": "원광디지털대, 현장 전문가 참여 뷰티 실기교육 콘텐츠 3개 공개",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZTTVEU0lwb09BTlRQSENubGtjM1hKWEdudVhtcklsenctN3hDWWVOQy04N0swNkNDWi1KMVVONUJwVEhic1hscXNPVU0wa0RscE5DNW9rS2xfREVZbldnTFhTYXN1MmxtWjlSSGlsb0E3VS1q0gF0QVVfeXFMTVlNNURTSXBvT0FOVFBIQ25sa2MzWEpYR251WG1ySWx6dy03eENZZU5DLTg3SzA2Q0NaLUoxVU41QnBUSGJzWGxxc09VTTBrRGxwTkM1b2tLbF9ERVluV2dMWFNhc3UybG1aOVJIaWxvQTdVLWo?oc=5",
-   "source": "이뉴스투데이",
-   "published": "2026-11-05T15:18+09:00",
-   "first_seen": "2026-11-05T20:21+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 한국교육학술정보원 대학"
-   ],
-   "direct": false,
-   "tags": [
-    "AI·에듀테크"
-   ],
-   "univs": [
-    "원광디지털대"
-   ],
-   "group": "0ce228cb523f"
   },
   {
    "id": "8fccb03d6e56",
@@ -4143,26 +4050,6 @@
    "tags": [],
    "univs": [],
    "group": "9d99cc617e44"
-  },
-  {
-   "id": "0ce228cb523f",
-   "title": "원광디지털대 한방미용예술학과 현장 전문가 재학생 6인이 참여한 뷰티 실무 강좌 공개",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QUExrY05sNXZtenQ4eWFlUWVYNk1WYlhsWEZrX2pCa0Y2bkN0QmtpOGdxSHhvZE5MNENwbjd2VVhxcU55c0RfZW1PUUl1MVY0RF9PZDFRN2ludWhkcFVJYWtJZGF5Y01mNW5oYQ?oc=5",
-   "source": "베리타스알파",
-   "published": "2026-11-05T10:40+09:00",
-   "first_seen": "2026-11-05T20:21+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 한국교육학술정보원 대학"
-   ],
-   "direct": false,
-   "tags": [
-    "AI·에듀테크"
-   ],
-   "univs": [
-    "원광디지털대"
-   ],
-   "group": "0ce228cb523f"
   },
   {
    "id": "8ea74f98326c",
@@ -5097,26 +4984,6 @@
     "강동대"
    ],
    "group": "e0d37c57193b"
-  },
-  {
-   "id": "5785fc212edd",
-   "title": "세종사이버대 사회복지학부 'AI 활용 유튜브 쇼츠 공모전' 온라인 시상식 성료",
-   "link": "https://www.veritas-a.com/news/articleView.html?idxno=635256",
-   "source": "베리타스알파",
-   "published": "2026-11-04T15:17+09:00",
-   "first_seen": "2026-11-04T16:12+09:00",
-   "summary": "[베리타스알파=김하연 기자] 세종사이버대(총장 신구) 사회복지학부가 지난 11월 3일 화상회의 플랫폼 줌(Zoom)을 통해 '2026 우리 동네 복지기관을 소개합니다: AI를 활용한 유튜브 쇼츠 공모전' 온라인 시상식을 성황리에 개최했다고 밝혔다. 이번 공모전은 지역사회 복지서비스에 대…",
-   "via": [
-    "베리타스알파 RSS"
-   ],
-   "direct": true,
-   "tags": [
-    "AI·에듀테크"
-   ],
-   "univs": [
-    "세종사이버대"
-   ],
-   "group": "5785fc212edd"
   },
   {
    "id": "46b4a127638d",
@@ -6851,25 +6718,6 @@
    "group": "c4a2c5b86cd4"
   },
   {
-   "id": "727e49d1c6a7",
-   "title": "세종사이버대, ‘2026 고객 신뢰도 1위 프리미엄 브랜드 대상’ 사이버대학 부문 수상",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNmhBSUdRUDVCVzVucGs5TWdZUkc4Z0paeTIzUWN5UVR6VXVnbzZfU2xjbHlxa3dBQWlSbUE5aXctMDFhSU1IamF6Z0c1aXB5NEhaM2h6c0Vqb1lDcXlQTDgwVEjSAWhBVV95cUxQbkRBUFFaWXY2LUhhTXJOUHZZVjVsZDB3YWw0eUYtOFNheF9qVzdIMWlZTVhnZlJpcnFBd3Vvc3lYMS15aDJjVWVzMkZTVlFSMXBTV0RxN1pEYzdzbEtiTTlfSEtBMWJ3NQ?oc=5",
-   "source": "Usline(유스라인)",
-   "published": "2026-11-03T15:16+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · \"원격교육\" 대학",
-    "구글 뉴스 · 대학 원격수업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "세종사이버대"
-   ],
-   "group": "727e49d1c6a7"
-  },
-  {
    "id": "83f2e13d421a",
    "title": "재능대·뤼튼테크놀로지스, AI 교육 혁신 산학협력…콘텐츠·실무인재 양성 협력",
    "link": "https://news.unn.net/news/articleView.html?idxno=599872",
@@ -7378,24 +7226,6 @@
    ],
    "univs": [],
    "group": "eeefcd1e563b"
-  },
-  {
-   "id": "cb4c11a46e01",
-   "title": "한양사이버대, ‘허들’로 가족돌봄 이슈 조명…5일 온라인 복지 워크숍 개최",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QQk42YU5uYXMtN0hQMjhDYU1UeVZ2OHlSWkM5RHNBSm4yV2Q2aXA0cjdIUnNfMGFBRGxPMmV2M1NZZEZranVRb3RxM0dQejBxQXJsamVHZGtJLW9SbzNkek9VdW41Zw?oc=5",
-   "source": "한국대학신문",
-   "published": "2026-11-03T09:27+09:00",
-   "first_seen": "2026-11-09T15:53+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 공유대학 온라인 강좌"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "한양사이버대"
-   ],
-   "group": "cb4c11a46e01"
   },
   {
    "id": "7a644d8da8df",
