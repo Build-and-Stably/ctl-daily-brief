@@ -28,7 +28,7 @@
   "exclude_sources": ["Vietnam.vn"],
 
   "exclude_title_words": [
-    "오션MOOC", "오션 MOOC", "북한", "원격평생교육원", "사이버평생교육원",
+    "오션MOOC", "오션 MOOC", "북한", "평생교육원",
     { "word": ["사이버대", "디지털대"], "unless": ["수업", "강의", "교수", "교원", "교육과정"] }
   ],
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:26+09:00",
+ "updated": "2026-11-09T16:27+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -79,7 +79,7 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 26
+   "count": 25
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
@@ -94,12 +94,12 @@
   {
    "name": "구글 뉴스: 대학 교육과정 개편",
    "ok": true,
-   "count": 31
+   "count": 30
   },
   {
    "name": "구글 뉴스: 전문대학 교육과정",
    "ok": true,
-   "count": 31
+   "count": 30
   },
   {
    "name": "구글 뉴스: 전공자율선택 대학",
@@ -129,7 +129,7 @@
   {
    "name": "구글 뉴스: 공유대학 온라인 강좌",
    "ok": true,
-   "count": 15
+   "count": 16
   },
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
@@ -1629,24 +1629,6 @@
     "동국대"
    ],
    "group": "73d0ffbda28c"
-  },
-  {
-   "id": "520652bff718",
-   "title": "나다움놀이터 사회적협동조합, 성운대학교 평생교육원과 지역사회 평생교육 활성화 위한 업무협약 체결",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ORmxQdFV4dE52WFYzSWdhaTFYRlo0Q1A1ODRFYlRORko2RVdTbjZ0REZ2ZWFMcG1Wdjd0enhHWkNBektEWV93LU95YkNkeWpxY1lkUDdOQnhuR0dyZ3p0dlJoMXpYbW9nLWE4RmNiZnM1QnfSAXdBVV95cUxPTDBnRHJpaDNUbWNOdUd2ZGtBV3Q4Q2dkWEsxNGFXenFWTGhiYVBRRzhnX05nVkdycER3cnFVUUhQRE5XOXQwemRuLU1ONkMzelhVb1EyeGFWenV3MTIyNmlEc3pFM3ExT3haN29FT21idE1UbVlkSQ?oc=5",
-   "source": "한국시민기자협회 뉴스포털1",
-   "published": "2026-11-07T12:35+09:00",
-   "first_seen": "2026-11-07T19:33+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "성운대"
-   ],
-   "group": "520652bff718"
   },
   {
    "id": "88e448e248cd",
@@ -3662,24 +3644,6 @@
    "group": "c23f0b95a6b9"
   },
   {
-   "id": "47115ff1313b",
-   "title": "부산과학기술대 평생교육원, '제6회 부산평생학습주간'서 성인학습자 위한 진로 적성 프로그램 선보여",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaU9PTkExelVVdUhieUlMdE9jczJEQWxpWWlQd0VnckR2TE1LdVB2d2ZzS2tyNmJGZV90cnRnSUFIaXctdmJ2Z3NYbHlSZU9JZHR0d0J0QXJuc0t6b3BoNUkyamRQSnBOdS1SSGhlVTNFN1pMMlZoM3ZLUnpseE9mNlFtVlhEZGQ4bzVWcXB3?oc=5",
-   "source": "국제신문",
-   "published": "2026-11-05T15:59+09:00",
-   "first_seen": "2026-11-05T20:21+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "부산과학기술대"
-   ],
-   "group": "47115ff1313b"
-  },
-  {
    "id": "af98b1e2b772",
    "title": "방배동 신학교, 태조산 자락에 종합대학으로 우뚝",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hWUUwNmh1NUxXdW5XcUt6aUhaRnRtckh3R2tFRUE3QWhHS3ZWcllPYTd1Qy1DdllVOUJNY2RZNXE0dzdUUVA3SUxscnpCODlqREw4REhVYkpGRHBxZmJXQ1Q4eXo4WHJWb0E?oc=5",
@@ -3830,24 +3794,6 @@
     "한신대"
    ],
    "group": "b0be4e7c2f4b"
-  },
-  {
-   "id": "248e78656ec0",
-   "title": "부산과기대 평생교육원, 부산평생학습주간서 MBTI·아로마 체험 부스 성황",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VRHFaT0xUT0hSZnVVNVVIdzVoeU1VSFNRRnRMcEFUeENaVFEwYkJsUDFmdnFOa2lFeTNoQTQ0TFlvMWpvUlE4eE03VE1ZMGNaQnFrQjlieUdUQ3NjekNad3NMbHFYaWdWSXF2QVlXU2lSR0dH?oc=5",
-   "source": "부산일보",
-   "published": "2026-11-05T14:29+09:00",
-   "first_seen": "2026-11-07T19:33+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대학 혁신지원사업"
-   ],
-   "direct": false,
-   "tags": [],
-   "univs": [
-    "부산과기대"
-   ],
-   "group": "248e78656ec0"
   },
   {
    "id": "c7a5cde9d8eb",
@@ -7118,24 +7064,6 @@
     "부산여대"
    ],
    "group": "06e1e9215c2d"
-  },
-  {
-   "id": "7327601d3e0e",
-   "title": "전국대학평생교육원관리자협, 제주서 하반기 세미나… AI 시대 평생교육 과제 논의",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VelhBNHVCdVJvSnJVeUJpVTZvcTNJbzc1b3FrQmRjYW1ybGZoSk5aWm9GUFA3YXcxcVNHN3dCdjJGTmtobUZVV1pmdVUwdloxZFBuNXNhV0NEWFBtMGNXUjd4YWVEQQ?oc=5",
-   "source": "한국대학신문",
-   "published": "2026-11-03T11:08+09:00",
-   "first_seen": "2026-11-04T16:00+09:00",
-   "summary": "",
-   "via": [
-    "구글 뉴스 · 전문대 AI 교육"
-   ],
-   "direct": false,
-   "tags": [
-    "AI·에듀테크"
-   ],
-   "univs": [],
-   "group": "7327601d3e0e"
   },
   {
    "id": "54e758f0052e",
