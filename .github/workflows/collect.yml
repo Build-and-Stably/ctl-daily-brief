@@ -22,10 +22,20 @@ jobs:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python collect.py
+      - name: 뉴스레터 읽기 도구 설치
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+          pip install -q pymupdf google-auth requests
+      - name: 뉴스레터 수집 (구글 드라이브)
+        continue-on-error: true  # 뉴스레터가 실패해도 기사는 저장한다
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+        run: python newsletters.py
       - name: 결과 저장
         run: |
           git config user.name "ctl-brief-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/items.json
+          git add docs/items.json docs/newsletters.json
           git diff --cached --quiet || git commit -m "소식 갱신 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
           git push
