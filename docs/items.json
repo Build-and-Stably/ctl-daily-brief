@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T17:51+09:00",
+ "updated": "2026-11-09T20:57+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -10,7 +10,7 @@
   {
    "name": "교수신문 RSS",
    "ok": true,
-   "count": 6,
+   "count": 7,
    "total": 50
   },
   {
@@ -34,7 +34,7 @@
   {
    "name": "구글 뉴스: \"교수학습센터\"",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   {
    "name": "구글 뉴스: \"교수학습지원센터\"",
@@ -54,7 +54,7 @@
   {
    "name": "구글 뉴스: 전문대학 교수법",
    "ok": true,
-   "count": 8
+   "count": 9
   },
   {
    "name": "구글 뉴스: 대학 교수법 워크숍",
@@ -64,12 +64,12 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 2
+   "count": 3
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 29
+   "count": 28
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
@@ -79,7 +79,7 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 26
+   "count": 25
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
@@ -99,7 +99,7 @@
   {
    "name": "구글 뉴스: 전문대학 교육과정",
    "ok": true,
-   "count": 32
+   "count": 30
   },
   {
    "name": "구글 뉴스: 전공자율선택 대학",
@@ -138,6 +138,62 @@
   }
  ],
  "items": [
+  {
+   "id": "2f42333e41fc",
+   "title": "대구보건대, 재학생 대상 '의사소통과 공감' 집중이수 수업 운영",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lTjhwRnhKdnRYcHg3MWNHZUx6dTBESVEydGo3bjZXdkdUaC1WSGhvNWZTREJObXFIZUtCRjJ6SVB4MmIwSDgtUzU2RkZld01iOG11UHdwUWIxLUlP?oc=5",
+   "source": "아시아뉴스통신",
+   "published": "2026-11-09T18:29+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구보건대"
+   ],
+   "group": "2fd794dcdcdd"
+  },
+  {
+   "id": "1f2e0bbacc17",
+   "title": "대구과학대 측지정보과, 공간정보 캡스톤대회 최우수상·우수상",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212181",
+   "source": "교수신문",
+   "published": "2026-11-09T18:19+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "대구과학대 측지정보과가 지난 4일 경기도 고양시 킨텍스 제2전시장에서 열린 ‘2026 공간정보 대학생 캡스톤디자인 경진대회’에서 최우수상과 우수상을 받았다. 대구과학대에 따르면 이번 대회는 국토교통부가 주최하고 공간정보산업진흥원이 주관했다. 공간정보 특성화전문대학 4개교에서 8개 팀이…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "대구과학대"
+   ],
+   "group": "1f2e0bbacc17"
+  },
+  {
+   "id": "4f39b7776bd3",
+   "title": "숭실대 자연과학연구소, 학부생 60명 포스터 발표…우수 포스터 시상",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212242",
+   "source": "교수신문",
+   "published": "2026-11-09T17:55+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "숭실대 자연과학연구소는 10월 30일 한경직기념관 김덕윤예배실에서 '2026학년도 자연과학대학 학술발표대회'를 개최했다고 밝혔다. 이번 대회는 'AX 시대를 선도하는 기초과학의 힘'을 주제로 열렸다. 물리학과, 수학과, 화학과, 정보통계·보험수리학과, 의생명시스템학부 학부 연구생 약 6…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [],
+   "univs": [
+    "숭실대"
+   ],
+   "group": "4f39b7776bd3"
+  },
   {
    "id": "b3d37a367198",
    "title": "한경국립대, 몽골 생명과학대 산학연계형 고등교육 역량강화 사업 종료보고회 성료",
@@ -431,6 +487,25 @@
    ],
    "univs": [],
    "group": "b0ed52599073"
+  },
+  {
+   "id": "17ae29439008",
+   "title": "인천대 생명과학기술대학, 바이오 페스티벌 성료",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xWUpra1JVRHMzWXpsZkp6eUpKYkdiOVpOZGM0dWU0ZXRXcjZZeldBMkNZemE3dDNWUllIVmRsbXBRRlp2SThPaTIzYWFHOHFBLXZmMy15cVdtdnBGTzRUenpIRmduWnJpNkw1UW9n0gFwQVVfeXFMUGN2NEZ5M2l5V00xeDNLZ2Y5NThQWk9Ic3Y0UERmNFMxQUV6bjAzTU1qOXhVOUR4SXFDMjFyZVhUMXdwY0tRaTZrU2MwYmNqeG5JSFlfZi1YRXlhUzJrLWs0OHRiTXhtVXJEUXJRNXh6VA?oc=5",
+   "source": "대학IN",
+   "published": "2026-11-09T15:25+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · RISE 전문대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "인천대",
+    "생명과학기술대"
+   ],
+   "group": "17ae29439008"
   },
   {
    "id": "5451dc25c3b7",
@@ -1256,6 +1331,22 @@
    "group": "bfbce548a43d"
   },
   {
+   "id": "be73c0a30a09",
+   "title": "30개 학과 한자리에… 한양YK인터칼리지 전공박람회 개최",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93LTIwSUJZcmtyUXBtcy1qeEhxeFRHRmNLaVBDd0xUOFZ6UXYxQ25rM1Y5bWJnTVNOYkZ6dzFzbFJBZzdUNVIxNTZMX19FUFBCYWhqaGo3OUtDT0tTQzJBLW9QczE1V21lU0ZJ?oc=5",
+   "source": "뉴스H",
+   "published": "2026-11-09T08:53+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "be73c0a30a09"
+  },
+  {
    "id": "080ee0995c8e",
    "title": "AI 다룰 줄 알아야 교수 된다…전공 불문 ‘AI 역량’ 우대 확산",
    "link": "https://www.kyosu.net/news/articleView.html?idxno=212108",
@@ -1909,7 +2000,8 @@
    "first_seen": "2026-11-08T09:51+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · 한국전문대학교육협의회"
+    "구글 뉴스 · 한국전문대학교육협의회",
+    "구글 뉴스 · 한국대학교육협의회"
    ],
    "direct": false,
    "tags": [
@@ -3501,6 +3593,22 @@
     "정화예술대"
    ],
    "group": "9e60d47178da"
+  },
+  {
+   "id": "1f8b0d3a7a0b",
+   "title": "日 한국어시험 응시자 2배로...비결은 ‘접근성’",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EMC1RVDZ1aldEcm1PdFUyV2ZUZzJoX2xPbFp5bDZpaVBram16My11Q0JpUXJKQTFnQUdSYWZPLVhUX2FaTXVLVW5RSGxrenFXekpBeVZZMDQxX0lLb3RpTg?oc=5",
+   "source": "헤럴드경제 미주판",
+   "published": "2026-11-05T19:00+09:00",
+   "first_seen": "2026-11-09T20:57+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "1f8b0d3a7a0b"
   },
   {
    "id": "1b2eb0df2356",
