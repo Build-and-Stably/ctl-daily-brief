@@ -36,6 +36,7 @@ h1{margin:0;font-size:22px;letter-spacing:-.02em}
 .stat span{font-size:12px;color:var(--muted)}
 .layout{display:grid;grid-template-columns:1fr 280px;gap:20px;padding-top:18px;padding-bottom:40px}
 @media (max-width:860px){.layout{grid-template-columns:1fr}}
+.layout[hidden]{display:none}
 .controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
 .controls input,.controls select{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text)}
 .controls input{flex:1;min-width:180px}
@@ -73,17 +74,38 @@ details.more li span{color:var(--muted);font-size:12px}
 .empty{color:var(--muted);text-align:center;padding:40px 0}
 .active-filter{font-size:13px;margin-bottom:10px;color:var(--muted)}
 .active-filter button{font:inherit;font-size:12px;margin-left:6px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:6px}
+.tabs{display:flex;gap:4px;margin-top:14px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:14.5px;font-weight:500;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:6px 14px 8px;cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+header .wrap.has-tabs{padding-bottom:0}
+.section-title{font-size:14px;font-weight:700;margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+.section-title em{font-style:normal;font-weight:400;color:var(--muted);font-size:12.5px}
+.score{font-size:11.5px;font-weight:700;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.score.ai{background:var(--chip);color:var(--t3)}
+.hits{list-style:none;margin:8px 0 0;padding:0;font-size:13.5px}
+.hits li{display:flex;gap:8px;padding:4px 0;border-top:1px dashed var(--line)}
+.hits li:first-child{border-top:0}
+.hits .lbl{flex:none;font-size:11px;font-weight:700;width:30px;color:var(--accent)}
+.hits .lbl.ai{color:var(--t3)}
+.hits .pg{flex:none;font-size:11.5px;color:var(--muted);width:30px}
+.hits mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 2px}
+.compact .card{padding:9px 16px}
+.compact .card h3{font-size:14.5px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header><div class="wrap has-tabs">
   <h1>CTL 데일리 브리프</h1>
   <div class="sub">국내 대학 교수학습 · 교육과정 · 원격교육 · RISE · 교육정책 소식 모음 · <span id="updated">불러오는 중…</span></div>
   <div class="stats" id="stats"></div>
+  <div class="tabs" role="tablist">
+    <button role="tab" data-tab="news" aria-selected="true">기사</button>
+    <button role="tab" data-tab="nl" aria-selected="false">뉴스레터 <span id="nlCount"></span></button>
+  </div>
 </div></header>
 
-<div class="wrap layout">
+<div class="wrap layout" id="newsView">
   <main>
     <div class="controls">
       <input id="q" type="search" placeholder="제목·요약·매체 검색 (예: 교수법, 영진전문대)">
@@ -110,12 +132,32 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
     </div>
   </aside>
 </div>
+<div class="wrap layout" id="nlView" hidden>
+  <main>
+    <div class="controls">
+      <input id="nq" type="search" placeholder="대학명·내용 검색 (예: 교수법, 생성형, 마산대)">
+    </div>
+    <div class="chips" id="nlChips"></div>
+    <div id="nlList"></div>
+  </main>
+  <aside class="side">
+    <div class="box">
+      <h2>뉴스레터 읽는 방식</h2>
+      <p style="font-size:12.5px;color:var(--muted);margin:0">공문으로 받은 다른 대학 뉴스레터(PDF)를 구글 드라이브 폴더에서 읽어, CTL·AI 관련 문장을 찾아 먼저 보여줍니다. 이미지로 된 쪽은 글자 인식(OCR)으로 읽어 오탈자가 있을 수 있습니다.</p>
+    </div>
+    <div class="box">
+      <h2>뉴스레터 수집 상태</h2>
+      <ul class="status" id="nlStatus"></ul>
+    </div>
+  </aside>
+</div>
 <footer>기사 제목·요약·링크만 모아 보여주며, 저작권은 각 언론사에 있습니다. 매일 아침 자동 갱신됩니다.</footer>
 
 <script>
 const TAGS = ["교수학습", "교육과정", "원격교육", "RISE·재정사업", "AI·에듀테크", "정부·기관", "전문대학"];
-const state = { q: "", period: 7, tag: "전체", univ: null };
+const state = { q: "", period: 7, tag: "전체", univ: null, tab: "news", nq: "", ntopic: "우선" };
 let DATA = { items: [], status: [] };
+let NL = { items: [], errors: [] };
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -125,6 +167,9 @@ function readHash() {
   if (p.has("univ")) state.univ = p.get("univ");
   if (p.has("period")) state.period = +p.get("period");
   if (p.has("q")) state.q = p.get("q");
+  if (p.get("tab") === "nl") state.tab = "nl";
+  if (p.has("nq")) state.nq = p.get("nq");
+  if (p.has("ntopic")) state.ntopic = p.get("ntopic");
 }
 function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대로 공유할 수 있게 한다
   const p = new URLSearchParams();
@@ -132,6 +177,11 @@ function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대
   if (state.univ) p.set("univ", state.univ);
   if (state.period !== 7) p.set("period", state.period);
   if (state.q) p.set("q", state.q);
+  if (state.tab === "nl") {
+    p.set("tab", "nl");
+    if (state.nq) p.set("nq", state.nq);
+    if (state.ntopic !== "우선") p.set("ntopic", state.ntopic);
+  }
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
 
@@ -152,6 +202,10 @@ function isNew(i) { return new Date(DATA.updated) - new Date(i.first_seen) <= 86
 
 function render() {
   writeHash();
+  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === state.tab));
+  $("newsView").hidden = state.tab !== "news";
+  $("nlView").hidden = state.tab !== "nl";
+  if (state.tab === "nl") return renderNL();
   const q = state.q.trim().toLowerCase();
   const base = DATA.items.filter(inPeriod);
   const match = base.filter(i =>
@@ -220,20 +274,100 @@ function render() {
   ].map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
 }
 
+// ── 뉴스레터 ──
+const NL_TOPICS = ["CTL", "AI"];
+const nlPriority = n => NL_TOPICS.some(t => n.hits[t]?.length);
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function highlight(text, words) {
+  let out = esc(text);
+  for (const w of [...new Set(words)].sort((a, b) => b.length - a.length)) {
+    out = out.replace(new RegExp(escRe(esc(w)), "g"), m => `<mark>${m}</mark>`);
+  }
+  return out;
+}
+function nlText(n) {
+  return [n.title, n.univ, ...NL_TOPICS.flatMap(t => (n.hits[t] || []).map(h => h.text)), ...(n.other || [])].join(" ").toLowerCase();
+}
+const fmtDate = d => { const x = new Date(d); return `${x.getFullYear()}.${x.getMonth() + 1}.${x.getDate()}`; };
+const nlNew = n => new Date(NL.updated) - new Date(n.received) <= 3 * 864e5;
+
+function nlCard(n, full) {
+  const scores = NL_TOPICS.filter(t => n.hits[t]?.length)
+    .map(t => `<span class="score ${t === "AI" ? "ai" : ""}">${t} ${n.score[t]}</span>`).join("");
+  const meta = `<div class="meta">
+      ${nlNew(n) ? '<span class="new">NEW</span>' : ""}
+      ${n.univ ? `<span>${esc(n.univ)}</span>` : ""}
+      <span>받은 날 ${fmtDate(n.received)} · ${n.pages}쪽${n.ocr_pages ? ` (OCR ${n.ocr_pages}쪽)` : ""}</span>${scores}
+    </div>`;
+  const head = `<h3><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>`;
+  if (!full) return `<article class="card">${head}${meta}</article>`;
+  const topics = state.ntopic === "CTL" || state.ntopic === "AI" ? [state.ntopic] : NL_TOPICS;
+  const rows = topics.flatMap(t => (n.hits[t] || []).map(h => ({ t, ...h })));
+  const li = h => `<li><span class="lbl ${h.t === "AI" ? "ai" : ""}">${h.t}</span><span class="pg">p.${h.page}</span><span>${highlight(h.text, h.words)}</span></li>`;
+  const first = rows.slice(0, 4), more = rows.slice(4);
+  return `<article class="card">${head}${meta}
+    <ul class="hits">${first.map(li).join("")}</ul>
+    ${more.length ? `<details class="more"><summary>관련 문장 ${more.length}개 더 보기</summary><ul class="hits">${more.map(li).join("")}</ul></details>` : ""}
+  </article>`;
+}
+
+function renderNL() {
+  const q = state.nq.trim().toLowerCase();
+  const all = NL.items.filter(n => !q || nlText(n).includes(q));
+  const chips = [["우선", "CTL·AI 우선", all.length], ["CTL", "CTL", all.filter(n => n.hits.CTL?.length).length],
+                 ["AI", "AI", all.filter(n => n.hits.AI?.length).length]];
+  $("nlChips").innerHTML = chips.map(([k, label, c]) =>
+    `<button class="chip" aria-pressed="${state.ntopic === k}" data-ntopic="${k}">${label} ${c}</button>`).join("");
+
+  let html;
+  if (state.ntopic === "우선") {  // CTL·AI 문장이 있는 호를 먼저, 나머지는 제목만
+    const rel = n => n.score.CTL * 2 + n.score.AI;  // 같은 날 받은 호는 CTL을 더 무겁게 쳐서 관련도 순
+    const top = all.filter(nlPriority).sort((a, b) => b.received.slice(0, 10).localeCompare(a.received.slice(0, 10)) || rel(b) - rel(a));
+    const rest = all.filter(n => !nlPriority(n));
+    html = (top.length ? `<div class="section-title">CTL·AI 관련 소식이 있는 뉴스레터 <em>${top.length}건 · 받은 날 → 관련도 순</em></div>` + top.map(n => nlCard(n, true)).join("") : "")
+      + (rest.length ? `<div class="section-title">그 밖의 뉴스레터 <em>${rest.length}건</em></div><div class="compact">${rest.map(n => nlCard(n, false)).join("")}</div>` : "");
+  } else {  // 주제 하나를 고르면 관련 핵심어가 많은 순
+    const t = state.ntopic;
+    html = all.filter(n => n.hits[t]?.length).sort((a, b) => b.score[t] - a.score[t] || b.received.localeCompare(a.received))
+      .map(n => nlCard(n, true)).join("");
+  }
+  $("nlList").innerHTML = html || `<div class="empty">${NL.items.length ? "조건에 맞는 뉴스레터가 없습니다." : "아직 읽은 뉴스레터가 없습니다."}</div>`;
+
+  const u = NL.updated ? new Date(NL.updated) : null;
+  $("nlStatus").innerHTML = (u ? `<li>✓ 마지막 확인 ${u.getMonth() + 1}월 ${u.getDate()}일 ${fmtTime(u)} · ${NL.items.length}건</li>` : "")
+    + (NL.errors || []).map(e => `<li class="bad">✕ ${esc(e.name)} — 읽기 실패</li>`).join("");
+  $("stats").innerHTML = [
+    ["CTL·AI 관련", NL.items.filter(nlPriority).length, "뉴스레터"],
+    ["최근 3일 들어온", NL.items.filter(nlNew).length, "뉴스레터"],
+    ["전체", NL.items.length, "드라이브 폴더 기준"],
+  ].map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
+}
+
 document.addEventListener("click", e => {
-  const t = e.target.closest("[data-tag],[data-univ],[data-clear]");
+  const t = e.target.closest("[data-tag],[data-univ],[data-clear],[data-tab],[data-ntopic]");
   if (!t) return;
-  if (t.dataset.tag) state.tag = t.dataset.tag;
+  if (t.dataset.tab) state.tab = t.dataset.tab;
+  else if (t.dataset.ntopic) state.ntopic = t.dataset.ntopic;
+  else if (t.dataset.tag) state.tag = t.dataset.tag;
   else if (t.dataset.univ) { state.univ = t.dataset.univ; window.scrollTo({ top: 0, behavior: "smooth" }); }
   else state.univ = null;
   render();
 });
 $("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 $("period").addEventListener("change", e => { state.period = +e.target.value; render(); });
+$("nq").addEventListener("input", e => { state.nq = e.target.value; render(); });
 
 readHash();
 $("q").value = state.q;
 $("period").value = String(state.period);
+$("nq").value = state.nq;
+fetch("newsletters.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  NL = d;
+  const n = d.items.filter(nlPriority).length;
+  $("nlCount").textContent = n ? `· CTL·AI ${n}` : "";
+  if (state.tab === "nl") render();
+}).catch(() => {});
 fetch("items.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   DATA = d;
   const u = new Date(d.updated);

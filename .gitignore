@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# 로컬 샘플 PDF와 서비스 계정 키 (커밋 금지)
+newsletter/
+*.iam.json
+ctl-brief-*.json

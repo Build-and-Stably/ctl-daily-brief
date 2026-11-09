@@ -4,6 +4,7 @@
 
 - **페이지**: GitHub Pages (`docs/index.html`)
 - **수집**: `collect.py` — GitHub Actions가 매일 06:30, 12:30(KST)에 실행하고 `docs/items.json`을 갱신합니다.
+- **뉴스레터**: `newsletters.py` — 공문으로 받은 다른 대학 뉴스레터(PDF·이미지)를 구글 드라이브 폴더에서 읽어 `docs/newsletters.json`에 저장합니다. 페이지의 **뉴스레터** 탭에서 CTL·AI 관련 문장이 있는 호를 먼저 보여줍니다.
 - **소스**: 구글 뉴스 검색 RSS, 한국대학신문·교수신문·대학저널·베리타스알파·에듀진 RSS, 정책브리핑(교육부) — 모두 공식 RSS만 사용합니다(스크래핑 없음).
 
 ## 자주 하는 수정 — `config.json`만 고치면 됩니다
@@ -17,6 +18,8 @@
 | `exclude_sources` | 제외할 매체 이름 |
 | `exclude_title_words` | 제목에 이 단어가 있으면 제외 (예: 북한). `{"word": [...], "unless": [...]}`로 쓰면 `unless` 단어가 함께 있는 기사는 남깁니다. |
 | `keep_days` | 기사 보관 기간(일) |
+| `newsletter.drive_folder_id` | 뉴스레터 PDF를 넣는 구글 드라이브 폴더 ID |
+| `newsletter.priority_topics` | 뉴스레터에서 먼저 보여줄 주제(CTL, AI)와 핵심어. 영문 약어(AI, CTL)는 단어 단위로 찾습니다. 바꾸면 다음 수집 때 모든 뉴스레터를 다시 읽습니다. |
 
 GitHub 웹에서 `config.json`을 열어 연필 아이콘으로 바로 수정해도 되고, 다음 수집 때부터 반영됩니다.
 바로 반영하려면 **Actions → 매일 소식 수집 → Run workflow**를 누르세요.
@@ -27,9 +30,20 @@ GitHub 웹에서 `config.json`을 열어 연필 아이콘으로 바로 수정해
 2. 저장소 **Settings → Secrets and variables → Actions**에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` 등록
 3. 다음 수집부터 자동으로 네이버 뉴스도 함께 모읍니다(검색어는 `google_news_queries`를 같이 사용).
 
+## 뉴스레터 넣기
+
+1. 구글 드라이브의 뉴스레터 폴더에 PDF(또는 JPG·PNG)를 넣습니다. 파일 이름에 대학명이 있으면 대학이 자동으로 표시됩니다.
+2. 다음 수집(06:30·12:30) 때 새 파일만 읽습니다. 같은 파일을 두 번 넣어도 한 번만 나옵니다. 폴더에서 지우면 페이지에서도 빠집니다.
+3. 글자가 없는 쪽(스캔·이미지)은 흑백으로 바꿔 OCR(Tesseract 한국어)로 읽으므로 오탈자가 섞일 수 있습니다.
+
+폴더는 서비스 계정(`ctl-brief-reader@ctl-brief.iam.gserviceaccount.com`)에 **뷰어**로 공유되어 있어야 하고, 그 키(JSON)는 저장소 Secrets의 `GDRIVE_SA_KEY`에 들어 있습니다.
+페이지의 뉴스레터 제목 링크는 드라이브 원본으로 연결되므로, 동료도 열어 보게 하려면 폴더 공유를 "링크가 있는 모든 사용자 — 뷰어"로 바꾸세요.
+
 ## 내 PC에서 실행해 보기
 
 ```
 py collect.py
+# 뉴스레터 (Tesseract 설치 필요, 키 파일 경로 지정)
+$env:GDRIVE_SA_KEY_FILE="키파일.json"; py newsletters.py
 py -m http.server -d docs 8000   # 브라우저에서 http://localhost:8000
 ```
