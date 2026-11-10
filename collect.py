@@ -84,8 +84,14 @@ def find_univs(title):
     return found
 
 
+def word_hit(word, text):
+    if re.fullmatch(r"[A-Za-z]+", word):  # AI·RISE 같은 영문 약어는 단어 경계로 찾는다 (said, main, enterprise 등 오인 방지)
+        return re.search(rf"(?<![A-Za-z]){word}(?![A-Za-z])", text, re.I) is not None
+    return word.lower() in text.lower()
+
+
 def find_tags(text, source, tag_rules):
-    tags = [t for t, words in tag_rules.items() if any(w.lower() in text.lower() for w in words)]
+    tags = [t for t, words in tag_rules.items() if any(word_hit(w, text) for w in words)]
     if source == "대한민국 정책브리핑" and "정부·기관" not in tags:
         tags.append("정부·기관")
     return tags
@@ -143,7 +149,7 @@ def collect_feeds(feeds, keywords, status):
         kept = 0
         for it in items:
             text = it["title"] + " " + clean_text(it["desc"])
-            if not any(k.lower() in text.lower() for k in keywords):
+            if not any(word_hit(k, text) for k in keywords):
                 continue
             kept += 1
             out.append({**it, "source": f["name"], "summary": clean_text(it["desc"], 160),
