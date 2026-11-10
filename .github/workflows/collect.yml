@@ -2,7 +2,7 @@ name: 매일 소식 수집
 
 on:
   schedule:
-    - cron: "30 21 * * *"  # 매일 06:30 (KST)
+    - cron: "0 20 * * *"   # 매일 05:00 (KST)
     - cron: "30 3 * * *"   # 매일 12:30 (KST)
   workflow_dispatch:       # Actions 탭에서 수동 실행
 
