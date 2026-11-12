@@ -1,7 +1,83 @@
 {
- "updated": "2026-11-12T10:46+09:00",
+ "updated": "2026-11-12T20:39+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "14ZF_H6xUXnTDyeLdVdnGSs6xbs7luKKh",
+   "md5": "d42d03c15799a854fb1be712e5383fca",
+   "modified": "2026-11-12T08:07:49.712Z",
+   "title": "을지대학교 대학혁신지원사업 2026 뉴스레터",
+   "univ": "을지대학교",
+   "link": "https://drive.google.com/file/d/14ZF_H6xUXnTDyeLdVdnGSs6xbs7luKKh/view?usp=drivesdk",
+   "received": "2026-11-12T17:08+09:00",
+   "pages": 9,
+   "ocr_pages": 8,
+   "chars": 4206,
+   "score": {
+    "CTL": 0,
+    "AI": 1
+   },
+   "hits": {
+    "CTL": [],
+    "AI": [
+     {
+      "page": 4,
+      "text": "OF.Aj a2 AI 로 eH",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "을지대학교대학혁신지원사업",
+    "주요 사업과 성과를 한눈에 만나보세요",
+    "ES Oo wa’) 을지대학교"
+   ],
+   "cfg": "b267ef88"
+  },
+  {
+   "id": "1tgVYdkSFUeiplwvAVfTtsKyo0kiGgF4r",
+   "md5": "e46c47f048b8397f79f5cc2bbc82e26e",
+   "modified": "2026-11-12T08:07:39.713Z",
+   "title": "2026 ICAN서포터즈 10월 월간레터",
+   "univ": "",
+   "link": "https://drive.google.com/file/d/1tgVYdkSFUeiplwvAVfTtsKyo0kiGgF4r/view?usp=drivesdk",
+   "received": "2026-11-12T17:08+09:00",
+   "pages": 1,
+   "ocr_pages": 1,
+   "chars": 820,
+   "score": {
+    "CTL": 0,
+    "AI": 2
+   },
+   "hits": {
+    "CTL": [],
+    "AI": [
+     {
+      "page": 1,
+      "text": "AVS AI 플랫폼 AMY QRAE",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "주요 기능 생성형 AI AlMy 를",
+      "words": [
+       "AI",
+       "생성형"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "내 대학혁신지원사업",
+    "I CAN 102 레터 작성: 김세인",
+    "ICAN 서포터즈가 전하는 월간레터 디자인: 김다영"
+   ],
+   "cfg": "b267ef88"
+  },
   {
    "id": "1EfafuEYLkpeVSl89lxuXcdLoilh8sbYw",
    "md5": "ae16d8f7abc617ccab42d6a24333114f",
