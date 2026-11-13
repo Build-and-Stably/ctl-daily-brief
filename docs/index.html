@@ -267,7 +267,7 @@ function renderKeywords(base) {
   $("kwChips").innerHTML = KW.words.map(k => {
     const fresh = k.usual < 0.5;
     const tip = `최근 ${k.n}건 · 평소라면 ${k.usual.toFixed(1)}건`;
-    return `<button class="chip" aria-pressed="${state.kw === k.w}" data-kw="${esc(k.w)}" title="${tip}">${esc(k.w)} ${k.n}<span class="up">${fresh ? "새" : "▲"}</span></button>`;
+    return `<button class="chip" aria-pressed="${state.kw === k.w}" data-kw="${esc(k.w)}" title="${tip}">${esc(k.w)} ${k.n}<span class="up">${fresh ? "신규" : "▲"}</span></button>`;
   }).join("") || `<span class="kw-empty">평소보다 눈에 띄게 늘어난 말이 없습니다.</span>`;
 
   const open = $("univToggle").getAttribute("aria-expanded") === "true";
