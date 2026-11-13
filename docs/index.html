@@ -106,6 +106,24 @@ header .wrap.has-tabs{padding-bottom:0}
 .ucloud button:hover{text-decoration:underline}
 .ucloud button[aria-pressed="true"]{color:var(--new);font-weight:700}
 .ucloud sup{font-size:10px;color:var(--muted);margin-left:1px}
+.tr-over{font-size:13.5px;margin:8px 0 0;color:var(--text)}
+.tr-kw{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+details.sessions{margin-top:10px}
+details.sessions>summary{cursor:pointer;color:var(--accent);font-size:13.5px;font-weight:500}
+.sess{border-top:1px solid var(--line);margin-top:12px;padding-top:12px}
+.sess h4{margin:0;font-size:15px;font-weight:700;line-height:1.45}
+.sess h4 .no{color:var(--accent);margin-right:6px}
+.sess ul{margin:6px 0 0;padding-left:18px;font-size:13.5px}
+.sess li{margin:3px 0}
+.apply{background:var(--accent-soft);border-radius:8px;padding:8px 12px;margin-top:8px;font-size:13.5px}
+.apply b{color:var(--accent);font-size:12.5px}
+.apply ul{margin:2px 0 0}
+details.detail{margin-top:8px;font-size:13.5px}
+details.detail>summary{cursor:pointer;color:var(--accent)}
+.sec{margin:10px 0 0 4px}
+.sec h5{margin:0;font-size:13.5px;font-weight:700}
+.sec h5 span{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
+.side p{font-size:12.5px;color:var(--muted);margin:0 0 6px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
 </style>
 </head>
@@ -117,6 +135,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
   <div class="tabs" role="tablist">
     <button role="tab" data-tab="news" aria-selected="true">기사</button>
     <button role="tab" data-tab="nl" aria-selected="false">뉴스레터 <span id="nlCount"></span></button>
+    <button role="tab" data-tab="tr" aria-selected="false">연수자료 <span id="trCount"></span></button>
   </div>
 </div></header>
 
@@ -172,14 +191,30 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
     </div>
   </aside>
 </div>
+<div class="wrap layout" id="trView" hidden>
+  <main>
+    <div class="controls">
+      <input id="tq" type="search" placeholder="연수명·내용 검색 (예: 윤리, 디지털 기본법, 리더십)">
+    </div>
+    <div id="trList"></div>
+  </main>
+  <aside class="side">
+    <div class="box">
+      <h2>연수자료 읽는 방식</h2>
+      <p>출장·외부 연수에서 받은 자료를 차시(발표)별로 나눠 정리했습니다. 원본 PDF는 부서에서 보관하며, 각 항목의 쪽수(p.)로 원본에서 찾아볼 수 있습니다.</p>
+      <p>요약은 Claude가 원본을 읽고 작성했습니다. 수치·정책명은 원본으로 한 번 더 확인해 주세요.</p>
+    </div>
+  </aside>
+</div>
 <footer>기사 제목·요약·링크만 모아 보여주며, 저작권은 각 언론사에 있습니다. 매일 아침 자동 갱신됩니다.</footer>
 
 <script>
 const TAGS = ["교수학습", "교육과정", "원격교육", "RISE·재정사업", "AI·에듀테크", "정부·기관", "전문대학"];
-const state = { q: "", period: 7, tag: "전체", univ: null, kw: null, tab: "news", nq: "", ntopic: "우선" };
+const state = { q: "", period: 7, tag: "전체", univ: null, kw: null, tab: "news", nq: "", ntopic: "우선", tq: "" };
 let DATA = { items: [], status: [] };
 let KW = { words: [], days: 1 };
 let NL = { items: [], errors: [] };
+let TR = { items: [] };
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -190,9 +225,10 @@ function readHash() {
   if (p.has("kw")) state.kw = p.get("kw");
   if (p.has("period")) state.period = +p.get("period");
   if (p.has("q")) state.q = p.get("q");
-  if (p.get("tab") === "nl") state.tab = "nl";
+  if (["nl", "tr"].includes(p.get("tab"))) state.tab = p.get("tab");
   if (p.has("nq")) state.nq = p.get("nq");
   if (p.has("ntopic")) state.ntopic = p.get("ntopic");
+  if (p.has("tq")) state.tq = p.get("tq");
 }
 function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대로 공유할 수 있게 한다
   const p = new URLSearchParams();
@@ -205,6 +241,10 @@ function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대
     p.set("tab", "nl");
     if (state.nq) p.set("nq", state.nq);
     if (state.ntopic !== "우선") p.set("ntopic", state.ntopic);
+  }
+  if (state.tab === "tr") {
+    p.set("tab", "tr");
+    if (state.tq) p.set("tq", state.tq);
   }
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
@@ -291,7 +331,9 @@ function render() {
   document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === state.tab));
   $("newsView").hidden = state.tab !== "news";
   $("nlView").hidden = state.tab !== "nl";
+  $("trView").hidden = state.tab !== "tr";
   if (state.tab === "nl") return renderNL();
+  if (state.tab === "tr") return renderTR();
   const q = state.q.trim().toLowerCase();
   const base = DATA.items.filter(inPeriod);
   const match = base.filter(i =>
@@ -434,6 +476,48 @@ function renderNL() {
   ].map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
 }
 
+// ── 연수자료 ──
+// 연수 하나 = 카드 하나. 펼치면 차시(발표)별 요약·적용점이, 더 펼치면 주제별 상세 내용이 나온다.
+const trText = t => JSON.stringify(t).toLowerCase();
+function trSession(s, open) {
+  const pages = s.pages ? ` · ${s.pages}쪽` : "";
+  return `<section class="sess">
+    <h4><span class="no">${esc(s.label || s.no + "차시")}</span>${esc(s.title)}</h4>
+    <div class="meta">${s.speaker ? `<span>${esc(s.speaker)}</span>` : ""}<span>${esc(s.file || "")}${pages}</span></div>
+    <ul>${s.summary.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    ${s.apply?.length ? `<div class="apply"><b>우리 대학 적용</b><ul>${s.apply.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+    ${s.sections?.length ? `<details class="detail"${open ? " open" : ""}><summary>자세히 보기 · 주제 ${s.sections.length}개</summary>${
+      s.sections.map(c => `<div class="sec"><h5>${esc(c.heading)}${c.pages ? `<span>${esc(c.pages)}</span>` : ""}</h5>
+        <ul>${c.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`).join("")
+    }</details>` : ""}
+  </section>`;
+}
+function renderTR() {
+  const q = state.tq.trim().toLowerCase();
+  const list = TR.items.filter(t => !q || trText(t).includes(q));
+  $("trList").innerHTML = list.map(t => {
+    // 검색 중이면 찾는 말이 들어간 차시만, 펼친 채로 보여준다
+    const sess = q ? t.sessions.filter(s => trText(s).includes(q)) : t.sessions;
+    const pages = t.sessions.reduce((n, s) => n + (s.pages || 0), 0);
+    return `<article class="card">
+      <h3>${esc(t.title)}</h3>
+      <div class="meta">${[t.org, t.date, t.place].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("")}
+        <span>${t.sessions.length}개 차시 · ${pages}쪽</span><span>정리 ${fmtDate(t.added)}</span></div>
+      ${t.overview ? `<p class="tr-over">${esc(t.overview)}</p>` : ""}
+      ${t.keywords?.length ? `<div class="tr-kw">${t.keywords.map(k => `<span class="tag">${esc(k)}</span>`).join("")}</div>` : ""}
+      <details class="sessions"${q || list.length === 1 ? " open" : ""}>
+        <summary>${q ? `'${esc(state.tq.trim())}' 들어간 차시 ${sess.length}개` : `차시 ${sess.length}개 보기`}</summary>
+        ${sess.map(s => trSession(s, !!q)).join("")}
+      </details>
+    </article>`;
+  }).join("") || `<div class="empty">${TR.items.length ? "조건에 맞는 연수자료가 없습니다." : "아직 정리한 연수자료가 없습니다."}</div>`;
+
+  const n = TR.items.reduce((a, t) => a + t.sessions.length, 0);
+  const pg = TR.items.reduce((a, t) => a + t.sessions.reduce((b, s) => b + (s.pages || 0), 0), 0);
+  $("stats").innerHTML = [["정리한 연수", TR.items.length, "건"], ["차시·발표", n, "개"], ["원본 분량", pg, "쪽"]]
+    .map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
+}
+
 document.addEventListener("click", e => {
   const t = e.target.closest("[data-tag],[data-univ],[data-kw],[data-clear],[data-tab],[data-ntopic]");
   if (!t) return;
@@ -459,11 +543,19 @@ try { if (localStorage.getItem("univCloud")) $("univToggle").setAttribute("aria-
 $("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 $("period").addEventListener("change", e => { state.period = +e.target.value; render(); });
 $("nq").addEventListener("input", e => { state.nq = e.target.value; render(); });
+$("tq").addEventListener("input", e => { state.tq = e.target.value; render(); });
 
 readHash();
 $("q").value = state.q;
 $("period").value = String(state.period);
 $("nq").value = state.nq;
+$("tq").value = state.tq;
+fetch("training.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  TR = d;
+  $("trCount").textContent = d.items.length ? `· ${d.items.length}` : "";
+  if (state.tab === "tr") render();
+}).catch(() => {});
 fetch("newsletters.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
   if (!d) return;
   NL = d;
