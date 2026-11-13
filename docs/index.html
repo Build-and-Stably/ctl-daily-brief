@@ -479,11 +479,12 @@ function renderNL() {
 // ── 연수자료 ──
 // 연수 하나 = 카드 하나. 펼치면 차시(발표)별 요약·적용점이, 더 펼치면 주제별 상세 내용이 나온다.
 const trText = t => JSON.stringify(t).toLowerCase();
+const trPages = t => t.pages || t.sessions.reduce((n, s) => n + (s.pages || 0), 0);  // 한 파일짜리는 전체 쪽수를 따로 적는다
 function trSession(s, open) {
-  const pages = s.pages ? ` · ${s.pages}쪽` : "";
+  const where = [s.file, s.range || (s.pages ? `${s.pages}쪽` : "")].filter(Boolean).join(" · ");
   return `<section class="sess">
     <h4><span class="no">${esc(s.label || s.no + "차시")}</span>${esc(s.title)}</h4>
-    <div class="meta">${s.speaker ? `<span>${esc(s.speaker)}</span>` : ""}<span>${esc(s.file || "")}${pages}</span></div>
+    <div class="meta">${s.speaker ? `<span>${esc(s.speaker)}</span>` : ""}${where ? `<span>${esc(where)}</span>` : ""}</div>
     <ul>${s.summary.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
     ${s.apply?.length ? `<div class="apply"><b>우리 대학 적용</b><ul>${s.apply.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
     ${s.sections?.length ? `<details class="detail"${open ? " open" : ""}><summary>자세히 보기 · 주제 ${s.sections.length}개</summary>${
@@ -498,22 +499,24 @@ function renderTR() {
   $("trList").innerHTML = list.map(t => {
     // 검색 중이면 찾는 말이 들어간 차시만, 펼친 채로 보여준다
     const sess = q ? t.sessions.filter(s => trText(s).includes(q)) : t.sessions;
-    const pages = t.sessions.reduce((n, s) => n + (s.pages || 0), 0);
+    const pages = trPages(t), unit = t.unit || "차시";
+    let group = "";  // 하루 넘는 행사는 '1일차' 같은 묶음 제목을 사이에 넣는다
+    const body = sess.map(s => (s.group && s.group !== group ? `<div class="section-title">${esc(group = s.group)}</div>` : "") + trSession(s, !!q)).join("");
     return `<article class="card">
       <h3>${esc(t.title)}</h3>
       <div class="meta">${[t.org, t.date, t.place].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("")}
-        <span>${t.sessions.length}개 차시 · ${pages}쪽</span><span>정리 ${fmtDate(t.added)}</span></div>
+        <span>${unit} ${t.sessions.length}개 · ${pages}쪽</span><span>정리 ${fmtDate(t.added)}</span></div>
       ${t.overview ? `<p class="tr-over">${esc(t.overview)}</p>` : ""}
       ${t.keywords?.length ? `<div class="tr-kw">${t.keywords.map(k => `<span class="tag">${esc(k)}</span>`).join("")}</div>` : ""}
       <details class="sessions"${q || list.length === 1 ? " open" : ""}>
-        <summary>${q ? `'${esc(state.tq.trim())}' 들어간 차시 ${sess.length}개` : `차시 ${sess.length}개 보기`}</summary>
-        ${sess.map(s => trSession(s, !!q)).join("")}
+        <summary>${q ? `'${esc(state.tq.trim())}' 들어간 ${unit} ${sess.length}개` : `${unit} ${sess.length}개 보기`}</summary>
+        ${body}
       </details>
     </article>`;
   }).join("") || `<div class="empty">${TR.items.length ? "조건에 맞는 연수자료가 없습니다." : "아직 정리한 연수자료가 없습니다."}</div>`;
 
   const n = TR.items.reduce((a, t) => a + t.sessions.length, 0);
-  const pg = TR.items.reduce((a, t) => a + t.sessions.reduce((b, s) => b + (s.pages || 0), 0), 0);
+  const pg = TR.items.reduce((a, t) => a + trPages(t), 0);
   $("stats").innerHTML = [["정리한 연수", TR.items.length, "건"], ["차시·발표", n, "개"], ["원본 분량", pg, "쪽"]]
     .map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
 }
