@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:23+09:00",
+ "updated": "2026-11-14T09:36+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -10,7 +10,7 @@
   {
    "name": "교수신문 RSS",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "total": 50
   },
   {
@@ -44,12 +44,12 @@
   {
    "name": "구글 뉴스: \"교수학습혁신센터\"",
    "ok": true,
-   "count": 2
+   "count": 1
   },
   {
    "name": "구글 뉴스: \"교수학습개발센터\"",
    "ok": true,
-   "count": 6
+   "count": 5
   },
   {
    "name": "구글 뉴스: 전문대학 교수법",
@@ -64,12 +64,12 @@
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 29
+   "count": 30
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
@@ -79,7 +79,7 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 20
+   "count": 23
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
@@ -89,7 +89,7 @@
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
    "ok": true,
-   "count": 13
+   "count": 11
   },
   {
    "name": "구글 뉴스: 대학 교육과정 개편",
@@ -99,12 +99,12 @@
   {
    "name": "구글 뉴스: 전문대학 교육과정",
    "ok": true,
-   "count": 25
+   "count": 27
   },
   {
    "name": "구글 뉴스: 전공자율선택 대학",
    "ok": true,
-   "count": 11
+   "count": 12
   },
   {
    "name": "구글 뉴스: \"원격교육\" 대학",
@@ -119,12 +119,12 @@
   {
    "name": "구글 뉴스: 대학 원격수업",
    "ok": true,
-   "count": 26
+   "count": 25
   },
   {
    "name": "구글 뉴스: K-MOOC",
    "ok": true,
-   "count": 6
+   "count": 8
   },
   {
    "name": "구글 뉴스: 공유대학 온라인 강좌",
@@ -138,6 +138,45 @@
   }
  ],
  "items": [
+  {
+   "id": "7230294f2ab3",
+   "title": "영진전문대 日 유학생 3명, 한국서 AI·IT 배워 모국 기업 취업",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5odno5aG11czhQMmhkMmxOOFk0cDZNUHNDTnNybXUxY213TXNPR2NuNzhPNnlfemt5Vk5YWlFOWVZ0WUtZeENxNThOY2o2T1VsM01jZ1ZnS180WUNLMVVBMlRQNA?oc=5",
+   "source": "쿠키뉴스",
+   "published": "2026-11-13T23:44+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크",
+    "전문대학"
+   ],
+   "univs": [
+    "영진전문대"
+   ],
+   "group": "2262bc875f53"
+  },
+  {
+   "id": "8c75f7492687",
+   "title": "강릉영동대, ‘2026 ESG 경영대상’ 수상 … 지역사회 건강복지 실천 성과 인정",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXWm9DSUdvOTlZU0J2aHlreFVsTkN3Z3RFWllnVS04ajItbVFobFhFOXF6REVPZ2V2VWRQQmJlTFdPR1cxdjhpdGcxa2FVZmZCcXNBbVpXdnVwcThqdnpaYk9CTUxDTFVNZVlSZw?oc=5",
+   "source": "워크투데이",
+   "published": "2026-11-13T21:18+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "강릉영동대"
+   ],
+   "group": "96c0d89cc826"
+  },
   {
    "id": "23ef9e744911",
    "title": "[2026 혁신 대학을 가다/한양대학교] 2027학년도 졸업전공선택제 도입… 34개 대학과 기초·융합교육 공유",
@@ -602,6 +641,45 @@
     "전북대"
    ],
    "group": "e966f1f8c600"
+  },
+  {
+   "id": "f1077d8a83d1",
+   "title": "신라대 교육대학원, 울산 교원 대상 ‘갭마인더·AI 수업설계’ 연수 운영",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxQWtWamlDcUl2VHVObXA5NndKbUxaSmpWZW5wUjhoWDN0bFVkaExIUW5maHhKS0hWOVZxOW9RSV92WEJTclRjNDY4R0txcHVYeUtiUHF4TjIxS3JScVhuOHNtcjY5WUxoWkVCdUhJeWRkY2VDRkVxOQ?oc=5",
+   "source": "부산일보",
+   "published": "2026-11-13T14:54+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 공유대학 온라인 강좌"
+   ],
+   "direct": false,
+   "tags": [
+    "교수학습",
+    "AI·에듀테크"
+   ],
+   "univs": [
+    "신라대"
+   ],
+   "group": "f1077d8a83d1"
+  },
+  {
+   "id": "8c0be5f3cae4",
+   "title": "케이무크, 청년 경제·금융 강연 모집…신용 관리부터 금융사기 예방까지",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxNm5ybGwwNE1HNXFpclVpaFdoMFNyLTFZSEZ6NnFXVEVtMFEyVWlrQmJyaGRpUTVVS3ZnZnhOTW4zS1VBcFZvU0R3RHEwcWk1NG00?oc=5",
+   "source": "유스연합",
+   "published": "2026-11-13T14:47+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · K-MOOC"
+   ],
+   "direct": false,
+   "tags": [
+    "원격교육"
+   ],
+   "univs": [],
+   "group": "8c0be5f3cae4"
   },
   {
    "id": "212e73ab4cae",
@@ -1946,6 +2024,24 @@
    "group": "2ff702b805a8"
   },
   {
+   "id": "55c0a4d40f6b",
+   "title": "교육부 “앵커 연차점검, 협업·환류에 초점… 결과 따라 4000억 원 배분”",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iV2tNMnBqVDlKWFNYNE8xTExJS3Y4NVhRUXRsRUkzekxyR1k1a2dkTm1rU1lMaWJ0d053OTNSSXlaOFJrUU82eG9HWHdJTDBzM2JjRFVkT3pMY0dSTDFHTTh5X28zdw?oc=5",
+   "source": "한국대학신문",
+   "published": "2026-11-12T15:03+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "55c0a4d40f6b"
+  },
+  {
    "id": "3b7acef91f0d",
    "title": "인천광역시교육청, 재능대학교·인하공업전문대학과 직업계고 학점 이음체계 구축",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05ZEFhYnZ0UDhyNGUtRC1aNGlrckhtNWE5VnJ6ODhsbEtPc2Rab2JRMTEyWmRQQnE1SC1kZ0I2R25GYTRDdmtibk5LSUNNdTc2emtEMFFlRUQwcXJVMEZIZ3B6bExlMkxydGJ2SWRSd9IBb0FVX3lxTE05ZEFhYnZ0UDhyNGUtRC1aNGlrckhtNWE5VnJ6ODhsbEtPc2Rab2JRMTEyWmRQQnE1SC1kZ0I2R25GYTRDdmtibk5LSUNNdTc2emtEMFFlRUQwcXJVMEZIZ3B6bExlMkxydGJ2SWRSdw?oc=5",
@@ -1976,7 +2072,8 @@
    "summary": "[한국대학신문 김영식 기자] 정부가 고등교육을 매개로 국가 균형발전 전략을 추진 중인 가운데 현행 ‘지역성장 인재양성체계(ANCHOR, 앵커)’를 전국 대학 현장에서 운영하는 실무 담당자들이 정책 방향, 성과지표 관리, 사업비 집행 기준 등을 한 번에 점검하는 자리가 마련됐다.■ 실무자…",
    "via": [
     "한국대학신문 RSS",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": true,
    "tags": [
@@ -3408,6 +3505,24 @@
    "group": "da20439b9722"
   },
   {
+   "id": "0f7c90d674e3",
+   "title": "교육부 소관 법령 국무회의 통과",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43MGtWcHMzaFZRZkNjdTFEd0xqYW5sTmZUbVcxQ2NiMVBZMlFNRDJxUVhibmhONXktaVAzU2VNcXZGTGtVcUVpeDZieG5HdTNkVEgyLWlXc2lwaVo4MS13UEVtc29vVEc3?oc=5",
+   "source": "대한민국 정책브리핑",
+   "published": "2026-11-11T14:13+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · site:korea.kr 교육부 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "0f7c90d674e3"
+  },
+  {
    "id": "b42c3f5fbe95",
    "title": "충청대, ‘AI·반도체 시대, 새로운 창업기회' 창업 토크콘서트 열어",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55cTVhM2ZhLUZweGtGZDU5LU5KOE1QRmhBWW5jYXBhV05jTmI4akhiWnE0RTI2WEFXQWZSVGpHVGdBR3RMNDU4V2NrLUJEdnFNRjhCaWRfeTlzaksxeG83cUlaNXlPZw?oc=5",
@@ -4380,7 +4495,8 @@
    "via": [
     "구글 뉴스 · 전문대학 혁신지원사업",
     "구글 뉴스 · 전문대학 교육과정",
-    "한국대학신문 RSS"
+    "한국대학신문 RSS",
+    "구글 뉴스 · 한국전문대학교육협의회"
    ],
    "direct": true,
    "tags": [
@@ -5056,6 +5172,22 @@
    "group": "1565535d9ff4"
   },
   {
+   "id": "a2d51df520ba",
+   "title": "영어 2학년 학위: 많은 학교가 학습자를 위한 일련의 혜택을 제공합니다",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONEc1ek9mb1luNDE4U3gxWGZPblNkdjBLYkNVa1FRRXlmZmtCdTRFYll3cjVfc29lSWYyNnBMcFRyUno3Q1NkMU9tSzhKSGJJMHBRRW82UGlPS0pTX3VGV25oX011ZVlfMExiRDFjUjU2aGtmQ2FWb1U0MjJGdXhjQWo2andoSUN3S2VkandmT1NSQ29uNk5vcW5vN1lRSDFFX3d3UDcyWEtxR1FxMlRTUGIxZmJGQmhJc1E?oc=5",
+   "source": "Laodong.vn",
+   "published": "2026-11-10T12:39+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · \"원격교육\" 대학"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "a2d51df520ba"
+  },
+  {
    "id": "279a1dadbdb5",
    "title": "\"입학한 해에 취업 확정\"…폴리텍, 산업수요에 학과 신설·개편",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmczhnbXd5NjZBTGZmblVzd0gzaXp2YTRzNFVyVnh5LU5jZVZIRGtOZjVEV1M3WVVtUk04cFBFb1FJYk5URkhNMi1VMXdVV2NISDcxQVBnWHJPVWVPbGRBdmVGODEzLXhGc01rWFZ2TFdTVUg5azl1UdIBeEFVX3lxTFBmczhnbXd5NjZBTGZmblVzd0gzaXp2YTRzNFVyVnh5LU5jZVZIRGtOZjVEV1M3WVVtUk04cFBFb1FJYk5URkhNMi1VMXdVV2NISDcxQVBnWHJPVWVPbGRBdmVGODEzLXhGc01rWFZ2TFdTVUg5azl1UQ?oc=5",
@@ -5480,6 +5612,27 @@
    ],
    "univs": [],
    "group": "a5db48a9de8d"
+  },
+  {
+   "id": "9b5baa745518",
+   "title": "무전공확대 취지 A⁺, 성과는 F…\"'무전공확대 중도탈락률 손실상위 10개대학 161억원대\"",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtZnQzY3I2b29IWmxqQ3FaQ2xCbTJuMGtUUU5VR1Q3N040b0NWeVM5ZElKakhQNGpEYmhZUlNCc2xSMWxNV3dOMmsyRFhtQk1qSjdMVDdaU3VtRk5pdnhfVm1jNm3SAWhBVV95cUxONjVJZ2Q5WkVaX1FiOGVSQ1BhNDdUUTJxNERoa2FhTS1JXzZBeWRDUlV4eE1pSU5ZcHhOUk80ZFlYZTJ4ajZnZjJyaU1JVEpEbTgtYWxXQW9qQjN0Q216M2ZrczBqN3lfNg?oc=5",
+   "source": "Usline(유스라인)",
+   "published": "2026-11-10T00:04+09:00",
+   "first_seen": "2026-11-14T09:36+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전공자율선택 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "교육과정"
+   ],
+   "univs": [
+    "무전공확대",
+    "억원대"
+   ],
+   "group": "9b5baa745518"
   },
   {
    "id": "3065cf71f50a",
@@ -6882,7 +7035,8 @@
    "via": [
     "한국대학신문 RSS",
     "구글 뉴스 · 한국전문대학교육협의회",
-    "구글 뉴스 · 한국대학교육협의회"
+    "구글 뉴스 · 한국대학교육협의회",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": true,
    "tags": [
