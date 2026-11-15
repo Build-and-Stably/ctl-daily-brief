@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:34+09:00",
+ "updated": "2026-11-15T20:21+09:00",
  "status": [
   {
    "name": "한국대학신문 RSS",
@@ -10,7 +10,7 @@
   {
    "name": "교수신문 RSS",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "total": 50
   },
   {
@@ -54,22 +54,22 @@
   {
    "name": "구글 뉴스: 전문대학 교수법",
    "ok": true,
-   "count": 8
+   "count": 9
   },
   {
    "name": "구글 뉴스: 대학 교수법 워크숍",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   {
    "name": "구글 뉴스: RISE 전문대학",
    "ok": true,
-   "count": 3
+   "count": 4
   },
   {
    "name": "구글 뉴스: 전문대학 혁신지원사업",
    "ok": true,
-   "count": 30
+   "count": 31
   },
   {
    "name": "구글 뉴스: 전문대 AI 교육",
@@ -79,12 +79,12 @@
   {
    "name": "구글 뉴스: 한국전문대학교육협의회",
    "ok": true,
-   "count": 23
+   "count": 25
   },
   {
    "name": "구글 뉴스: 한국대학교육협의회",
    "ok": true,
-   "count": 26
+   "count": 27
   },
   {
    "name": "구글 뉴스: 한국교육학술정보원 대학",
@@ -94,7 +94,7 @@
   {
    "name": "구글 뉴스: 대학 교육과정 개편",
    "ok": true,
-   "count": 10
+   "count": 17
   },
   {
    "name": "구글 뉴스: 전문대학 교육과정",
@@ -109,7 +109,7 @@
   {
    "name": "구글 뉴스: \"원격교육\" 대학",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "name": "구글 뉴스: \"원격강좌\"",
@@ -119,17 +119,17 @@
   {
    "name": "구글 뉴스: 대학 원격수업",
    "ok": true,
-   "count": 22
+   "count": 20
   },
   {
    "name": "구글 뉴스: K-MOOC",
    "ok": true,
-   "count": 8
+   "count": 6
   },
   {
    "name": "구글 뉴스: 공유대학 온라인 강좌",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   {
    "name": "구글 뉴스: site:korea.kr 교육부 대학",
@@ -138,6 +138,189 @@
   }
  ],
  "items": [
+  {
+   "id": "e57f0d66b491",
+   "title": "나주시, 반도체 전문인력 공급체계 구축…‘빛가람 시민대학’ 주목",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1DMmVmTmZUTlZraUVvcjA0dElQQlBBOE9fWXlKb3REdkNRWHdjMndUNXlBR080WjVfc2RJeTVEckhlOGlBVjY0?oc=5",
+   "source": "온라인더뉴스",
+   "published": "2026-11-15T19:34+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "시민대"
+   ],
+   "group": "e57f0d66b491"
+  },
+  {
+   "id": "588038ba77c0",
+   "title": "대구보건대학교, '대구를 담은 런케이션' 개설...지역 역사·문화예술 체험",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PUzZPaVVFMUlObjJfNy1MX2Q0NElaVk45bHdaT0FzZjZyNjVWUFpwQUJEcWJnWlkzY0x4dWtHbTBfU1BWSXlQQkhySzROWUJxS2JMVG85VmNpaTIxN0VYQnBpbDFyTndjVFk4VUtB?oc=5",
+   "source": "국제뉴스",
+   "published": "2026-11-15T18:54+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구보건대"
+   ],
+   "group": "588038ba77c0"
+  },
+  {
+   "id": "27548ddbddc9",
+   "title": "“AI시대, 고숙련 ‘슈퍼테크니션’ 양성할 것”",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOHczcWVnNjVJMWdHVFNfdzR5U0RQRWVIandpUVo4OGNmTmV1VXJLX3hhZ1BHUlYtVDlIMW9tQXRFWHhBVkRickoyQ0psNDVXOHhUSXpHclp1T3BkTTJoQ25xaGNxTHpVUU92S19yUFpEUkM5UGkzSXBFbzZqbllSb0MxMA?oc=5",
+   "source": "서울신문",
+   "published": "2026-11-15T17:53+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육",
+    "구글 뉴스 · 한국전문대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [
+    "AI·에듀테크"
+   ],
+   "univs": [],
+   "group": "27548ddbddc9"
+  },
+  {
+   "id": "4fd2daac2360",
+   "title": "영진전문대 - K-POP으로 한국 유학 온 일본인, IT 실력 키워 모국 기업 취업",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sSnlGOVJIZldzR1lBM01jb2hFSkRhYzhUV1luX1JOZEZEMHVIbGJZcUhxWkZjYkZ1NnZaUGlzM2pFMXV4cjQyYVd6QU5iRmxLLVJlVnc1RG5mS1JEdmYwQ29PVQ?oc=5",
+   "source": "시사뉴스",
+   "published": "2026-11-15T17:46+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대 AI 교육"
+   ],
+   "direct": false,
+   "tags": [
+    "전문대학"
+   ],
+   "univs": [
+    "영진전문대"
+   ],
+   "group": "4fd2daac2360"
+  },
+  {
+   "id": "3fdc6847ce2f",
+   "title": "사천시, 현직 대학 교수 초빙 ‘사천이야기 강사 역량강화 특강’ 개최",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HcEozdWNTVTlnX1ZDRkhJVk43U3g4ODFYeDJmR0pJRml2YjBXelFuVGp3eGJuaVllVUxjZVlRQllzS3JFSHFITDBIY2I5ZDdyODRUYkxqczFjLTRvc0xUcktVVENrbjMtMFFySE5hb1VEUQ?oc=5",
+   "source": "경남뉴스투데이",
+   "published": "2026-11-15T16:11+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "38d182e4b90e"
+  },
+  {
+   "id": "1526229939c6",
+   "title": "순천제일대학교, ‘2026 산학협력 학술 EXPO’ 대 성황",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SVk1xa25WZDZKdVJhTHdCUGZQYlg1QU53cC1KWTVKakVDRmhPaG5oTDJTN25fQjJObS0yVkFzTGRmbFNpTFVaS09YV3BkZ2RJaGEyVk5tQVROa3lPaU1zd0JZNUNId3VFbTFVRjhhamhadw?oc=5",
+   "source": "스포츠동아",
+   "published": "2026-11-15T16:09+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "순천제일대"
+   ],
+   "group": "1526229939c6"
+  },
+  {
+   "id": "38d182e4b90e",
+   "title": "사천시, ‘사천이야기 강사 역량강화 특강’ 성료",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zX1RWTnZNOXIzcGx5WkhlbEpLMnNpdU9pUm9jQ05adjJGUmlLa1pFT2psZVdwb2NPRkVGSFNiSDJYbGhIc1EzYzFrRVZTWTYxUnVlTnJQUEJScFlHNGIxeGdRd2JhcnQ5LUhYbWQ3ZGs1V2dr?oc=5",
+   "source": "글로벌뉴스통신GNA",
+   "published": "2026-11-15T15:57+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 교수법"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [],
+   "group": "38d182e4b90e"
+  },
+  {
+   "id": "9b595abeacd3",
+   "title": "교육부, 의과대학 교육의 새로운 변화, 우수사례 8편 선정",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VV3c2SC1heXdGVlpaT0xBeDAtWmFDZ3pDeUlIR0Nwc19nLUJ5R3BnOXVLNWs1T2FQMlBVNk1rMUl5TzN6ZVhoRS0xZHo?oc=5",
+   "source": "시사일보",
+   "published": "2026-11-15T13:24+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 대학 교육과정 개편",
+    "구글 뉴스 · \"원격교육\" 대학",
+    "구글 뉴스 · 대학 원격수업",
+    "구글 뉴스 · site:korea.kr 교육부 대학"
+   ],
+   "direct": false,
+   "tags": [
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "9b595abeacd3"
+  },
+  {
+   "id": "418e7b74a739",
+   "title": "대구보건대, 대구 문화자산 연계 교양과목 '런케이션' 운영",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TTTdudjhfdmZSdFJURTZWNHFlaXU2ZlVLSC14R2RkNU8tV09TNU5NLS1NdFIzMTl3NE9aWlYybkxnNmpNcTlCSnVvTF9HN00xQ3Y2emlnRkdEQmt4SDBCcjBJVGlwUW5CUmt3Y1BrRXVfTk1x?oc=5",
+   "source": "아시아뉴스통신",
+   "published": "2026-11-15T13:09+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 전문대학 혁신지원사업"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "대구보건대"
+   ],
+   "group": "418e7b74a739"
+  },
+  {
+   "id": "99a2f6fc9ac5",
+   "title": "AI로 가상환자 진료하고 백령도 실습까지…의대교육이 달라진다",
+   "link": "https://www.kyosu.net/news/articleView.html?idxno=212469",
+   "source": "교수신문",
+   "published": "2026-11-15T09:00+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "[교육부, 의과대학 교육혁신 우수사례 8편 선정] 가상의 환자를 대상으로 문진하고 검사 결과를 분석해 진단과 처방까지 내리는 AI 학습 플랫폼을 의대생들이 직접 만들었다. 대학병원에서 이뤄지던 임상실습은 서해 최북단 백령도와 지역 보건지소, 경로당으로 확장됐다. 환자 한 명을 1년간 추…",
+   "via": [
+    "교수신문 RSS"
+   ],
+   "direct": true,
+   "tags": [
+    "AI·에듀테크",
+    "정부·기관"
+   ],
+   "univs": [],
+   "group": "99a2f6fc9ac5"
+  },
   {
    "id": "8ea857c09d92",
    "title": "제주대, 해양·바이오·섬문화 융합전공 5개… 12월 신청",
@@ -309,6 +492,26 @@
     "서울사이버대"
    ],
    "group": "8421bf4be0d6"
+  },
+  {
+   "id": "37cb9cc92693",
+   "title": "2026년 기여대학사업 숙대 한양대ERICA 경기대 인천대 등 18개교 ‘S등급’.. ‘사업비 10% 추가지원’",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mNENLQmhETWgyNTFYVnRLZmZZRHRVSU9qaE9ncVRJMEVYTTR1U2tkUlpkZ3dfQTlObE53SmRFSnJyOS0xcjBVX0JCZWhZbjlGUXI0N2JiOVBsZlpJVDljWFM1THNvYzBrX1VxZA?oc=5",
+   "source": "베리타스알파",
+   "published": "2026-11-13T18:05+09:00",
+   "first_seen": "2026-11-15T20:21+09:00",
+   "summary": "",
+   "via": [
+    "구글 뉴스 · 한국대학교육협의회"
+   ],
+   "direct": false,
+   "tags": [],
+   "univs": [
+    "한양대",
+    "경기대",
+    "인천대"
+   ],
+   "group": "37cb9cc92693"
   },
   {
    "id": "7848af711820",
@@ -899,7 +1102,8 @@
    "first_seen": "2026-11-13T20:23+09:00",
    "summary": "",
    "via": [
-    "구글 뉴스 · RISE 전문대학"
+    "구글 뉴스 · RISE 전문대학",
+    "구글 뉴스 · 전문대학 혁신지원사업"
    ],
    "direct": false,
    "tags": [],
