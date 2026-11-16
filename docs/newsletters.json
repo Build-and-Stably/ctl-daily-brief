@@ -1,7 +1,81 @@
 {
- "updated": "2026-11-16T08:41+09:00",
+ "updated": "2026-11-16T20:54+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "1-3M4NmOiRIYD8CFpORyt03eiVxfPM2J5",
+   "md5": "e9ec930404e5f458090dad61daaf8579",
+   "modified": "2026-11-16T04:04:20.324Z",
+   "title": "군산간호대학교 전문대학 혁신지원사업 운영성과 뉴스레터vol.2",
+   "univ": "군산간호대학교",
+   "link": "https://drive.google.com/file/d/1-3M4NmOiRIYD8CFpORyt03eiVxfPM2J5/view?usp=drivesdk",
+   "received": "2026-11-16T13:05+09:00",
+   "pages": 17,
+   "ocr_pages": 17,
+   "chars": 6169,
+   "score": {
+    "CTL": 0,
+    "AI": 1
+   },
+   "hits": {
+    "CTL": [],
+    "AI": [
+     {
+      "page": 3,
+      "text": "AI C.0.D.E Projects] 교수 3명과 재학생 4명이 참여했다.",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 3,
+      "text": "이번 프로젝트는 10 호남-제주협의회 소속 재학생과 교수의 ASS 강화하고, AI-DX 기반 융합교육을 확산해 권역 내 전문대학 간 상생협력을 도모하기 위해 마련됐다.",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 3,
+      "text": "AI -DX 교육 역량을 강화할 계획이다.",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "2026년 7월~10월 군산간호대학교 혁신지원사업단 Vol.02",
+    "2026 전문대학혁신지원사업",
+    "NEWS LETTER"
+   ],
+   "cfg": "b267ef88"
+  },
+  {
+   "id": "1-nBFJyxn_L4oi8YIbe_asz1FrfGblm1Y",
+   "md5": "c5f44be8b991946cb669255f0a18cd0e",
+   "modified": "2026-11-16T04:04:05.413Z",
+   "title": "2026년 신성대학교 혁신지원사업 뉴스레터 10월호",
+   "univ": "신성대학교",
+   "link": "https://drive.google.com/file/d/1-nBFJyxn_L4oi8YIbe_asz1FrfGblm1Y/view?usp=drivesdk",
+   "received": "2026-11-16T13:05+09:00",
+   "pages": 1,
+   "ocr_pages": 1,
+   "chars": 1356,
+   "score": {
+    "CTL": 0,
+    "AI": 0
+   },
+   "hits": {
+    "CTL": [],
+    "AI": []
+   },
+   "other": [
+    "SHINSUNG UNIVERSITY \" 신성대학교",
+    "NEWSLETTER 히신지원사업",
+    "지역과 함께 성상하는 대학혁신, 신성대학교 개로:"
+   ],
+   "cfg": "b267ef88"
+  },
   {
    "id": "14ZF_H6xUXnTDyeLdVdnGSs6xbs7luKKh",
    "md5": "d42d03c15799a854fb1be712e5383fca",
