@@ -124,6 +124,29 @@ details.detail>summary{cursor:pointer;color:var(--accent)}
 .sec h5{margin:0;font-size:13.5px;font-weight:700}
 .sec h5 span{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
 .side p{font-size:12.5px;color:var(--muted);margin:0 0 6px}
+.vd-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}
+.vd-head h3{font-size:16.5px;font-weight:700}
+.vd-head h3 small{font-size:12.5px;font-weight:400;color:var(--muted);margin-left:6px}
+.vd-contact{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:13px;margin-left:auto}
+.vd-contact a,.vd-contact span{text-decoration:none;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:1px 8px;word-break:break-all}
+.vd-contact a:hover{text-decoration:underline}
+.vd-contact .who{background:none;color:var(--muted);padding:1px 0}
+.vd-contact .none{background:var(--chip);color:var(--muted)}
+.offer{border-top:1px dashed var(--line);margin-top:8px;padding-top:8px}
+.offer h4{margin:0;font-size:14.5px;font-weight:700}
+.offer h4 em{font-style:normal;font-weight:400;font-size:12.5px;color:var(--muted);margin-left:6px}
+.offer ul{margin:4px 0 0;padding-left:18px;font-size:13.5px}
+.offer li{margin:2px 0}
+.vd-extra h5{margin:8px 0 0;font-size:13px}
+.vd-extra ul{margin:2px 0 0;padding-left:18px;font-size:13.5px}
+.cbook{list-style:none;margin:0;padding:0;font-size:13px}
+.cbook li{padding:5px 0;border-bottom:1px dashed var(--line)}
+.cbook li:last-child{border:0}
+.cbook button{font:inherit;background:none;border:0;padding:0;cursor:pointer;color:var(--text);font-weight:500;text-align:left}
+.cbook button:hover{color:var(--accent)}
+.cbook a,.cbook span{display:block;color:var(--muted);font-size:12px;text-decoration:none;word-break:break-all}
+.cbook a:hover{color:var(--accent)}
+#vdView mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 2px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
 </style>
 </head>
@@ -136,6 +159,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
     <button role="tab" data-tab="news" aria-selected="true">기사</button>
     <button role="tab" data-tab="nl" aria-selected="false">뉴스레터 <span id="nlCount"></span></button>
     <button role="tab" data-tab="tr" aria-selected="false">연수자료 <span id="trCount"></span></button>
+    <button role="tab" data-tab="vd" aria-selected="false">제안업체 <span id="vdCount"></span></button>
   </div>
 </div></header>
 
@@ -206,15 +230,37 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 30px}
     </div>
   </aside>
 </div>
+<div class="wrap layout" id="vdView" hidden>
+  <main>
+    <div class="controls">
+      <input id="vq" type="search" placeholder="업체명·프로그램·키워드 검색 (예: 생성형, 전자칠판, 취업, 이러닝)">
+    </div>
+    <div class="chips" id="vdChips"></div>
+    <div id="vdList"></div>
+  </main>
+  <aside class="side">
+    <div class="box">
+      <h2>업체 연락처</h2>
+      <ul class="cbook" id="vdBook"></ul>
+    </div>
+    <div class="box">
+      <h2>제안업체 정리 방식</h2>
+      <p>센터로 들어온 업체 제안서·소개서를 업체별로 묶어 프로그램 단위로 정리했습니다. 원본은 부서에서 보관하며, 쪽수(p.)로 원본에서 찾아볼 수 있습니다.</p>
+      <p>요약은 Claude가 원본을 읽고 작성했습니다. 가격·조건은 업체에 한 번 더 확인해 주세요.</p>
+    </div>
+  </aside>
+</div>
 <footer>기사 제목·요약·링크만 모아 보여주며, 저작권은 각 언론사에 있습니다. 매일 아침 자동 갱신됩니다.</footer>
 
 <script>
 const TAGS = ["교수학습", "교육과정", "원격교육", "RISE·재정사업", "AI·에듀테크", "정부·기관", "전문대학"];
-const state = { q: "", period: 7, tag: "전체", univ: null, kw: null, tab: "news", nq: "", ntopic: "우선", tq: "" };
+const state = { q: "", period: 7, tag: "전체", univ: null, kw: null, tab: "news", nq: "", ntopic: "우선", tq: "", vq: "", vcat: "전체" };
 let DATA = { items: [], status: [] };
 let KW = { words: [], days: 1 };
 let NL = { items: [], errors: [] };
 let TR = { items: [] };
+let VD = { items: [] };
+let VD_CATS = [];
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -225,10 +271,12 @@ function readHash() {
   if (p.has("kw")) state.kw = p.get("kw");
   if (p.has("period")) state.period = +p.get("period");
   if (p.has("q")) state.q = p.get("q");
-  if (["nl", "tr"].includes(p.get("tab"))) state.tab = p.get("tab");
+  if (["nl", "tr", "vd"].includes(p.get("tab"))) state.tab = p.get("tab");
   if (p.has("nq")) state.nq = p.get("nq");
   if (p.has("ntopic")) state.ntopic = p.get("ntopic");
   if (p.has("tq")) state.tq = p.get("tq");
+  if (p.has("vq")) state.vq = p.get("vq");
+  if (p.has("vcat")) state.vcat = p.get("vcat");
 }
 function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대로 공유할 수 있게 한다
   const p = new URLSearchParams();
@@ -245,6 +293,11 @@ function writeHash() {  // 필터 상태를 주소에 담아 동료에게 그대
   if (state.tab === "tr") {
     p.set("tab", "tr");
     if (state.tq) p.set("tq", state.tq);
+  }
+  if (state.tab === "vd") {
+    p.set("tab", "vd");
+    if (state.vq) p.set("vq", state.vq);
+    if (state.vcat !== "전체") p.set("vcat", state.vcat);
   }
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
@@ -332,8 +385,10 @@ function render() {
   $("newsView").hidden = state.tab !== "news";
   $("nlView").hidden = state.tab !== "nl";
   $("trView").hidden = state.tab !== "tr";
+  $("vdView").hidden = state.tab !== "vd";
   if (state.tab === "nl") return renderNL();
   if (state.tab === "tr") return renderTR();
+  if (state.tab === "vd") return renderVD();
   const q = state.q.trim().toLowerCase();
   const base = DATA.items.filter(inPeriod);
   const match = base.filter(i =>
@@ -521,10 +576,77 @@ function renderTR() {
     .map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
 }
 
+// ── 제안업체 ──
+// 업체 하나 = 카드 하나. 이름 옆에 연락처를 두고, 제안 프로그램을 차례로 보여준다.
+// 검색어는 띄어쓰기로 나눠 모두 들어간 업체만 남기고, 찾은 말이 들어간 프로그램은 펼친다.
+const vdText = x => JSON.stringify(x).toLowerCase();
+const vdTerms = () => state.vq.trim().toLowerCase().split(/\s+/).filter(Boolean);
+const vdHas = (x, terms) => { const t = vdText(x); return terms.every(w => t.includes(w)); };
+const vdHit = (x, terms) => { const t = vdText(x); return terms.some(w => t.includes(w)); };
+const hl = (s, terms) => highlight(s, terms.flatMap(w => String(s).match(new RegExp(escRe(w), "gi")) || []));
+function vdContact(c = {}) {
+  const tel = n => n.replace(/[^0-9+]/g, "");
+  const web = c.web && (/^https?:/.test(c.web) ? c.web : "https://" + c.web);
+  const parts = [
+    c.email && `<a href="mailto:${esc(c.email)}" title="메일 쓰기">✉ ${esc(c.email)}</a>`,
+    c.phone && `<a href="tel:${esc(tel(c.phone))}">☎ ${esc(c.phone)}</a>`,
+    c.mobile && `<a href="tel:${esc(tel(c.mobile))}">📱 ${esc(c.mobile)}</a>`,
+    web && `<a href="${esc(web)}" target="_blank" rel="noopener">🌐 ${esc(c.web.replace(/^https?:\/\/|\/$/g, ""))}</a>`,
+  ].filter(Boolean);
+  if (!parts.length) parts.push(`<span class="none">연락처 없음</span>`);
+  if (c.person) parts.unshift(`<span class="who">${esc(c.person)}</span>`);
+  return `<div class="vd-contact">${parts.join("")}</div>`;
+}
+function vdCard(v, terms) {
+  const offers = v.offers || [];
+  const li = xs => xs.map(x => `<li>${hl(x, terms)}</li>`).join("");
+  const offer = o => `<section class="offer"><h4>${hl(o.title, terms)}<em>${esc([o.target, o.format].filter(Boolean).join(" · "))}</em></h4>
+      ${o.points?.length ? `<details class="detail"${(terms.length && vdHit(o, terms)) || offers.length === 1 ? " open" : ""}><summary>내용 ${o.points.length}개</summary><ul>${li(o.points)}</ul></details>` : ""}
+    </section>`;
+  const extra = [["비용", v.price], ["실적·이력", v.references]].filter(([, xs]) => xs?.length);
+  const pages = (v.files || []).reduce((n, f) => n + (f.pages || 0), 0);
+  return `<article class="card" id="vd-${esc(v.id)}">
+    <div class="vd-head"><h3>${hl(v.name, terms)}${v.brand ? `<small>${hl(v.brand, terms)}</small>` : ""}</h3>${vdContact(v.contact)}</div>
+    <div class="meta">${(v.category || []).map(c => `<span class="tag" data-i="${VD_CATS.indexOf(c) % 7}">${esc(c)}</span>`).join("")}
+      <span>제안 ${offers.length}건 · 자료 ${(v.files || []).length}개${pages ? ` · ${pages}쪽` : ""}</span>${v.added ? `<span>정리 ${fmtDate(v.added)}</span>` : ""}</div>
+    ${v.overview ? `<p class="tr-over">${hl(v.overview, terms)}</p>` : ""}
+    ${v.keywords?.length ? `<div class="tr-kw">${v.keywords.map(k => `<span class="tag">${hl(k, terms)}</span>`).join("")}</div>` : ""}
+    ${offers.map(offer).join("")}
+    ${v.apply?.length ? `<div class="apply"><b>우리 대학 활용</b><ul>${li(v.apply)}</ul></div>` : ""}
+    <details class="detail vd-extra"${terms.length && extra.some(([, xs]) => vdHit(xs, terms)) ? " open" : ""}><summary>${[...extra.map(([h]) => h), "원본 파일"].join(" · ")}</summary>
+      ${extra.map(([h, xs]) => `<h5>${h}</h5><ul>${li(xs)}</ul>`).join("")}
+      <h5>원본 파일</h5><ul>${(v.files || []).map(f => `<li>${esc(f.name)}${f.pages ? ` <span style="color:var(--muted)">${f.pages}쪽</span>` : ""}</li>`).join("")}</ul>
+      ${v.note ? `<p style="font-size:12.5px;color:var(--muted);margin:6px 0 0">${esc(v.note)}</p>` : ""}
+    </details>
+  </article>`;
+}
+function renderVD() {
+  const terms = vdTerms();
+  const found = VD.items.filter(v => vdHas(v, terms));
+  $("vdChips").innerHTML = ["전체", ...VD_CATS].map(c => {
+    const n = c === "전체" ? found.length : found.filter(v => v.category?.includes(c)).length;
+    return `<button class="chip" aria-pressed="${state.vcat === c}" data-vcat="${esc(c)}">${esc(c)} ${n}</button>`;
+  }).join("");
+  const list = found.filter(v => state.vcat === "전체" || v.category?.includes(state.vcat));
+  $("vdList").innerHTML = list.map(v => vdCard(v, terms)).join("")
+    || `<div class="empty">${VD.items.length ? "조건에 맞는 업체가 없습니다." : "아직 정리한 제안업체가 없습니다."}</div>`;
+  $("vdBook").innerHTML = list.map(v => {  // 옆 칸 연락처 목록: 업체명을 누르면 카드로 이동
+    const c = v.contact || {}, tel = c.phone || c.mobile;
+    return `<li><button data-vgo="${esc(v.id)}">${esc(v.name)}</button>${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : ""}${
+      tel ? `<span>${esc(tel)}</span>` : ""}${!c.email && !tel ? `<span>연락처 없음</span>` : ""}</li>`;
+  }).join("") || `<li><span>없음</span></li>`;
+  const offers = VD.items.reduce((n, v) => n + (v.offers?.length || 0), 0);
+  $("stats").innerHTML = [["제안업체", VD.items.length, "곳"], ["제안 프로그램", offers, "건"], ["검색 결과", list.length, "곳"]]
+    .map(([a, b, c]) => `<div class="stat"><span>${a}</span><b>${b}</b><span>${c}</span></div>`).join("");
+}
+
 document.addEventListener("click", e => {
-  const t = e.target.closest("[data-tag],[data-univ],[data-kw],[data-clear],[data-tab],[data-ntopic]");
+  const go = e.target.closest("[data-vgo]");
+  if (go) return $("vd-" + go.dataset.vgo)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const t = e.target.closest("[data-tag],[data-univ],[data-kw],[data-clear],[data-tab],[data-ntopic],[data-vcat]");
   if (!t) return;
   if (t.dataset.tab) state.tab = t.dataset.tab;
+  else if (t.dataset.vcat) state.vcat = t.dataset.vcat;
   else if (t.dataset.ntopic) state.ntopic = t.dataset.ntopic;
   else if (t.dataset.tag) state.tag = t.dataset.tag;
   else if (t.dataset.kw) state.kw = state.kw === t.dataset.kw ? null : t.dataset.kw;  // 한 번 더 누르면 해제
@@ -547,12 +669,21 @@ $("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 $("period").addEventListener("change", e => { state.period = +e.target.value; render(); });
 $("nq").addEventListener("input", e => { state.nq = e.target.value; render(); });
 $("tq").addEventListener("input", e => { state.tq = e.target.value; render(); });
+$("vq").addEventListener("input", e => { state.vq = e.target.value; render(); });
 
 readHash();
 $("q").value = state.q;
 $("period").value = String(state.period);
 $("nq").value = state.nq;
 $("tq").value = state.tq;
+$("vq").value = state.vq;
+fetch("vendors.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  VD = d;
+  VD_CATS = [...new Set(d.items.flatMap(v => v.category || []))];
+  $("vdCount").textContent = d.items.length ? `· ${d.items.length}` : "";
+  if (state.tab === "vd") render();
+}).catch(() => {});
 fetch("training.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
   if (!d) return;
   TR = d;

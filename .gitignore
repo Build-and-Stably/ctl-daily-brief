@@ -8,3 +8,6 @@ ctl-brief-*.json
 
 # 연수자료 원본 PDF (공개 저장소라 올리지 않음, 요약만 사이트에 올림)
 training materials/
+
+# 제안업체 원본 자료 (요약만 사이트에 올림)
+edu-program-promo/
