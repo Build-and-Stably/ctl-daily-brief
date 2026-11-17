@@ -1,7 +1,33 @@
 {
- "updated": "2026-11-17T11:46+09:00",
+ "updated": "2026-11-17T21:18+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "11WqQG6KheuxlqiXQsOTCVsEJfFTozkqu",
+   "md5": "af0bede3b4bebff67970b79a372a89d6",
+   "modified": "2026-11-17T05:50:58.211Z",
+   "title": "2026년 부산과학기술대학교 혁신레터 3호 2026-3호",
+   "univ": "부산과학기술대학교",
+   "link": "https://drive.google.com/file/d/11WqQG6KheuxlqiXQsOTCVsEJfFTozkqu/view?usp=drivesdk",
+   "received": "2026-11-17T14:51+09:00",
+   "pages": 9,
+   "ocr_pages": 0,
+   "chars": 2469,
+   "score": {
+    "CTL": 0,
+    "AI": 0
+   },
+   "hits": {
+    "CTL": [],
+    "AI": []
+   },
+   "other": [
+    "BIST 혁신레터",
+    "부산과학기술대학교 · 전문대학혁신지원사업단",
+    "BIST 혁신레터 2026-3호학생이 지역으로,지역이 캠퍼스로"
+   ],
+   "cfg": "b267ef88"
+  },
   {
    "id": "1-3M4NmOiRIYD8CFpORyt03eiVxfPM2J5",
    "md5": "e9ec930404e5f458090dad61daaf8579",
