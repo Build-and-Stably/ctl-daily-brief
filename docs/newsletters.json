@@ -1,7 +1,118 @@
 {
- "updated": "2026-11-19T10:37+09:00",
+ "updated": "2026-11-19T20:59+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "1Ug1IS8llQS85YaOW_-LVsZ91Mrya-vKs",
+   "md5": "0c05c7b5e4db8416c02d1980ab182743",
+   "modified": "2026-11-19T08:09:08.823Z",
+   "title": "[울산과학대학교] 2026학년도 전문대학 혁신지원사업 뉴스레터(9·10월호)",
+   "univ": "울산과학대학교",
+   "link": "https://drive.google.com/file/d/1Ug1IS8llQS85YaOW_-LVsZ91Mrya-vKs/view?usp=drivesdk",
+   "received": "2026-11-19T17:09+09:00",
+   "pages": 2,
+   "ocr_pages": 0,
+   "chars": 657,
+   "score": {
+    "CTL": 1,
+    "AI": 1
+   },
+   "hits": {
+    "CTL": [
+     {
+      "page": 1,
+      "text": "전국 6개 대학 경합 뚫고 AI 도구 활용 교수학습혁신 사례 부문 본선 진출해 대상 수상 - 물리치료학과 송주영 교수, AI·DX 기반 학생 중심 질문·사고 촉진하는 수업 설계로 AI 기반교육혁신 성과 확산 - 울산과학대학교는 한국대학경쟁력연구원으로부터 AI 기반 학습자 맞춤형…",
+      "words": [
+       "교수학습"
+      ]
+     }
+    ],
+    "AI": [
+     {
+      "page": 1,
+      "text": "전국 6개 대학 경합 뚫고 AI 도구 활용 교수학습혁신 사례 부문 본선 진출해 대상 수상 - 물리치료학과 송주영 교수, AI·DX 기반 학생 중심 질문·사고 촉진하는 수업 설계로 AI 기반교육혁신 성과 확산 - 울산과학대학교는 한국대학경쟁력연구원으로부터 AI 기반 학습자 맞춤형…",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "‘AI 활용 강소기업 취업전략 자기소개서…",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "대학일자리플러스센터 ‘AI 자소서’ 활용…지원 기업·직무 맞춤형자기소개서 평가 - 지역 강소기업 이해 제고와 실전 취업 역량 강화…",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "울산과학대학교 전문대학 혁신지원사업('25-'27) 뉴스레터 (9, 10월호)",
+    "UC Main News",
+    "'HTHT 마스터클래스'에서 송주영 교수 대상, 대학도 수상 겹경사"
+   ],
+   "cfg": "b267ef88"
+  },
+  {
+   "id": "1zqRZn4bKqM8g6OKIUQb1P1r3BA5pwCzJ",
+   "md5": "c6dccc6690aed6c8860c55d927224e33",
+   "modified": "2026-11-19T08:07:04.684Z",
+   "title": "동서울대학교3",
+   "univ": "동서울대학교",
+   "link": "https://drive.google.com/file/d/1zqRZn4bKqM8g6OKIUQb1P1r3BA5pwCzJ/view?usp=drivesdk",
+   "received": "2026-11-19T17:07+09:00",
+   "pages": 1,
+   "ocr_pages": 1,
+   "chars": 2209,
+   "score": {
+    "CTL": 0,
+    "AI": 2
+   },
+   "hits": {
+    "CTL": [],
+    "AI": [
+     {
+      "page": 1,
+      "text": "AI 진로설계, 미래를 찾다",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "01 AI 잡케어서비스",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "동서울대학교는 학생들의 자기이해를 바탕으로 체계적인 진로설계와 대학생활 적응을 지원하기 위해 2026년 4월부터 6월까지 인공지능(4) 기반 진로탐색 및 경력개발 프로그램을 운영했다.",
+      "words": [
+       "인공지능"
+      ]
+     },
+     {
+      "page": 1,
+      "text": "AI 잡케어 서비스를 활용해 희망 직무에 필요한 역량과 직업정보를 탐색하고, 학생 개인의 강점과 인적:환경적 요인을 분석했다.",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "배움의 변화,지역의 성장",
+    "동서울대학교 전문대학 혁신지원사업",
+    "NEWSLETTER VOL.3"
+   ],
+   "cfg": "b267ef88"
+  },
   {
    "id": "11WqQG6KheuxlqiXQsOTCVsEJfFTozkqu",
    "md5": "af0bede3b4bebff67970b79a372a89d6",
@@ -1337,12 +1448,12 @@
    "cfg": "b267ef88"
   },
   {
-   "id": "1fCJwLHWGsPW3fCVWW3rDrmWvcp_hSUKK",
+   "id": "1msKimsDu7z7y3Q1B8X7IhS5ftQWhujhn",
    "md5": "f3721c0479968a8aaef76d7979d31da1",
-   "modified": "2026-11-09T07:48:16.581Z",
+   "modified": "2026-11-09T07:48:00.314Z",
    "title": "[울산과학대학교] 2026학년도 전문대학 혁신지원사업 뉴스레터(7·8월호)",
    "univ": "울산과학대학교",
-   "link": "https://drive.google.com/file/d/1fCJwLHWGsPW3fCVWW3rDrmWvcp_hSUKK/view?usp=drivesdk",
+   "link": "https://drive.google.com/file/d/1msKimsDu7z7y3Q1B8X7IhS5ftQWhujhn/view?usp=drivesdk",
    "received": "2026-11-09T16:50+09:00",
    "pages": 2,
    "ocr_pages": 0,
