@@ -1,7 +1,171 @@
 {
- "updated": "2026-11-23T09:34+09:00",
+ "updated": "2026-11-23T22:31+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "1hX-DOA5d0s3nZGjAbNRDYehjG22P6eTZ",
+   "md5": "162247dd6dc8a1c3678dae9920ab5882",
+   "modified": "2026-11-23T06:58:45.363Z",
+   "title": "수원여자대학교 2026학년도 뉴스레터 Vol.3(2026년 11월호)",
+   "univ": "수원여자대학교",
+   "link": "https://drive.google.com/file/d/1hX-DOA5d0s3nZGjAbNRDYehjG22P6eTZ/view?usp=drivesdk",
+   "received": "2026-11-23T16:03+09:00",
+   "pages": 6,
+   "ocr_pages": 6,
+   "chars": 3584,
+   "score": {
+    "CTL": 2,
+    "AI": 0
+   },
+   "hits": {
+    "CTL": [
+     {
+      "page": 2,
+      "text": "교수학습역량지원센터는 2026년 10월 27일과 28일양일간 OAS 306호에서 재학생을 대상으로 「내 삶을이끄는 = 관리와 투자 HAS) SYS SSAC.",
+      "words": [
+       "교수학습",
+       "학습역량"
+      ]
+     }
+    ],
+    "AI": []
+   },
+   "other": [
+    "수원여자대학교 전문대학혁신지원사업의 다양한 현장과 성과를 전합니다",
+    "Prive errirerrmg ¢ 1 비",
+    ":타내시 88 1 2618 1 one fi i i Tis"
+   ],
+   "cfg": "b267ef88"
+  },
+  {
+   "id": "1VfSNRJ9cNx4RwpxEz0YUaSErc1Wnbq1D",
+   "md5": "93f1e3dd6de79c943afc696a9b13adbf",
+   "modified": "2026-11-23T01:08:25.663Z",
+   "title": "[혁신] 서울예술대학교 2026년 혁신지원사업 뉴스레터(제3호) 배포용",
+   "univ": "서울예술대학교",
+   "link": "https://drive.google.com/file/d/1VfSNRJ9cNx4RwpxEz0YUaSErc1Wnbq1D/view?usp=drivesdk",
+   "received": "2026-11-23T10:09+09:00",
+   "pages": 11,
+   "ocr_pages": 11,
+   "chars": 6381,
+   "score": {
+    "CTL": 3,
+    "AI": 1
+   },
+   "hits": {
+    "CTL": [
+     {
+      "page": 7,
+      "text": "set | 서물예술대학교 교수학습시원센터, 공연학부(연극전공)",
+      "words": [
+       "교수학습"
+      ]
+     },
+     {
+      "page": 7,
+      "text": "서울예술대학교 교수학습지원센터는 「시ㆍ0× 기반 창작:학습 대여통합 시스템 고도화, 사업의 일환으로 (SHH (A) 맞춤형 학습역량강화 프로그램>을 운영하고 있습니다.",
+      "words": [
+       "교수학습",
+       "학습역량",
+       "교수학습지원센터"
+      ]
+     },
+     {
+      "page": 7,
+      "text": "교수학습지원센터는 앞으로도 전공별 특성을 반영한 프로그램을 통해 학생들",
+      "words": [
+       "교수학습",
+       "교수학습지원센터"
+      ]
+     }
+    ],
+    "AI": [
+     {
+      "page": 9,
+      "text": "AI 중앙광장과 중앙계단에서 열린 행사에는 지역주민 42명을 포함 이야기를 원고로 완성했습니다.",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 11,
+      "text": "서물메술대학교 AI: FactChat 활용하기미미지부더 영상까지,",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "= = 혁신지원사업 NEWSLETTER",
+    "SEOUL INSTITUTE OF THE ARTS",
+    "서울예술대학교 '26년 혁신지원사업 비전 및 목표"
+   ],
+   "cfg": "b267ef88"
+  },
+  {
+   "id": "10jKQDHQaHuE7Hq3g-aVWBHagNsyKjgkR",
+   "md5": "11381d90f9a157c7a92a01438aea2b74",
+   "modified": "2026-11-23T01:07:52.489Z",
+   "title": "국립창원대학교 글로컬 뉴스레터 Vol.3(3차년도 성과)",
+   "univ": "국립창원대학교",
+   "link": "https://drive.google.com/file/d/10jKQDHQaHuE7Hq3g-aVWBHagNsyKjgkR/view?usp=drivesdk",
+   "received": "2026-11-23T10:08+09:00",
+   "pages": 13,
+   "ocr_pages": 13,
+   "chars": 10965,
+   "score": {
+    "CTL": 1,
+    "AI": 4
+   },
+   "hits": {
+    "CTL": [
+     {
+      "page": 2,
+      "text": "특히 현장에서 발견한 SHS 연구 주제로 발전시키고 해결책을 탐색하며 자기주도적 학습 역량과문제해결 SAS 키웠다.",
+      "words": [
+       "학습역량"
+      ]
+     }
+    ],
+    "AI": [
+     {
+      "page": 2,
+      "text": "심포지엄에서는 국립장원대 인공지능와악공학과 ASS 교수, 한국전기연구원 전지소재공정연구센터 죄정의 센터장,한국재료연구원 재료데이터분석연구본부 SS 본부장이 각 기관의 연구 현왕과 SHS ATC.",
+      "words": [
+       "인공지능"
+      ]
+     },
+     {
+      "page": 2,
+      "text": "주 ee 딘밍과 데이더 분석, AI 기술 SS 활용해 해결 방안을 도줄했으며, 특히 10개 팀 중 8개",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 2,
+      "text": "경진대회에서는 SED 3M Ｌ^08팀의 AI 2S 포트올 감지 프로젝트 가 대상을 수상했다.",
+      "words": [
+       "AI"
+      ]
+     },
+     {
+      "page": 2,
+      "text": "카메라와 AI 영상분석 기술을활용해 실제 장원특례시 도로 영상에서 HESS 탐지하고, 기존 순찰ㆍ민원 중심 방식의 한계를 보완하는 방안을제시했다.",
+      "words": [
+       "AI"
+      ]
+     }
+    ]
+   },
+   "other": [
+    "News Letter",
+    "국립창원대학교, 교육부 '글로럴대학성과평가",
+    "\"~ 1 | / 전국 유일ㆍ부울경 최초 ‘SED’ 달성!"
+   ],
+   "cfg": "b267ef88"
+  },
   {
    "id": "1Ug1IS8llQS85YaOW_-LVsZ91Mrya-vKs",
    "md5": "0c05c7b5e4db8416c02d1980ab182743",
